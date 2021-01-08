@@ -1,4 +1,3 @@
-
 #%matplotlib notebook
 import ipywidgets as ipw 
 import numpy as np
