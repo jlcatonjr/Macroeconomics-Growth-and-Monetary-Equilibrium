@@ -5,7 +5,7 @@ dependencies:
   - python=3.7
   - numpy
   - pandas
-  - pandas_datareader
+  - pandas-datareader
   - pip
   - pip:
     - matplotlib
