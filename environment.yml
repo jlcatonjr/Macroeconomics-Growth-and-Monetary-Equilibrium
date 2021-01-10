@@ -1,0 +1,16 @@
+name: COVID19
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - geopandas
+  - statsmodels
+  - pip
+  - pip:
+    - matplotlib
+    - ipywidgets
+    - voila
+    - pyarrow
+    - descartes
