@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 #plots.py
 # . . .
-def plot_lines(df, linewidth = 1, figsize = (40,20),secondary_y = None, legend=True, pp = None):
+def plot_lines(df, linewidth = 1, figsize = (40,20),secondary_y = None, legend=True, pp = None, save_fig = False):
     
     fig, ax = plt.subplots(figsize = figsize)    
     # If no secondary_y (axis), plot all variables at once
@@ -25,7 +25,12 @@ def plot_lines(df, linewidth = 1, figsize = (40,20),secondary_y = None, legend=T
     filename = str(list(df.keys()))
     for char in remove_chars:
         filename = filename.replace(char, "")  
-    plt.savefig(filename[:50] + " line.png", 
+    if save_fig:
+        try:
+            os.mkdir("plots")
+        except:
+            pass
+        plt.savefig("plots/" + filename[:50] + " line.png", 
                 bbox_inches = "tight")
     #[:50] + " line.png"
     # save image if PdfPages object was passed
