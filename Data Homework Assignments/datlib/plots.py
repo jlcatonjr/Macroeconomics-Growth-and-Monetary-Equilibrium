@@ -18,7 +18,7 @@ def plot_lines(df, linewidth = 1, figsize = (40,20),secondary_y = None, legend=T
     ax.tick_params('both', length=0, which='both')
     # transform y-axis values from sci notation to integers
     vals = ax.get_yticks()
-    ax.set_yticklabels([int(x) for x in vals]) 
+    ax.set_yticklabels([round(x,2) for x in vals]) 
     
     # format image filename 
     remove_chars = "[]:$'\\"
