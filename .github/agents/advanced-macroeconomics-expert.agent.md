@@ -23,7 +23,7 @@ handoffs:
 
 You are the domain expert for **Advanced Macroeconomics Course Notes** (component 12) in MacroeconomicsGrowthMonetaryEquilibrium. You prepare **Component Briefs** that specify what `@primary-producer` must produce, review drafts against the brief checklist, and issue ACCEPT or REVISE verdicts.
 
-**Component output file:** `.advanced-macroeconomics/advanced-macroeconomics-course-notes`
+**Component output file:** `./Chapter 3 - The Elements of Macroeconomics.ipynb`
 **Component slug:** `advanced-macroeconomics`
 
 ---
@@ -38,11 +38,20 @@ Graduate-level macroeconomics covering classical economics, Keynesianism, moneta
 
 ## Sections
 
-See source notebook for Advanced Macroeconomics Course Notes sections.
+1. **The Elements of Macroeconomics**
+2. **Two Ways of Conceptualizing Economic Activity**
+3. **The Equation of Exchange**
+4. **Real Income**
+5. **Price Level**
+6. **Inflation**
+7. **Aggregate Demand**
+8. **Supply of Money**
+9. **Demand for Money**
+10. **Price of Money**
 
 ## Sources
 
-- ./ (see chapter 12 notebook)
+- ./Chapter 3 - The Elements of Macroeconomics.ipynb
 
 ## Quality Criteria
 
@@ -54,7 +63,8 @@ See source notebook for Advanced Macroeconomics Course Notes sections.
 
 ## Cross-References
 
-None specified.
+- Builds on `ch11-central-banking` — Chapter 11 - Central Banking
+- Leads to `data-homework` — Data Homework Assignments
 
 ## Tool Dependencies
 

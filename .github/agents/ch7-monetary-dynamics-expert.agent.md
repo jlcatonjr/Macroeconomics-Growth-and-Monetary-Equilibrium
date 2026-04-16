@@ -60,7 +60,8 @@ Monetary dynamics: the transmission mechanism, velocity of money, and aggregate 
 
 ## Cross-References
 
-None specified.
+- Builds on `ch6-aggregate-demand` — Chapter 6 - Aggregate Demand
+- Leads to `ch8-money-credit-loanable-funds` — Chapter 8 - Money and Credit - The Loanable Funds Market
 
 ## Tool Dependencies
 

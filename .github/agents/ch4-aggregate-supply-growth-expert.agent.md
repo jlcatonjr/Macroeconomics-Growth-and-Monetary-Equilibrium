@@ -63,11 +63,13 @@ Production functions, technological progress, and long-run economic growth. Cove
 
 ## Cross-References
 
-None specified.
+- Builds on `ch3-elements-macroeconomics` — Chapter 3 - The Elements of Macroeconomics
+- Leads to `ch5-money` — Chapter 5 - Money
 
 ## Tool Dependencies
 
-No tool-specific dependencies.
+- `references/ref-matplotlib-reference.md`
+- `references/ref-pandas-reference.md`
 
 ---
 

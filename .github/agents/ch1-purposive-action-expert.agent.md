@@ -63,7 +63,7 @@ Foundations of economic reasoning: purposive action, scarcity, and subjective va
 
 ## Cross-References
 
-None specified.
+- Leads to `ch2-entrepreneurship-supply-demand` — Chapter 2 - Entrepreneurship and Supply and Demand
 
 ## Tool Dependencies
 

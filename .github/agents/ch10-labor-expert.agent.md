@@ -62,7 +62,8 @@ Labor market macroeconomics: wages, employment, unemployment, and labor supply/d
 
 ## Cross-References
 
-None specified.
+- Builds on `ch9-is-lm` — Chapter 9 - IS-LM
+- Leads to `ch11-central-banking` — Chapter 11 - Central Banking
 
 ## Tool Dependencies
 

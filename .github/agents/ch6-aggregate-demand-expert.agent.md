@@ -63,11 +63,15 @@ Determinants of aggregate demand, the role of expectations, and interaction with
 
 ## Cross-References
 
-None specified.
+- Builds on `ch5-money` — Chapter 5 - Money
+- Leads to `ch7-monetary-dynamics` — Chapter 7 - Monetary Dynamics and Aggregate Analysis
 
 ## Tool Dependencies
 
-No tool-specific dependencies.
+- ipywidgets
+- livePlot
+- `references/ref-matplotlib-reference.md`
+- `references/ref-numpy-reference.md`
 
 ---
 

@@ -62,7 +62,8 @@ Theory of money: what it is, how it emerges, and its role in an economy. Covers 
 
 ## Cross-References
 
-None specified.
+- Builds on `ch4-aggregate-supply-growth` — Chapter 4 - Aggregate Supply, Technology, and Economic Growth
+- Leads to `ch6-aggregate-demand` — Chapter 6 - Aggregate Demand
 
 ## Tool Dependencies
 

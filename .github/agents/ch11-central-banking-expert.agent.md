@@ -63,7 +63,8 @@ Central banking theory and practice: monetary policy tools, interest rate target
 
 ## Cross-References
 
-None specified.
+- Builds on `ch10-labor` — Chapter 10 - Labor
+- Leads to `advanced-macroeconomics` — Advanced Macroeconomics Course Notes
 
 ## Tool Dependencies
 

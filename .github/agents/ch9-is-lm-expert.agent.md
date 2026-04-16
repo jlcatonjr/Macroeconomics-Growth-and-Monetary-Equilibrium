@@ -63,7 +63,8 @@ The IS-LM model: goods market equilibrium, money market equilibrium, and their i
 
 ## Cross-References
 
-None specified.
+- Builds on `ch8-money-credit-loanable-funds` — Chapter 8 - Money and Credit - The Loanable Funds Market
+- Leads to `ch10-labor` — Chapter 10 - Labor
 
 ## Tool Dependencies
 

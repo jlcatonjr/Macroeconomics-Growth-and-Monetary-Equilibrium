@@ -55,11 +55,11 @@ Applied data analysis assignments using real-world macroeconomic data (FRED, NBE
 
 ## Cross-References
 
-None specified.
+- Builds on `advanced-macroeconomics` — Advanced Macroeconomics Course Notes
 
 ## Tool Dependencies
 
-No tool-specific dependencies.
+- datlib
 
 ---
 

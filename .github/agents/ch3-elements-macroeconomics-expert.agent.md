@@ -63,7 +63,8 @@ Core macroeconomic aggregates: GDP, price levels, employment, and the circular f
 
 ## Cross-References
 
-None specified.
+- Builds on `ch2-entrepreneurship-supply-demand` — Chapter 2 - Entrepreneurship and Supply and Demand
+- Leads to `ch4-aggregate-supply-growth` — Chapter 4 - Aggregate Supply, Technology, and Economic Growth
 
 ## Tool Dependencies
 

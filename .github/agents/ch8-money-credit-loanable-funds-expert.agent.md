@@ -63,7 +63,8 @@ The loanable funds market: saving, investment, interest rates, and credit. Cover
 
 ## Cross-References
 
-None specified.
+- Builds on `ch7-monetary-dynamics` — Chapter 7 - Monetary Dynamics and Aggregate Analysis
+- Leads to `ch9-is-lm` — Chapter 9 - IS-LM
 
 ## Tool Dependencies
 

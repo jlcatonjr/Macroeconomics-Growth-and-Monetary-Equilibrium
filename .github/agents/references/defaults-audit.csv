@@ -191,8 +191,17 @@ ch11-central-banking-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITER
 - Examples use economics, statistics, or social-science data where applicable
 - Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
 ch11-central-banking-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
-advanced-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},See source notebook for Advanced Macroeconomics Course Notes sections.,auto_filled
-advanced-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./ (see chapter 12 notebook),auto_filled
+advanced-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **The Elements of Macroeconomics**
+2. **Two Ways of Conceptualizing Economic Activity**
+3. **The Equation of Exchange**
+4. **Real Income**
+5. **Price Level**
+6. **Inflation**
+7. **Aggregate Demand**
+8. **Supply of Money**
+9. **Demand for Money**
+10. **Price of Money**",auto_filled
+advanced-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Chapter 3 - The Elements of Macroeconomics.ipynb,auto_filled
 advanced-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
 - Each section opens with a clear learning objective or conceptual framing
 - Code is annotated with inline comments explaining non-obvious steps

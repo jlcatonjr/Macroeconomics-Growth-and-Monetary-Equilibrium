@@ -63,11 +63,12 @@ Entrepreneurship as the driving force of markets. Covers supply and demand dynam
 
 ## Cross-References
 
-None specified.
+- Builds on `ch1-purposive-action` — Chapter 1 - Purposive Action
+- Leads to `ch3-elements-macroeconomics` — Chapter 3 - The Elements of Macroeconomics
 
 ## Tool Dependencies
 
-No tool-specific dependencies.
+- supplyAndDemandLivePlot
 
 ---
 
