@@ -1,0 +1,217 @@
+file,category,token,line_no,section,context_snippet,auto_suggestion,status
+orchestrator.agent.md,MANUAL_PLACEHOLDER,STYLE_REFERENCE_PATH,140,Domain Agent Routing,"| Within-section cohesion | `@cohesion-repairer` | Disjointed paragraphs, broken argument flow, orphaned evidence | | | ",N/A — no formal style guide defined for this project,auto_filled
+orchestrator.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,143,Domain Agent Routing,| Format conversion | `@format-converter` | Source format → output format `Jupyter notebooks (.ipynb) with interactive w,N/A — no citation database configured for this project,auto_filled
+navigator.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,38,Project Structure,**Primary output directory:** `.` | **Reference/dependency database:** `{MANUAL:REFERENCE_DB_PATH}` | **Figures director,N/A — no citation database configured for this project,auto_filled
+conflict-auditor.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,74,Reference Layer,### Reference Layer | - `{MANUAL:REFERENCE_DB_PATH}` — Reference database,N/A — no citation database configured for this project,auto_filled
+cleanup.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,29,Protected Files (Never Remove),| Primary deliverables | `.*` | Core authored output | | | Reference database | `{MANUAL:REFERENCE_DB_PATH}` | Source of,N/A — no citation database configured for this project,auto_filled
+cleanup.agent.md,MANUAL_PLACEHOLDER,STYLE_REFERENCE_PATH,33,Protected Files (Never Remove),| Project instructions | `copilot-instructions.md` | Project conventions | | | Style references | `{MANUAL:STYLE_REFEREN,N/A — no formal style guide defined for this project,auto_filled
+agent-updater.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,52,Change-to-Agent Mapping,"| `.*` | `@conflict-auditor`, `@primary-producer`, `@style-guardian`, `@navigator` | | | `{MANUAL:REFERENCE_DB_PATH}` | ",N/A — no citation database configured for this project,auto_filled
+agent-updater.agent.md,MANUAL_PLACEHOLDER,STYLE_REFERENCE_PATH,53,Change-to-Agent Mapping,"| `{MANUAL:REFERENCE_DB_PATH}` | `@reference-manager`, `@output-compiler` | | | `{MANUAL:STYLE_REFERENCE_PATH}` | `@styl",N/A — no formal style guide defined for this project,auto_filled
+primary-producer.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,63,Quality Floors,- All sections from the Component Brief are present and substantively addressed | - All citations map to keys in `{MANUA,N/A — no citation database configured for this project,auto_filled
+style-guardian.agent.md,MANUAL_PLACEHOLDER,STYLE_REFERENCE_PATH,23,Style Guardian — MacroeconomicsGrowthMonetaryEquilibrium,**Style reference:** `{MANUAL:STYLE_REFERENCE_PATH}`,N/A — no formal style guide defined for this project,auto_filled
+ch1-purposive-action-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **Purposive Action**
+2. **Unraveling the Mystery**
+3. **From Whence Value?**
+4. **Marginal Analysis**
+5. **Opportunity Cost**
+6. **Comparative Advantage**
+7. **Specialization**
+8. **Technology**
+9. **Footnotes**
+10. **Image Credits**",auto_filled
+ch1-purposive-action-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Chapter 1 - Purposive Action.ipynb,auto_filled
+ch1-purposive-action-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+ch1-purposive-action-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+ch2-entrepreneurship-supply-demand-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **Entrepreneurship and the Economic Forces of Supply and Demand**
+2. **Goods and Value**
+3. **Entrepreneurship**
+4. **Opportunity Cost and Moneyed Accounting**
+5. **Price and the Equimarginal Principle**
+6. **Supply and Demand**
+7. **Demand**
+8. **Market Demand Curve**
+9. **Shifting the Demand Curve**
+10. **Increase in Demand**",auto_filled
+ch2-entrepreneurship-supply-demand-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Chapter 2 - Entrepreneurship and the Economic Forces of Supply and Demand.ipynb,auto_filled
+ch2-entrepreneurship-supply-demand-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+ch2-entrepreneurship-supply-demand-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+ch3-elements-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **The Elements of Macroeconomics**
+2. **Two Ways of Conceptualizing Economic Activity**
+3. **The Equation of Exchange**
+4. **Real Income**
+5. **Price Level**
+6. **Inflation**
+7. **Aggregate Demand**
+8. **Supply of Money**
+9. **Demand for Money**
+10. **Price of Money**",auto_filled
+ch3-elements-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Chapter 3 - The Elements of Macroeconomics.ipynb,auto_filled
+ch3-elements-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+ch3-elements-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+ch4-aggregate-supply-growth-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **Aggregate Supply, Technology, and Economic Growth**
+2. **Real Income**
+3. **Short-run and Long-run**
+4. **Long-run Steady-state**
+5. **Empirical Justification for Long-run Aggregate Supply**
+6. **Economic Growth in the Modern Era**
+7. **Solow Model**
+8. **Production**
+9. **Saving and Depreciation**
+10. **Golden Rule Steady State**",auto_filled
+ch4-aggregate-supply-growth-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},"- ./Chapter 4 - Aggregate Supply, Technology, and Economic Growth.ipynb",auto_filled
+ch4-aggregate-supply-growth-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+ch4-aggregate-supply-growth-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+ch5-money-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **Money**
+2. **The Qualities and Functions of Money**
+3. **The Price of Money**
+4. **Money and the Equation of Exchange**
+5. **Price Dynamics of the Money Market**
+6. **A State Monopoly over Money**
+7. **Conclusion**
+8. **Sources**
+9. **Review**",auto_filled
+ch5-money-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Chapter 5 - Money.ipynb,auto_filled
+ch5-money-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+ch5-money-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+ch6-aggregate-demand-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **Aggregate Demand**
+2. **The Money Market and the Goods Market**
+3. **Long-run Dynamics**
+4. **Case 1: Aggregate Demand Increases**
+5. **Case 2: Aggregate Demand Falls**
+6. **Short-run Dynamics: Excess Supply and Excess Demand**
+7. **Case 1: Excess Supply of Money and Excess Demand for Goods**
+8. **Case 2: Excess Demand for Money and Excess Supply of Goods**
+9. **Aggregate Demand Driven Business Cycles**
+10. **Factors Unexplained by Aggregate Analysis**",auto_filled
+ch6-aggregate-demand-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Chapter 6 - Aggregate Demand.ipynb,auto_filled
+ch6-aggregate-demand-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+ch6-aggregate-demand-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+ch7-monetary-dynamics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **Monetary Dynamics and Aggregate Analysis**
+2. **Economic Productivity and Demand for Money**
+3. **Increase Portfolio Demand and Endogenous Money**
+4. **Long-run Aggregate Demand and the Money Market**
+5. **Evidence from the Gold Standard**
+6. **Conclusion**
+7. **Review**",auto_filled
+ch7-monetary-dynamics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Chapter 7 - Monetary Dynamics and Aggregate Analysis.ipynb,auto_filled
+ch7-monetary-dynamics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+ch7-monetary-dynamics-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+ch8-money-credit-loanable-funds-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **Money and Credit**
+2. **The Evolution of Credit**
+3. **Intermediation and the Costs of Holding Money**
+4. **Lending in an Economy Without Money**
+5. **Lending Market**
+6. **Loanable Funds**
+7. **In all loanable funds figures, I will presume that investment is offset by liquid claims at some constant rate, $\gamma$ so that $LF_i = \gamma M_{c_i}$.**
+8. **Present Value Equation**
+9. **Interest Rates and Inflation**
+10. **Monetary Aggregates and Credit Money**",auto_filled
+ch8-money-credit-loanable-funds-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Chapter 8 - Money and Credit - The Loanable Funds Market.ipynb,auto_filled
+ch8-money-credit-loanable-funds-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+ch8-money-credit-loanable-funds-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+ch9-is-lm-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **IS-LM**
+2. **Credit Markets and Real Income in the Short-run**
+3. **John Maynard Keynes and IS-LM**
+4. **Say’s Law**
+5. **A Reinterpretation of Say’s Law**
+6. **Savings = Investment?: Keynes and Say’s Law**
+7. **IS-LM**
+8. **Keynesian Cross and the Marginal Propensity to Consume**
+9. **Muliplier Caveat**
+10. **Investment-Savings**",auto_filled
+ch9-is-lm-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Chapter 9 - IS-LM.ipynb,auto_filled
+ch9-is-lm-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+ch9-is-lm-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+ch10-labor-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **Labor**
+2. **What is Labor?**
+3. **Economic Growth and Wages**
+4. **The Labor Force: Its employment and composition**
+5. **Kinds of Unemployment**
+6. **Unions, Minimum Wage, and Labor Dislocation**
+7. **Inflation and Unemployment: Phillips Curve**
+8. **Conclusion**
+9. **Review**",auto_filled
+ch10-labor-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Chapter 10 - Labor.ipynb,auto_filled
+ch10-labor-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+ch10-labor-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+ch11-central-banking-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **Central Banking**
+2. **Clearinghouse Associations**
+3. **The Central Bank as the Lender of Last Resort**
+4. **Central Banking: The Basics**
+5. **Discount Rate**
+6. **Open Market Operations**
+7. **Reserve Requirements**
+8. **Post-2008 Monetary Policy**
+9. **Monetary Expansion**
+10. **Sterilizing the Effects of Monetary Expansion**",auto_filled
+ch11-central-banking-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Chapter 11 - Central Banking.ipynb,auto_filled
+ch11-central-banking-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+ch11-central-banking-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+advanced-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},See source notebook for Advanced Macroeconomics Course Notes sections.,auto_filled
+advanced-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./ (see chapter 12 notebook),auto_filled
+advanced-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+advanced-macroeconomics-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+data-homework-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SECTIONS,41,Sections,{MANUAL:COMPONENT_SECTIONS},"1. **Data Homework: Chapter 10**
+2. **and then the next plot**",auto_filled
+data-homework-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_SOURCES,45,Sources,{MANUAL:COMPONENT_SOURCES},- ./Data Homework - Chapter 10.ipynb,auto_filled
+data-homework-expert.agent.md,MANUAL_PLACEHOLDER,COMPONENT_QUALITY_CRITERIA,49,Quality Criteria,{MANUAL:COMPONENT_QUALITY_CRITERIA},"- All code cells execute without errors in a clean kernel restart
+- Each section opens with a clear learning objective or conceptual framing
+- Code is annotated with inline comments explaining non-obvious steps
+- Examples use economics, statistics, or social-science data where applicable
+- Output format is a clean, readable Jupyter notebooks (.ipynb) with interactive widgets file",auto_filled
+data-homework-expert.agent.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,67,Component Brief Preparation,"2. **Section list** — ordered list matching `## Sections` above, with a one-sentence description of each section's argum",N/A — no citation database configured for this project,auto_filled
+../copilot-instructions.md,MANUAL_PLACEHOLDER,REFERENCE_DB_PATH,23,Directory Structure,| `figures/` | Diagrams and figures | | | `{MANUAL:REFERENCE_DB_PATH}` | Reference/bibliography database | | | `.github/,N/A — no citation database configured for this project,auto_filled
+references/,MISSING_TOOL_REF,ipywidgets,0,,import alias 'ipywidgets' detected in project source; no reference file found.,https://ipywidgets.readthedocs.io/en/stable/,auto_filled
+references/,MISSING_TOOL_REF,pandas-datareader,0,,import alias 'pandas_datareader' detected in project source; no reference file found.,https://pandas-datareader.readthedocs.io/en/latest/,auto_filled
+references/,MISSING_TOOL_REF,networkx,0,,import alias 'networkx' detected in project source; no reference file found.,https://networkx.org/documentation/stable/reference/,auto_filled
+references/,MISSING_TOOL_REF,plotly,0,,import alias 'plotly' detected in project source; no reference file found.,https://plotly.com/python-api-reference/,auto_filled
+references/,MISSING_TOOL_REF,statsmodels,0,,import alias 'statsmodels' detected in project source; no reference file found.,https://www.statsmodels.org/stable/api.html,auto_filled
+references/,MISSING_TOOL_REF,scipy,0,,import alias 'scipy' detected in project source; no reference file found.,https://docs.scipy.org/doc/scipy/reference/,auto_filled

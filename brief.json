@@ -1,0 +1,109 @@
+{
+  "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
+  "project_goal": "Produce an interactive Jupyter notebook textbook for macroeconomics, economic growth, and monetary equilibrium, covering 11 core chapters and graduate-level advanced content with real-world data homework assignments and interactive ipywidgets visualizations.",
+  "project_description": "An interactive Jupyter notebook textbook covering macroeconomics, economic growth, and monetary equilibrium. Includes 11 core chapters, advanced macroeconomics course notes and workshops, and data homework assignments with real-world economic data. Notebooks use ipywidgets and Voilà for interactive visualizations of macroeconomic models including IS-LM, aggregate supply/demand, money markets, and the loanable funds market.",
+  "deliverable_type": "Jupyter notebooks and data analysis scripts",
+  "output_format": "Jupyter notebooks (.ipynb) with interactive widgets",
+  "existing_project_path": "/Users/jamescaton/githubrepositories/Macroeconomics-growth-and-monetary-equilibrium",
+  "primary_output_dir": ".",
+  "tools": [
+    {"name": "numpy", "role": "Numerical computation for economic models"},
+    {"name": "pandas", "role": "Economic data manipulation and time-series analysis"},
+    {"name": "pandas-datareader", "role": "Fetching macroeconomic data from FRED and other sources"},
+    {"name": "matplotlib", "role": "Static and animated plots of supply/demand curves, IS-LM diagrams"},
+    {"name": "ipywidgets", "role": "Interactive sliders and controls for economic model exploration"},
+    {"name": "voila", "role": "Converting notebooks to standalone interactive web applications"}
+  ],
+  "components": [
+    {
+      "slug": "ch1-purposive-action",
+      "name": "Chapter 1 - Purposive Action",
+      "description": "Foundations of economic reasoning: purposive action, scarcity, and subjective value theory. Introduces the methodological individualism underlying macroeconomic analysis.",
+      "deliverable": "Chapter 1 - Purposive Action.ipynb"
+    },
+    {
+      "slug": "ch2-entrepreneurship-supply-demand",
+      "name": "Chapter 2 - Entrepreneurship and Supply and Demand",
+      "description": "Entrepreneurship as the driving force of markets. Covers supply and demand dynamics, price signals, and the role of profit and loss in coordinating economic activity.",
+      "deliverable": "Chapter 2 - Entrepreneurship and the Economic Forces of Supply and Demand.ipynb"
+    },
+    {
+      "slug": "ch3-elements-macroeconomics",
+      "name": "Chapter 3 - The Elements of Macroeconomics",
+      "description": "Core macroeconomic aggregates: GDP, price levels, employment, and the circular flow. Introduces national income accounting and data homework using real macroeconomic datasets.",
+      "deliverable": "Chapter 3 - The Elements of Macroeconomics.ipynb"
+    },
+    {
+      "slug": "ch4-aggregate-supply-growth",
+      "name": "Chapter 4 - Aggregate Supply, Technology, and Economic Growth",
+      "description": "Production functions, technological progress, and long-run economic growth. Covers the Solow model and total factor productivity. Includes data homework with real GDP growth data.",
+      "deliverable": "Chapter 4 - Aggregate Supply, Technology, and Economic Growth.ipynb"
+    },
+    {
+      "slug": "ch5-money",
+      "name": "Chapter 5 - Money",
+      "description": "Theory of money: what it is, how it emerges, and its role in an economy. Covers money supply, monetary aggregates, and the quantity theory of money.",
+      "deliverable": "Chapter 5 - Money.ipynb"
+    },
+    {
+      "slug": "ch6-aggregate-demand",
+      "name": "Chapter 6 - Aggregate Demand",
+      "description": "Determinants of aggregate demand, the role of expectations, and interaction with aggregate supply. Includes review notebooks and data homework on inflation and nominal aggregates.",
+      "deliverable": "Chapter 6 - Aggregate Demand.ipynb"
+    },
+    {
+      "slug": "ch7-monetary-dynamics",
+      "name": "Chapter 7 - Monetary Dynamics and Aggregate Analysis",
+      "description": "Monetary dynamics: the transmission mechanism, velocity of money, and aggregate analysis of monetary policy effects on output and prices.",
+      "deliverable": "Chapter 7 - Monetary Dynamics and Aggregate Analysis.ipynb"
+    },
+    {
+      "slug": "ch8-money-credit-loanable-funds",
+      "name": "Chapter 8 - Money and Credit - The Loanable Funds Market",
+      "description": "The loanable funds market: saving, investment, interest rates, and credit. Covers financial intermediation and the role of credit in monetary economies.",
+      "deliverable": "Chapter 8 - Money and Credit - The Loanable Funds Market.ipynb"
+    },
+    {
+      "slug": "ch9-is-lm",
+      "name": "Chapter 9 - IS-LM",
+      "description": "The IS-LM model: goods market equilibrium, money market equilibrium, and their intersection. Interactive visualizations of fiscal and monetary policy shifts.",
+      "deliverable": "Chapter 9 - IS-LM.ipynb"
+    },
+    {
+      "slug": "ch10-labor",
+      "name": "Chapter 10 - Labor",
+      "description": "Labor market macroeconomics: wages, employment, unemployment, and labor supply/demand dynamics. Covers relationship between labor market and aggregate output.",
+      "deliverable": "Chapter 10 - Labor.ipynb"
+    },
+    {
+      "slug": "ch11-central-banking",
+      "name": "Chapter 11 - Central Banking",
+      "description": "Central banking theory and practice: monetary policy tools, interest rate targets, quantitative easing, and the lender-of-last-resort function. Includes Fed data homework.",
+      "deliverable": "Chapter 11 - Central Banking.ipynb"
+    },
+    {
+      "slug": "advanced-macroeconomics",
+      "name": "Advanced Macroeconomics Course Notes",
+      "description": "Graduate-level macroeconomics covering classical economics, Keynesianism, monetarism, rational expectations, Phillips curve, IS-LM extensions, monetary rules, real business cycle theory, and fiscal policy. 14 course notes notebooks plus workshops on Solow model and AR(1) processes.",
+      "deliverable": "Advanced Macroeconomics/Course Notes"
+    },
+    {
+      "slug": "data-homework",
+      "name": "Data Homework Assignments",
+      "description": "Applied data analysis assignments using real-world macroeconomic data (FRED, NBER, Fed). Covers 9 chapters with CSV datasets and guide notebooks for analyzing inflation, income growth, interest rates, and monetary tightening.",
+      "deliverable": "Data Homework Assignments"
+    }
+  ],
+  "workstreams": [
+    {
+      "name": "Core Chapters",
+      "slug": "core-chapters",
+      "components": ["ch1-purposive-action", "ch2-entrepreneurship-supply-demand", "ch3-elements-macroeconomics", "ch4-aggregate-supply-growth", "ch5-money", "ch6-aggregate-demand", "ch7-monetary-dynamics", "ch8-money-credit-loanable-funds", "ch9-is-lm", "ch10-labor", "ch11-central-banking"]
+    },
+    {
+      "name": "Advanced Content",
+      "slug": "advanced-content",
+      "components": ["advanced-macroeconomics", "data-homework"]
+    }
+  ]
+}
