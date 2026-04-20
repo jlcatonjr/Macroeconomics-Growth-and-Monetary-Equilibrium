@@ -93,6 +93,7 @@
 6. **Voice fidelity** — `@style-guardian` is the sole arbiter of voice deviation rulings
 7. **Living documentation** — agent docs must not accumulate stale content
 8. **Always close with `@conflict-auditor`** — required after any multi-file change session
+9. **Every request must generate a plan** — any request involving two or more implementation steps (steps that write, create, rename, delete, or make agent decisions) must produce: (a) a summary saved to `tmp/<plan-slug>.plan.md` and (b) a step-by-step CSV saved to `tmp/<plan-slug>.steps.csv` before the first step executes; the CSV must include columns: `step`, `agent`, `action`, `inputs`, `outputs`, `status`, `notes`; initial `status` for all rows is `pending`; after each step completes, pass remaining steps through `@adversarial` and `@conflict-auditor` before proceeding; create `tmp/` if it does not exist
 
 ---
 
