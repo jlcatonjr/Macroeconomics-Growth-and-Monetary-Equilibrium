@@ -1,0 +1,124 @@
+{
+  "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
+  "project_goal": "Produce an interactive Jupyter notebook textbook for macroeconomics, economic growth, and monetary equilibrium, covering 11 core chapters and graduate-level advanced content with real-world data homework assignments and interactive ipywidgets visualizations.",
+  "deliverables": [
+    "HTML"
+  ],
+  "output_format": "Jupyter notebooks (.ipynb) with interactive widgets",
+  "primary_output_dir": ".",
+  "build_output_dir": "build/",
+  "figures_dir": "figures/",
+  "reference_db_path": "N/A — no citation database configured for this project",
+  "governance_agents": [
+    "adversarial",
+    "agent-refactor",
+    "agent-updater",
+    "cleanup",
+    "code-hygiene",
+    "conflict-auditor",
+    "conflict-resolution",
+    "navigator",
+    "security"
+  ],
+  "selected_archetypes": [
+    "primary-producer",
+    "quality-auditor",
+    "cohesion-repairer",
+    "style-guardian",
+    "technical-validator",
+    "output-compiler",
+    "visual-designer"
+  ],
+  "tools": [
+    {
+      "name": "ipywidgets",
+      "category": "library"
+    },
+    {
+      "name": "matplotlib",
+      "category": "library"
+    },
+    {
+      "name": "networkx",
+      "category": "library"
+    },
+    {
+      "name": "numpy",
+      "category": "library"
+    },
+    {
+      "name": "pandas",
+      "category": "library"
+    },
+    {
+      "name": "pandas-datareader",
+      "category": "library"
+    },
+    {
+      "name": "plotly",
+      "category": "library"
+    },
+    {
+      "name": "scipy",
+      "category": "library"
+    },
+    {
+      "name": "statsmodels",
+      "category": "library"
+    }
+  ],
+  "components": [
+    {
+      "slug": "ch1-purposive-action",
+      "name": "Chapter 1 - Purposive Action"
+    },
+    {
+      "slug": "ch2-entrepreneurship-supply-demand",
+      "name": "Chapter 2 - Entrepreneurship and Supply and Demand"
+    },
+    {
+      "slug": "ch3-elements-macroeconomics",
+      "name": "Chapter 3 - The Elements of Macroeconomics"
+    },
+    {
+      "slug": "ch4-aggregate-supply-growth",
+      "name": "Chapter 4 - Aggregate Supply, Technology, and Economic Growth"
+    },
+    {
+      "slug": "ch5-money",
+      "name": "Chapter 5 - Money"
+    },
+    {
+      "slug": "ch6-aggregate-demand",
+      "name": "Chapter 6 - Aggregate Demand"
+    },
+    {
+      "slug": "ch7-monetary-dynamics",
+      "name": "Chapter 7 - Monetary Dynamics and Aggregate Analysis"
+    },
+    {
+      "slug": "ch8-money-credit-loanable-funds",
+      "name": "Chapter 8 - Money and Credit - The Loanable Funds Market"
+    },
+    {
+      "slug": "ch9-is-lm",
+      "name": "Chapter 9 - IS-LM"
+    },
+    {
+      "slug": "ch10-labor",
+      "name": "Chapter 10 - Labor"
+    },
+    {
+      "slug": "ch11-central-banking",
+      "name": "Chapter 11 - Central Banking"
+    },
+    {
+      "slug": "advanced-macroeconomics",
+      "name": "Advanced Macroeconomics Course Notes"
+    },
+    {
+      "slug": "data-homework",
+      "name": "Data Homework Assignments"
+    }
+  ]
+}
