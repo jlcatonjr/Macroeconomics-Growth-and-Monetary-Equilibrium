@@ -1,69 +1,112 @@
 {
   "schema_version": "1.2",
-  "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
+  "project_name": "ProjectRepositories",
   "framework": "copilot-vscode",
-  "project_type": "writing",
+  "project_type": "mixed",
   "archetypes": [
     "primary-producer",
     "quality-auditor",
     "cohesion-repairer",
     "style-guardian",
     "technical-validator",
+    "format-converter",
+    "reference-manager",
     "output-compiler",
-    "visual-designer",
-    "tool-doc-researcher"
+    "visual-designer"
   ],
   "components": [
-    "ch1-purposive-action",
-    "ch2-entrepreneurship-supply-demand",
-    "ch3-elements-macroeconomics",
-    "ch4-aggregate-supply-growth",
-    "ch5-money",
-    "ch6-aggregate-demand",
-    "ch7-monetary-dynamics",
-    "ch8-money-credit-loanable-funds",
-    "ch9-is-lm",
-    "ch10-labor",
-    "ch11-central-banking",
-    "advanced-macroeconomics",
-    "data-homework"
+    "crisis-credit-allocation",
+    "fed-response-dag",
+    "prairie-prosperity",
+    "sugarscape",
+    "visualize-energy-data"
   ],
-  "files_written": [],
-  "manual_required": 67,
+  "files_written": [
+    ".github/agents/orchestrator.agent.md",
+    ".github/agents/navigator.agent.md",
+    ".github/agents/security.agent.md",
+    ".github/agents/code-hygiene.agent.md",
+    ".github/agents/adversarial.agent.md",
+    ".github/agents/conflict-auditor.agent.md",
+    ".github/agents/conflict-resolution.agent.md",
+    ".github/agents/cleanup.agent.md",
+    ".github/agents/agent-updater.agent.md",
+    ".github/agents/agent-refactor.agent.md",
+    ".github/agents/repo-liaison.agent.md",
+    ".github/agents/git-operations.agent.md",
+    ".github/agents/work-summarizer.agent.md",
+    ".github/agents/primary-producer.agent.md",
+    ".github/agents/quality-auditor.agent.md",
+    ".github/agents/cohesion-repairer.agent.md",
+    ".github/agents/style-guardian.agent.md",
+    ".github/agents/technical-validator.agent.md",
+    ".github/agents/format-converter.agent.md",
+    ".github/agents/reference-manager.agent.md",
+    ".github/agents/output-compiler.agent.md",
+    ".github/agents/visual-designer.agent.md",
+    ".github/agents/tool-sqlite.agent.md",
+    ".github/agents/references/ref-jupyter-reference.md",
+    ".github/agents/references/ref-pandas-reference.md",
+    ".github/agents/references/ref-numpy-reference.md",
+    ".github/agents/references/ref-matplotlib-reference.md",
+    ".github/agents/references/ref-plotly-reference.md",
+    ".github/agents/references/ref-pandas-datareader-reference.md",
+    ".github/agents/references/ref-linearmodels-reference.md",
+    ".github/agents/references/code-hygiene-rules.reference.md",
+    ".github/agents/references/security-vulnerability-watch.reference.md",
+    ".github/agents/references/security-vulnerability-watch.json",
+    ".github/agents/references/adjacent-repos.md",
+    ".github/agents/references/github-workflows-merge.reference.md",
+    ".github/agents/references/work-summary-spec.reference.md",
+    ".github/agents/references/work-summary-tooling.reference.md",
+    ".github/agents/crisis-credit-allocation-expert.agent.md",
+    ".github/agents/fed-response-dag-expert.agent.md",
+    ".github/agents/prairie-prosperity-expert.agent.md",
+    ".github/agents/sugarscape-expert.agent.md",
+    ".github/agents/visualize-energy-data-expert.agent.md",
+    ".github/copilot-instructions.md",
+    ".github/agents/team-builder.agent.md",
+    ".github/agents/SETUP-REQUIRED.md",
+    ".github/agents/content-enricher.agent.md",
+    ".github/agents/references/pipeline-graph.md"
+  ],
+  "manual_required": 24,
   "template_hashes": {
-    "universal/orchestrator.template.md": "5235f88a0e27869d",
-    "universal/navigator.template.md": "a774c9a70b43505a",
-    "universal/security.template.md": "6974720c9091639d",
-    "universal/code-hygiene.template.md": "92c2224832e1bb45",
-    "universal/adversarial.template.md": "de9896b303a341be",
-    "universal/conflict-auditor.template.md": "bd88a84d93a3500e",
+    "universal/orchestrator.template.md": "dd00bde8bf81f451",
+    "universal/navigator.template.md": "9db306df5d5700c2",
+    "universal/security.template.md": "721275ff2afdcc12",
+    "universal/code-hygiene.template.md": "67878e41c6f6be47",
+    "universal/adversarial.template.md": "78de0d3f3735c1f8",
+    "universal/conflict-auditor.template.md": "7aed52f8a607d1a3",
     "universal/conflict-resolution.template.md": "a30ff077e5a03ce9",
     "universal/cleanup.template.md": "0c005812c2b52dd8",
-    "universal/agent-updater.template.md": "8c51be1bff0c05ee",
+    "universal/agent-updater.template.md": "fee9126bf39575ef",
     "universal/agent-refactor.template.md": "a9717cc56c35f4ac",
     "universal/repo-liaison.template.md": "f3ab2dffbbbb29ff",
-    "universal/git-operations.template.md": "564a362a85cd90bc",
-    "domain/work-summarizer.template.md": "f696746ad47aad68",
+    "universal/git-operations.template.md": "b09209faaf14b17c",
+    "domain/work-summarizer.template.md": "92f20b7ec02d945e",
     "domain/primary-producer.template.md": "c128e8f2fb52885f",
     "domain/quality-auditor.template.md": "5adfc79b00290c06",
-    "domain/cohesion-repairer.template.md": "a2c3b4844110b04a",
+    "domain/cohesion-repairer.template.md": "795b8c18b94827fc",
     "domain/style-guardian.template.md": "919e2e8d6cd90721",
     "domain/technical-validator.template.md": "47a48583cf212303",
+    "domain/format-converter.template.md": "ecf8c801f1d66dab",
+    "domain/reference-manager.template.md": "f7538df16abbbba8",
     "domain/output-compiler.template.md": "fd90f3a13765386a",
     "domain/visual-designer.template.md": "cae39ee7b6d167f4",
-    "domain/tool-doc-researcher.template.md": "ed54707800500bed",
+    "domain/tool-database.template.md": "7016d9a333e41305",
     "domain/tool-reference.template.md": "cf44c4bf906ba8b8",
     "domain/code-hygiene-rules-reference.template.md": "8d7af49f0273b4dd",
-    "universal/security-vulnerability-watch.reference.template.md": "1680e6cfd2a72275",
+    "universal/security-vulnerability-watch.reference.template.md": "12a588ab75ae5139",
     "universal/security-vulnerability-watch.json.template": "ebcec1b04ad46caa",
     "universal/adjacent-repos.reference.template.md": "d5f6783fe18f21c6",
     "universal/github-workflows-merge.reference.template.md": "9a85c14fca008010",
     "universal/work-summary-spec.reference.template.md": "d29ca7e680ad715d",
     "universal/work-summary-tooling.reference.template.md": "62e643b1a9711af6",
-    "workstream-expert.template.md": "13161f3a3cdf1789",
+    "workstream-expert.template.md": "a03699e3caabb58c",
     "copilot-instructions.template.md": "3ccf82ef795fcace",
     "builder/team-builder-copilot-vscode.template.md": "6a0e998c5ce278f2",
-    "domain/content-enricher.template.md": "d7e6e4a50dcef1c7"
+    "domain/content-enricher.template.md": "2dc5e25c4606657b"
   },
   "output_files_map": [
     {
@@ -175,6 +218,18 @@
       "component_slug": null
     },
     {
+      "path": "format-converter.agent.md",
+      "template": "domain/format-converter.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "reference-manager.agent.md",
+      "template": "domain/reference-manager.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
       "path": "output-compiler.agent.md",
       "template": "domain/output-compiler.template.md",
       "type": "agent",
@@ -187,31 +242,14 @@
       "component_slug": null
     },
     {
-      "path": "tool-doc-researcher.agent.md",
-      "template": "domain/tool-doc-researcher.template.md",
+      "path": "tool-sqlite.agent.md",
+      "template": "domain/tool-database.template.md",
+      "fallback_template": "domain/tool-specific.template.md",
       "type": "agent",
       "component_slug": null
     },
     {
-      "path": "references/ref-ipywidgets-reference.md",
-      "template": "domain/tool-reference.template.md",
-      "type": "reference",
-      "component_slug": null
-    },
-    {
-      "path": "references/ref-matplotlib-reference.md",
-      "template": "domain/tool-reference.template.md",
-      "type": "reference",
-      "component_slug": null
-    },
-    {
-      "path": "references/ref-networkx-reference.md",
-      "template": "domain/tool-reference.template.md",
-      "type": "reference",
-      "component_slug": null
-    },
-    {
-      "path": "references/ref-numpy-reference.md",
+      "path": "references/ref-jupyter-reference.md",
       "template": "domain/tool-reference.template.md",
       "type": "reference",
       "component_slug": null
@@ -223,7 +261,13 @@
       "component_slug": null
     },
     {
-      "path": "references/ref-pandas-datareader-reference.md",
+      "path": "references/ref-numpy-reference.md",
+      "template": "domain/tool-reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "references/ref-matplotlib-reference.md",
       "template": "domain/tool-reference.template.md",
       "type": "reference",
       "component_slug": null
@@ -235,13 +279,13 @@
       "component_slug": null
     },
     {
-      "path": "references/ref-scipy-reference.md",
+      "path": "references/ref-pandas-datareader-reference.md",
       "template": "domain/tool-reference.template.md",
       "type": "reference",
       "component_slug": null
     },
     {
-      "path": "references/ref-statsmodels-reference.md",
+      "path": "references/ref-linearmodels-reference.md",
       "template": "domain/tool-reference.template.md",
       "type": "reference",
       "component_slug": null
@@ -289,82 +333,34 @@
       "component_slug": null
     },
     {
-      "path": "ch1-purposive-action-expert.agent.md",
+      "path": "crisis-credit-allocation-expert.agent.md",
       "template": "workstream-expert.template.md",
       "type": "agent",
-      "component_slug": "ch1-purposive-action"
+      "component_slug": "crisis-credit-allocation"
     },
     {
-      "path": "ch2-entrepreneurship-supply-demand-expert.agent.md",
+      "path": "fed-response-dag-expert.agent.md",
       "template": "workstream-expert.template.md",
       "type": "agent",
-      "component_slug": "ch2-entrepreneurship-supply-demand"
+      "component_slug": "fed-response-dag"
     },
     {
-      "path": "ch3-elements-macroeconomics-expert.agent.md",
+      "path": "prairie-prosperity-expert.agent.md",
       "template": "workstream-expert.template.md",
       "type": "agent",
-      "component_slug": "ch3-elements-macroeconomics"
+      "component_slug": "prairie-prosperity"
     },
     {
-      "path": "ch4-aggregate-supply-growth-expert.agent.md",
+      "path": "sugarscape-expert.agent.md",
       "template": "workstream-expert.template.md",
       "type": "agent",
-      "component_slug": "ch4-aggregate-supply-growth"
+      "component_slug": "sugarscape"
     },
     {
-      "path": "ch5-money-expert.agent.md",
+      "path": "visualize-energy-data-expert.agent.md",
       "template": "workstream-expert.template.md",
       "type": "agent",
-      "component_slug": "ch5-money"
-    },
-    {
-      "path": "ch6-aggregate-demand-expert.agent.md",
-      "template": "workstream-expert.template.md",
-      "type": "agent",
-      "component_slug": "ch6-aggregate-demand"
-    },
-    {
-      "path": "ch7-monetary-dynamics-expert.agent.md",
-      "template": "workstream-expert.template.md",
-      "type": "agent",
-      "component_slug": "ch7-monetary-dynamics"
-    },
-    {
-      "path": "ch8-money-credit-loanable-funds-expert.agent.md",
-      "template": "workstream-expert.template.md",
-      "type": "agent",
-      "component_slug": "ch8-money-credit-loanable-funds"
-    },
-    {
-      "path": "ch9-is-lm-expert.agent.md",
-      "template": "workstream-expert.template.md",
-      "type": "agent",
-      "component_slug": "ch9-is-lm"
-    },
-    {
-      "path": "ch10-labor-expert.agent.md",
-      "template": "workstream-expert.template.md",
-      "type": "agent",
-      "component_slug": "ch10-labor"
-    },
-    {
-      "path": "ch11-central-banking-expert.agent.md",
-      "template": "workstream-expert.template.md",
-      "type": "agent",
-      "component_slug": "ch11-central-banking"
-    },
-    {
-      "path": "advanced-macroeconomics-expert.agent.md",
-      "template": "workstream-expert.template.md",
-      "type": "agent",
-      "component_slug": "advanced-macroeconomics"
-    },
-    {
-      "path": "data-homework-expert.agent.md",
-      "template": "workstream-expert.template.md",
-      "type": "agent",
-      "component_slug": "data-homework"
+      "component_slug": "visualize-energy-data"
     },
     {
       "path": "../copilot-instructions.md",
@@ -416,22 +412,16 @@
     "cohesion-repairer",
     "style-guardian",
     "technical-validator",
+    "format-converter",
+    "reference-manager",
     "output-compiler",
     "visual-designer",
-    "tool-doc-researcher",
-    "ch1-purposive-action-expert",
-    "ch2-entrepreneurship-supply-demand-expert",
-    "ch3-elements-macroeconomics-expert",
-    "ch4-aggregate-supply-growth-expert",
-    "ch5-money-expert",
-    "ch6-aggregate-demand-expert",
-    "ch7-monetary-dynamics-expert",
-    "ch8-money-credit-loanable-funds-expert",
-    "ch9-is-lm-expert",
-    "ch10-labor-expert",
-    "ch11-central-banking-expert",
-    "advanced-macroeconomics-expert",
-    "data-homework-expert"
+    "tool-sqlite",
+    "crisis-credit-allocation-expert",
+    "fed-response-dag-expert",
+    "prairie-prosperity-expert",
+    "sugarscape-expert",
+    "visualize-energy-data-expert"
   ],
   "governance_agents": [
     "navigator",
@@ -446,10 +436,54 @@
     "repo-liaison",
     "git-operations"
   ],
-  "manifest_fingerprint": "9f03381e839dbf9f",
-  "fingerprint_algo_version": 1,
+  "manifest_fingerprint": "e6a688c7b8ff60a6",
   "file_hashes": {
-    "references/security-vulnerability-watch.reference.md": "761368c5fe6a37d8",
-    "references/security-vulnerability-watch.json": "8f13926aba69ea88"
+    "orchestrator.agent.md": "3e5e1dd9a09309d2",
+    "navigator.agent.md": "94d06e456cd83745",
+    "security.agent.md": "c31138619b118112",
+    "code-hygiene.agent.md": "e76a81e200985db2",
+    "adversarial.agent.md": "e1d033c9996c1240",
+    "conflict-auditor.agent.md": "a28916991e184375",
+    "conflict-resolution.agent.md": "fe0f22754c2bc3db",
+    "cleanup.agent.md": "f0ecc7dc740fc078",
+    "agent-updater.agent.md": "4a12872e4986915a",
+    "agent-refactor.agent.md": "56a941893acbac40",
+    "repo-liaison.agent.md": "c23090036caff8e4",
+    "git-operations.agent.md": "b2058e2f03f9f046",
+    "work-summarizer.agent.md": "09927df758b213dc",
+    "primary-producer.agent.md": "a867617ed60d7dcb",
+    "quality-auditor.agent.md": "becd4e52f0d86d8f",
+    "cohesion-repairer.agent.md": "133c18152f044865",
+    "style-guardian.agent.md": "e154175f08d66021",
+    "technical-validator.agent.md": "c7bd5b5755ea8023",
+    "format-converter.agent.md": "a5045ba0a9a94ffb",
+    "reference-manager.agent.md": "94254df56c77e542",
+    "output-compiler.agent.md": "9e17d8367481a539",
+    "visual-designer.agent.md": "bfd1253a1ac9842f",
+    "tool-sqlite.agent.md": "33215b8f05d3334f",
+    "references/ref-jupyter-reference.md": "ca8aaf88ce61cc03",
+    "references/ref-pandas-reference.md": "1af5055adad4381e",
+    "references/ref-numpy-reference.md": "3b0ea31f134d5c4c",
+    "references/ref-matplotlib-reference.md": "525493f1e54ab3e5",
+    "references/ref-plotly-reference.md": "5d78317fa462f008",
+    "references/ref-pandas-datareader-reference.md": "bae6aa30755dfccc",
+    "references/ref-linearmodels-reference.md": "cc318d0533188bc6",
+    "references/code-hygiene-rules.reference.md": "f6473f7b4ceea24f",
+    "references/security-vulnerability-watch.reference.md": "821b868c41bca657",
+    "references/security-vulnerability-watch.json": "6864b8baee9b0168",
+    "references/adjacent-repos.md": "cb2591c6b3c61a0b",
+    "references/github-workflows-merge.reference.md": "7da5a19d5094fe7a",
+    "references/work-summary-spec.reference.md": "96232231a1f7c6be",
+    "references/work-summary-tooling.reference.md": "f3656972717153a9",
+    "crisis-credit-allocation-expert.agent.md": "7a910c305b2d0d4c",
+    "fed-response-dag-expert.agent.md": "8ba4188553a05a23",
+    "prairie-prosperity-expert.agent.md": "6c6851e353b8b711",
+    "sugarscape-expert.agent.md": "b93477262a2c94b8",
+    "visualize-energy-data-expert.agent.md": "96b7b5bfc9c832ac",
+    "../copilot-instructions.md": "8880e6496718a21a",
+    "team-builder.agent.md": "1ff52c0e52893357",
+    "SETUP-REQUIRED.md": "b65989ac3c29a9d3",
+    "content-enricher.agent.md": "b4aeb646c44dedce",
+    "references/pipeline-graph.md": "e8cf78f03fffdf6b"
   }
 }

@@ -1,0 +1,92 @@
+{
+  "artifact_type": "memory-index",
+  "memory_index_schema_version": "1.3",
+  "index_format_version": "json-bm25-postings-v1",
+  "index_build_id": "890a6e87ba35d188a62bfcd6d5a2fc9f2a61fae05b3be29558900d1285764be6",
+  "index_write_owner": "agentteams.build_team",
+  "vector_runtime_mode": "sparse-tfidf-cosine",
+  "vector_model_id": null,
+  "vector_dim": null,
+  "fallback_policy": "non-blocking-file-read-then-search",
+  "source_fingerprint": "7799699a4ac80c97d15a6bd7aff2fa022d233726efbe24507021bf88c51a27f4",
+  "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
+  "framework": "copilot-vscode",
+  "built_at": "2026-05-21T19:00:07.850479Z",
+  "source_count": 1,
+  "documents": [
+    {
+      "doc_id": 0,
+      "path": "/Users/jamescaton/githubrepositories/Macroeconomics-Growth-and-Monetary-Equilibrium/README.md",
+      "title": "Macroeconomics-Growth-and-Monetary-Equilibrium",
+      "length": 14,
+      "snippet": "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jlcatonjr/Macroeconomics-Growth-and-Monetary-Equilibrium.git/HEAD)",
+      "paragraphs": [],
+      "source_hash": "f940173b1563a01ef50e032723c16a0067c84a8ac7d28cfa2d6bbdd606819142",
+      "source_mtime": 1739803773.5236642
+    }
+  ],
+  "postings": {
+    "macroeconomics-growth-and-monetary-equilibrium": [
+      {
+        "doc_id": 0,
+        "tf": 2
+      }
+    ],
+    "binder": [
+      {
+        "doc_id": 0,
+        "tf": 1
+      }
+    ],
+    "https": [
+      {
+        "doc_id": 0,
+        "tf": 2
+      }
+    ],
+    "mybinder": [
+      {
+        "doc_id": 0,
+        "tf": 2
+      }
+    ],
+    "org": [
+      {
+        "doc_id": 0,
+        "tf": 2
+      }
+    ],
+    "badge_logo": [
+      {
+        "doc_id": 0,
+        "tf": 1
+      }
+    ],
+    "svg": [
+      {
+        "doc_id": 0,
+        "tf": 1
+      }
+    ],
+    "jlcatonjr": [
+      {
+        "doc_id": 0,
+        "tf": 1
+      }
+    ],
+    "git": [
+      {
+        "doc_id": 0,
+        "tf": 1
+      }
+    ],
+    "head": [
+      {
+        "doc_id": 0,
+        "tf": 1
+      }
+    ]
+  },
+  "avgdl": 14.0,
+  "N": 1
+}

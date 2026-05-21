@@ -1,0 +1,308 @@
+{
+  "artifact_type": "backup-manifest",
+  "manifest_schema_version": "1.0",
+  "agentteams_version": null,
+  "framework": "copilot-vscode",
+  "description_path": "/Users/jamescaton/githubrepositories/Macroeconomics-Growth-and-Monetary-Equilibrium/.github/agents/_build-description.json",
+  "output_root": "/Users/jamescaton/githubrepositories/Macroeconomics-Growth-and-Monetary-Equilibrium/.github/agents",
+  "reason": "pre-update",
+  "timestamp_utc": "2026-05-21T19:00:07Z",
+  "total_files": 49,
+  "total_bytes": 252596,
+  "files": [
+    {
+      "source_path": "orchestrator.agent.md",
+      "backup_path": "orchestrator.agent.md",
+      "source_size_bytes": 12378,
+      "source_sha256": "386dc92d41c0a76eb258a45220361ccc6a0828d3d823006d79e83a76a402954b"
+    },
+    {
+      "source_path": "navigator.agent.md",
+      "backup_path": "navigator.agent.md",
+      "source_size_bytes": 3466,
+      "source_sha256": "225d9a5d19ce579953d8fdfe624ff9c7e08ba23c2d1c2e8eb18c90d18dcf1179"
+    },
+    {
+      "source_path": "security.agent.md",
+      "backup_path": "security.agent.md",
+      "source_size_bytes": 3672,
+      "source_sha256": "e77af2835cd3e05147a3958cf4624e0a28e6582a457d3a2c02673f589e552ed2"
+    },
+    {
+      "source_path": "code-hygiene.agent.md",
+      "backup_path": "code-hygiene.agent.md",
+      "source_size_bytes": 6796,
+      "source_sha256": "876e24f36dbbd6bf54cbc52b23a5b323a22ae78e05cfc16b31e17919b0d8d668"
+    },
+    {
+      "source_path": "adversarial.agent.md",
+      "backup_path": "adversarial.agent.md",
+      "source_size_bytes": 4417,
+      "source_sha256": "6dcddf898fa0dd141b17e6b7cf0d5140112acaca7dbeb6f41bca58bc4864d300"
+    },
+    {
+      "source_path": "conflict-auditor.agent.md",
+      "backup_path": "conflict-auditor.agent.md",
+      "source_size_bytes": 3914,
+      "source_sha256": "3bd862f1a07b316a2a80d85b9b2c8e056066c9727481bd52cd1a95b68979e212"
+    },
+    {
+      "source_path": "conflict-resolution.agent.md",
+      "backup_path": "conflict-resolution.agent.md",
+      "source_size_bytes": 2898,
+      "source_sha256": "d6ff06e3192bfc1fbff38028d5a67f0ddba24c817e6e3d6e5f3fcc7cb618fb21"
+    },
+    {
+      "source_path": "cleanup.agent.md",
+      "backup_path": "cleanup.agent.md",
+      "source_size_bytes": 3211,
+      "source_sha256": "1c5cd096cc5886f334f9ef5a3447ace3e3b5ecb35e5bc7a9c31c64ded8bdd0e3"
+    },
+    {
+      "source_path": "agent-updater.agent.md",
+      "backup_path": "agent-updater.agent.md",
+      "source_size_bytes": 6926,
+      "source_sha256": "070d862b563625a951c3f263106d3fa03b2f5e0b6e79ad452cb242ab1c1496a0"
+    },
+    {
+      "source_path": "agent-refactor.agent.md",
+      "backup_path": "agent-refactor.agent.md",
+      "source_size_bytes": 2672,
+      "source_sha256": "003eb1d230e713eaf16ecd839edb5c6bba68a74fe8b3cb527ac3e1c6fd735015"
+    },
+    {
+      "source_path": "primary-producer.agent.md",
+      "backup_path": "primary-producer.agent.md",
+      "source_size_bytes": 2935,
+      "source_sha256": "436a0ac8a20472ed763145ce196feca25f9ed3355c4e22b67223455d1e104d20"
+    },
+    {
+      "source_path": "quality-auditor.agent.md",
+      "backup_path": "quality-auditor.agent.md",
+      "source_size_bytes": 2808,
+      "source_sha256": "c2458116c6bfbc65ad4f734876dfc9537ba16ecde198a12852127b5b41101599"
+    },
+    {
+      "source_path": "cohesion-repairer.agent.md",
+      "backup_path": "cohesion-repairer.agent.md",
+      "source_size_bytes": 2774,
+      "source_sha256": "9bbc5683ec2af6168feca3703add73293579b48319e173cdd339ea67504f0a3b"
+    },
+    {
+      "source_path": "style-guardian.agent.md",
+      "backup_path": "style-guardian.agent.md",
+      "source_size_bytes": 2748,
+      "source_sha256": "e0d882cd52486bfad3b73593b515f8744355cb25ed7074fb823a1cb63ec372bf"
+    },
+    {
+      "source_path": "technical-validator.agent.md",
+      "backup_path": "technical-validator.agent.md",
+      "source_size_bytes": 2828,
+      "source_sha256": "bc08dbf86e6fc3e5dac37a60cdf939d166a8719d217c3cc8aa8fcbefe25df4e0"
+    },
+    {
+      "source_path": "output-compiler.agent.md",
+      "backup_path": "output-compiler.agent.md",
+      "source_size_bytes": 2321,
+      "source_sha256": "3fa88fab8b9511468ccf2b52da6840e84cf1d3641f051a622394b0f7a61ffd2b"
+    },
+    {
+      "source_path": "visual-designer.agent.md",
+      "backup_path": "visual-designer.agent.md",
+      "source_size_bytes": 2370,
+      "source_sha256": "be45f5ad5842b7ff9a69a46ea99af621392256561e3dd2f15e74fd8aa364e15b"
+    },
+    {
+      "source_path": "references/ref-ipywidgets-reference.md",
+      "backup_path": "references/ref-ipywidgets-reference.md",
+      "source_size_bytes": 1726,
+      "source_sha256": "d6ac4451975bbe41403c1e2ce31c23aa88be95bf68b19c46165f90df13e5b194"
+    },
+    {
+      "source_path": "references/ref-matplotlib-reference.md",
+      "backup_path": "references/ref-matplotlib-reference.md",
+      "source_size_bytes": 1239,
+      "source_sha256": "50a3454d6dae3e8f24434f911ff6d1adcbe1ccc4bef1579c592eff187ebd1546"
+    },
+    {
+      "source_path": "references/ref-networkx-reference.md",
+      "backup_path": "references/ref-networkx-reference.md",
+      "source_size_bytes": 1318,
+      "source_sha256": "bc336f34611b88de59a4757abe6e5145f4a9adcac5405c464aa451b271beae92"
+    },
+    {
+      "source_path": "references/ref-numpy-reference.md",
+      "backup_path": "references/ref-numpy-reference.md",
+      "source_size_bytes": 1178,
+      "source_sha256": "ccbdc5f08a3d7c4b2c25599a06f32f34afdba206f5573c2eb9e56c61370e3d77"
+    },
+    {
+      "source_path": "references/ref-pandas-reference.md",
+      "backup_path": "references/ref-pandas-reference.md",
+      "source_size_bytes": 1192,
+      "source_sha256": "ff293d8e43340fd4bec7c2f15cc89a3d490dc016642e98675c08843aaa375b63"
+    },
+    {
+      "source_path": "references/ref-pandas-datareader-reference.md",
+      "backup_path": "references/ref-pandas-datareader-reference.md",
+      "source_size_bytes": 1549,
+      "source_sha256": "67db98baf30dbdfed67bf3e0e43672e4fe8e7745da22269ee2da4075ded353bd"
+    },
+    {
+      "source_path": "references/ref-plotly-reference.md",
+      "backup_path": "references/ref-plotly-reference.md",
+      "source_size_bytes": 1305,
+      "source_sha256": "8aaaa41836b470d1b0d8673f8b3c6724b0d212bd68fdd556db889af711c4d0b7"
+    },
+    {
+      "source_path": "references/ref-scipy-reference.md",
+      "backup_path": "references/ref-scipy-reference.md",
+      "source_size_bytes": 1164,
+      "source_sha256": "ea07a3313e75fafe94c58bebb83a6c3f6cf47386f063e3bde6817e71a29ed5e8"
+    },
+    {
+      "source_path": "references/ref-statsmodels-reference.md",
+      "backup_path": "references/ref-statsmodels-reference.md",
+      "source_size_bytes": 1219,
+      "source_sha256": "4114a3b4136b035fae356e05f780ce9edc2f2b6d20ca5342db67ccee4bae6467"
+    },
+    {
+      "source_path": "references/code-hygiene-rules.reference.md",
+      "backup_path": "references/code-hygiene-rules.reference.md",
+      "source_size_bytes": 4783,
+      "source_sha256": "7d7b741f0b1db14b1075ab761e2aaaab6ce7e5aa301d6e9f1918b3830f7dd630"
+    },
+    {
+      "source_path": "references/security-vulnerability-watch.reference.md",
+      "backup_path": "references/security-vulnerability-watch.reference.md",
+      "source_size_bytes": 11421,
+      "source_sha256": "2a826352614e73b843277b534e4a5e9dbc48f14c4531ff63257b89493de5cbcd"
+    },
+    {
+      "source_path": "references/security-vulnerability-watch.json",
+      "backup_path": "references/security-vulnerability-watch.json",
+      "source_size_bytes": 17047,
+      "source_sha256": "f0bd86c858b50b17a0676b788368e39cb7217ed5659e6eca3416eae485a9c9e0"
+    },
+    {
+      "source_path": "ch1-purposive-action-expert.agent.md",
+      "backup_path": "ch1-purposive-action-expert.agent.md",
+      "source_size_bytes": 4215,
+      "source_sha256": "eaaa0522863df82a3dae9ce0f92454b29e76013f70750c7d83e11f5e9699ab68"
+    },
+    {
+      "source_path": "ch2-entrepreneurship-supply-demand-expert.agent.md",
+      "backup_path": "ch2-entrepreneurship-supply-demand-expert.agent.md",
+      "source_size_bytes": 4583,
+      "source_sha256": "fa3088963099658905f6db2a704a00537e82eb05acb8fe262bec4f4509aa3fc0"
+    },
+    {
+      "source_path": "ch3-elements-macroeconomics-expert.agent.md",
+      "backup_path": "ch3-elements-macroeconomics-expert.agent.md",
+      "source_size_bytes": 4475,
+      "source_sha256": "b632fcc0b2c56ed89484f94a57691dca38a3bf262b93887e193c079ec22f282e"
+    },
+    {
+      "source_path": "ch4-aggregate-supply-growth-expert.agent.md",
+      "backup_path": "ch4-aggregate-supply-growth-expert.agent.md",
+      "source_size_bytes": 4652,
+      "source_sha256": "71f2229d4a4b41ffd473dc6c62dcf608e72f7517bf34cfc6485978e51a79ec06"
+    },
+    {
+      "source_path": "ch5-money-expert.agent.md",
+      "backup_path": "ch5-money-expert.agent.md",
+      "source_size_bytes": 4178,
+      "source_sha256": "8bf3766a372a01dc2bcb29330fe7027e0741494bd792fa02dff2da6fbb6d9797"
+    },
+    {
+      "source_path": "ch6-aggregate-demand-expert.agent.md",
+      "backup_path": "ch6-aggregate-demand-expert.agent.md",
+      "source_size_bytes": 4558,
+      "source_sha256": "0e04e5b154a8b78a46020d0ad94911270b9193a9a5710f37f00cbfca093293ed"
+    },
+    {
+      "source_path": "ch7-monetary-dynamics-expert.agent.md",
+      "backup_path": "ch7-monetary-dynamics-expert.agent.md",
+      "source_size_bytes": 4463,
+      "source_sha256": "d21c0e1e2fdf5ca5a481d2b69a27bed439c86f0404bfadc99254194f47382505"
+    },
+    {
+      "source_path": "ch8-money-credit-loanable-funds-expert.agent.md",
+      "backup_path": "ch8-money-credit-loanable-funds-expert.agent.md",
+      "source_size_bytes": 4680,
+      "source_sha256": "552ddd3e64dfa75d7171c48e5f9cdcd0b895b7081f93955f45468bc63f8fbd06"
+    },
+    {
+      "source_path": "ch9-is-lm-expert.agent.md",
+      "backup_path": "ch9-is-lm-expert.agent.md",
+      "source_size_bytes": 4261,
+      "source_sha256": "e8b11fd8b22cf1b44ef612cab02765c23c61e0eb1e4e04316e69e4e17262bbfa"
+    },
+    {
+      "source_path": "ch10-labor-expert.agent.md",
+      "backup_path": "ch10-labor-expert.agent.md",
+      "source_size_bytes": 4172,
+      "source_sha256": "08d0301ff857223b70f28bbe5015b64dbb2e384c5a250dc229cc80b5badce377"
+    },
+    {
+      "source_path": "ch11-central-banking-expert.agent.md",
+      "backup_path": "ch11-central-banking-expert.agent.md",
+      "source_size_bytes": 4340,
+      "source_sha256": "0b498c0047df18a6696ec002233dd8aaaca81a4c520a9614863116af0420d370"
+    },
+    {
+      "source_path": "advanced-macroeconomics-expert.agent.md",
+      "backup_path": "advanced-macroeconomics-expert.agent.md",
+      "source_size_bytes": 4459,
+      "source_sha256": "7dbb42d9920fb624fd61d42a4a4488ba3dbab6e850fb61c59fc3a2ba647f3be1"
+    },
+    {
+      "source_path": "data-homework-expert.agent.md",
+      "backup_path": "data-homework-expert.agent.md",
+      "source_size_bytes": 4018,
+      "source_sha256": "285bb178d7a863381e073b3f59546df3c9552007dd4e95dd4339d887fe65dc6c"
+    },
+    {
+      "source_path": "/Users/jamescaton/githubrepositories/Macroeconomics-Growth-and-Monetary-Equilibrium/.github/copilot-instructions.md",
+      "backup_path": "copilot-instructions.md",
+      "source_size_bytes": 5168,
+      "source_sha256": "16a5724a4c2db3cf305a5aee3a6b4cdf7233496687c3f692f91776c4fe681a63"
+    },
+    {
+      "source_path": "team-builder.agent.md",
+      "backup_path": "team-builder.agent.md",
+      "source_size_bytes": 4494,
+      "source_sha256": "6a0e998c5ce278f2623ba7d50b9f889e7dd286436b61bc51778b608b058c5268"
+    },
+    {
+      "source_path": "SETUP-REQUIRED.md",
+      "backup_path": "SETUP-REQUIRED.md",
+      "source_size_bytes": 177,
+      "source_sha256": "3c2949765cabd41bdce689fc5e45b6f8bd86c2ea14d1a30ff14cd7bb0261562c"
+    },
+    {
+      "source_path": "content-enricher.agent.md",
+      "backup_path": "content-enricher.agent.md",
+      "source_size_bytes": 5246,
+      "source_sha256": "b60309a2f2ff6de5a6982cff0230de7ea5f9e9c462fd5f8097221a834842fb63"
+    },
+    {
+      "source_path": "references/pipeline-graph.md",
+      "backup_path": "references/pipeline-graph.md",
+      "source_size_bytes": 66099,
+      "source_sha256": "c2246ed245bcd05b2f36eb818dcc3ce92b610b1d98884157400a50a2aa3eb6a7"
+    },
+    {
+      "source_path": "references/adjacent-repos-changelog.csv",
+      "backup_path": "references/adjacent-repos-changelog.csv",
+      "source_size_bytes": 45,
+      "source_sha256": "f2b9cecd8d849cc4bb3f9d9341b5656ce4b77ce5ab902deb466e60d84d7788c0"
+    },
+    {
+      "source_path": "references/adjacent-repos-coordination-log.csv",
+      "backup_path": "references/adjacent-repos-coordination-log.csv",
+      "source_size_bytes": 38,
+      "source_sha256": "8d21cc87349960106a613d1848d877c4c8e25160da6460004d8d97e968cf7f85"
+    }
+  ]
+}
