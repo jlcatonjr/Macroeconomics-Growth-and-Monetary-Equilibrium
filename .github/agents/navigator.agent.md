@@ -10,6 +10,7 @@ handoffs:
     prompt: "Navigation query is complete. Here are the structural findings."
     send: false
 ---
+<!-- AGENTTEAMS:BEGIN content v=1 -->
 
 # Navigator — MacroeconomicsGrowthMonetaryEquilibrium
 
@@ -86,3 +87,24 @@ python -m src.graph .github/agents/ --output .github/agents/references/pipeline-
 2. **Regenerate the project map after structural changes** — new files, new directories, renamed files
 3. **You are read-oriented** — you do not modify deliverable content, agent docs, or source files
 4. **External repo paths are read-only** — navigate but never modify files outside the project
+<!-- AGENTTEAMS:END content -->
+
+<!-- AGENTTEAMS:BEGIN workstream_source_map v=1 -->
+- `ch1-purposive-action` → `TBD`
+- `ch2-entrepreneurship-supply-demand` → `TBD`
+- `ch3-elements-macroeconomics` → `TBD`
+- `ch4-aggregate-supply-growth` → `TBD`
+- `ch5-money` → `TBD`
+- `ch6-aggregate-demand` → `TBD`
+- `ch7-monetary-dynamics` → `TBD`
+- `ch8-money-credit-loanable-funds` → `TBD`
+- `ch9-is-lm` → `TBD`
+- `ch10-labor` → `TBD`
+- `ch11-central-banking` → `TBD`
+- `advanced-macroeconomics` → `TBD`
+- `data-homework` → `TBD`
+<!-- AGENTTEAMS:END workstream_source_map -->
+
+## Project-Specific Notes
+
+> ⚙️ **USER-EDITABLE** — project-specific rules, overrides, and extensions for this agent. This section lies outside every `AGENTTEAMS` fence and is preserved verbatim across `agentteams --update --merge`.

@@ -1,6 +1,7 @@
+<!-- AGENTTEAMS:BEGIN content v=1 -->
 # pandas Reference — MacroeconomicsGrowthMonetaryEquilibrium
 
-> Quick-reference for **pandas ** (other) in MacroeconomicsGrowthMonetaryEquilibrium.
+> Quick-reference for **pandas ** (library) in MacroeconomicsGrowthMonetaryEquilibrium.
 > This is a lightweight reference file, not a full agent. For tool-specific operations, consult the relevant specialist agent or escalate to `@orchestrator`.
 
 ---
@@ -39,3 +40,4 @@ Prefer vectorized operations, explicit dtypes, and merge or groupby pipelines ov
 
 - `@technical-validator` — verify technical accuracy of pandas usage
 - `@primary-producer` — implements code that depends on pandas
+<!-- AGENTTEAMS:END content -->

@@ -27,6 +27,7 @@ handoffs:
     prompt: "Deliverable production is complete."
     send: false
 ---
+<!-- AGENTTEAMS:BEGIN content v=1 -->
 
 # Primary Producer — MacroeconomicsGrowthMonetaryEquilibrium
 
@@ -67,3 +68,8 @@ Every deliverable must meet these floors before leaving this agent:
 ## Authority Hierarchy
 
 1. **Project source files** — ground truth for all technical claims
+<!-- AGENTTEAMS:END content -->
+
+## Project-Specific Notes
+
+> ⚙️ **USER-EDITABLE** — project-specific rules, overrides, and extensions for this agent. This section lies outside every `AGENTTEAMS` fence and is preserved verbatim across `agentteams --update --merge`.

@@ -19,6 +19,7 @@ handoffs:
     prompt: "Chapter 6 - Aggregate Demand has been reviewed and accepted."
     send: false
 ---
+<!-- AGENTTEAMS:BEGIN content v=1 -->
 # Chapter 6 - Aggregate Demand Expert — MacroeconomicsGrowthMonetaryEquilibrium
 
 You are the domain expert for **Chapter 6 - Aggregate Demand** (component 6) in MacroeconomicsGrowthMonetaryEquilibrium. You prepare **Component Briefs** that specify what `@primary-producer` must produce, review drafts against the brief checklist, and issue ACCEPT or REVISE verdicts.
@@ -108,3 +109,34 @@ Checklist results:
   [PASS/FAIL] <criterion>  ...
 Revision instructions (if REVISE): <specific corrections>
 ```
+<!-- AGENTTEAMS:END content -->
+
+<!-- AGENTTEAMS:BEGIN component_spec v=1 -->
+## Component Specification
+
+{MANUAL:COMPONENT_SPEC}
+
+## Sections
+
+{MANUAL:COMPONENT_SECTIONS}
+
+## Sources
+
+{MANUAL:COMPONENT_SOURCES}
+
+## Quality Criteria
+
+{MANUAL:COMPONENT_QUALITY_CRITERIA}
+
+## Cross-References
+
+None specified.
+
+## Tool Dependencies
+
+No tool-specific dependencies.
+<!-- AGENTTEAMS:END component_spec -->
+
+## Project-Specific Notes
+
+> ⚙️ **USER-EDITABLE** — project-specific rules, overrides, and extensions for this agent. This section lies outside every `AGENTTEAMS` fence and is preserved verbatim across `agentteams --update --merge`.

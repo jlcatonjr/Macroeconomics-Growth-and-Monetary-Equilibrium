@@ -150,3 +150,7 @@ Coordination required: YES / NO
 If YES → Coordination Request saved to: references/cross-orchestrator-requests/<filename>.md
 ```
 <!-- AGENTTEAMS:END output_format -->
+
+## Project-Specific Notes
+
+> ⚙️ **USER-EDITABLE** — project-specific rules, overrides, and extensions for this agent. This section lies outside every `AGENTTEAMS` fence and is preserved verbatim across `agentteams --update --merge`.

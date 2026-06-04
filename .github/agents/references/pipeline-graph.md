@@ -1,3 +1,4 @@
+<!-- AGENTTEAMS:BEGIN content v=1 -->
 # MacroeconomicsGrowthMonetaryEquilibrium — Agent Team Topology
 
 > **Auto-generated.** Regenerated on every `build_team.py` run.
@@ -55,9 +56,11 @@ flowchart LR
     conflict_resolution["Conflict Resolution"]
     class conflict_resolution governance
     content_enricher["Content Enricher"]
-    class content_enricher unknown
+    class content_enricher domain
     data_homework_expert["Data Homework Assignments Expert"]
     class data_homework_expert workstream_expert
+    git_operations["Git Operations"]
+    class git_operations governance
     navigator["Navigator"]
     class navigator governance
     orchestrator["Orchestrator"]
@@ -68,6 +71,8 @@ flowchart LR
     class primary_producer domain
     quality_auditor["Quality Auditor"]
     class quality_auditor domain
+    repo_liaison["Repo Liaison"]
+    class repo_liaison governance
     security["Security"]
     class security governance
     style_guardian["Style Guardian"]
@@ -76,8 +81,12 @@ flowchart LR
     class team_builder governance
     technical_validator["Technical Validator"]
     class technical_validator domain
+    tool_doc_researcher["Tool Documentation Researcher"]
+    class tool_doc_researcher tool_specialist
     visual_designer["Visual Designer"]
     class visual_designer domain
+    work_summarizer["Work Summarizer"]
+    class work_summarizer domain
     orchestrator -->|"Produce / Revise Deliverable"| primary_producer
     orchestrator -->|"Audit Quality"| quality_auditor
     orchestrator -->|"Repair Cohesion"| cohesion_repairer
@@ -94,6 +103,9 @@ flowchart LR
     orchestrator -->|"Clean Up Artifacts"| cleanup
     orchestrator -->|"Update Agent Docs"| agent_updater
     orchestrator -->|"Refactor Agent Docs"| agent_refactor
+    orchestrator -->|"Cross-Repository Liaison"| repo_liaison
+    orchestrator -->|"Summarize Work Period"| work_summarizer
+    orchestrator -->|"Git Operations"| git_operations
     navigator -->|"Return to Orchestrator"| orchestrator
     security -->|"Return to Orchestrator"| orchestrator
     code_hygiene -->|"Security Clearance (for Deletions)"| security
@@ -114,13 +126,29 @@ flowchart LR
     conflict_resolution -->|"Update Agent Docs"| agent_updater
     cleanup -->|"Return to Orchestrator"| orchestrator
     agent_updater -->|"Refactor Agent Docs"| agent_refactor
+    agent_updater -->|"Run Adversarial Review"| adversarial
     agent_updater -->|"Run Conflict Audit"| conflict_auditor
     agent_updater -->|"Return to Orchestrator"| orchestrator
+    agent_updater -.-> adversarial
     agent_updater -.-> conflict_auditor
     agent_updater -.-> agent_refactor
     agent_refactor -->|"Run Conflict Audit"| conflict_auditor
     agent_refactor -->|"Return to Orchestrator"| orchestrator
     agent_refactor -.-> conflict_auditor
+    repo_liaison -->|"Return to Orchestrator"| orchestrator
+    repo_liaison -->|"Security Review for Cross-Repo Write"| security
+    repo_liaison -->|"Conflict Audit After Cross-Repo Change"| conflict_auditor
+    git_operations -->|"Return to Orchestrator"| orchestrator
+    git_operations -->|"Security Review"| security
+    git_operations -->|"Conflict Resolution"| conflict_resolution
+    git_operations -->|"Update Agent Docs"| agent_updater
+    work_summarizer -->|"Verify Summary Accuracy"| technical_validator
+    work_summarizer -->|"Run Adversarial Audit"| adversarial
+    work_summarizer -->|"Run Conflict Audit"| conflict_auditor
+    work_summarizer -->|"Return to Orchestrator"| orchestrator
+    work_summarizer -.-> technical_validator
+    work_summarizer -.-> adversarial
+    work_summarizer -.-> conflict_auditor
     primary_producer -->|"Style Audit"| style_guardian
     primary_producer -->|"Cohesion Audit"| cohesion_repairer
     primary_producer -->|"Quality Audit"| quality_auditor
@@ -156,6 +184,8 @@ flowchart LR
     visual_designer -->|"Quality Check Figure"| quality_auditor
     visual_designer -->|"Return to Orchestrator"| orchestrator
     visual_designer -.-> quality_auditor
+    tool_doc_researcher -->|"Update Brief and Generated Docs"| agent_updater
+    tool_doc_researcher -->|"Return to Orchestrator"| orchestrator
     ch1_purposive_action_expert -->|"Vet Brief Before Drafting"| adversarial
     ch1_purposive_action_expert -->|"Send to Primary Producer"| primary_producer
     ch1_purposive_action_expert -->|"Return to Orchestrator"| orchestrator
@@ -262,20 +292,24 @@ flowchart LR
 | `cleanup` | governance | No | edit, search, execute |
 | `code-hygiene` | governance | No | read, search |
 | `cohesion-repairer` | domain | No | read, edit |
-| `conflict-auditor` | governance | No | read, edit, search, execute |
+| `conflict-auditor` | governance | No | read, search |
 | `conflict-resolution` | governance | No | edit, search, read |
-| `content-enricher` | unknown | Yes | read, edit, search |
+| `content-enricher` | domain | Yes | read, edit, search |
 | `data-homework-expert` | workstream_expert | No | read, search, agent |
+| `git-operations` | governance | Yes | read, execute, search |
 | `navigator` | governance | No | read, search, execute |
 | `orchestrator` | governance | Yes | read, edit, search, execute, todo, agent |
 | `output-compiler` | domain | No | read, edit, execute |
 | `primary-producer` | domain | No | read, edit, search |
 | `quality-auditor` | domain | No | read, search |
+| `repo-liaison` | governance | No | read, edit, search, execute, agent |
 | `security` | governance | No | read, search |
 | `style-guardian` | domain | No | read, edit, search |
 | `team-builder` | governance | Yes | read, edit, search, execute, todo |
 | `technical-validator` | domain | No | read, search |
+| `tool-doc-researcher` | tool_specialist | No | read, search |
 | `visual-designer` | domain | No | read, edit, execute, search |
+| `work-summarizer` | domain | Yes | read, search, execute, edit, agent |
 
 ---
 
@@ -284,9 +318,9 @@ flowchart LR
 | Agent | Receives from | Hands off to |
 | --- | --- | --- |
 | `advanced-macroeconomics-expert` | — | `adversarial`, `orchestrator`, `primary-producer` |
-| `adversarial` | `advanced-macroeconomics-expert`, `ch1-purposive-action-expert`, `ch10-labor-expert`, `ch11-central-banking-expert`, `ch2-entrepreneurship-supply-demand-expert`, `ch3-elements-macroeconomics-expert`, `ch4-aggregate-supply-growth-expert`, `ch5-money-expert`, `ch6-aggregate-demand-expert`, `ch7-monetary-dynamics-expert`, `ch8-money-credit-loanable-funds-expert`, `ch9-is-lm-expert`, `data-homework-expert`, `orchestrator` | `conflict-auditor`, `orchestrator` |
+| `adversarial` | `advanced-macroeconomics-expert`, `agent-updater`, `ch1-purposive-action-expert`, `ch10-labor-expert`, `ch11-central-banking-expert`, `ch2-entrepreneurship-supply-demand-expert`, `ch3-elements-macroeconomics-expert`, `ch4-aggregate-supply-growth-expert`, `ch5-money-expert`, `ch6-aggregate-demand-expert`, `ch7-monetary-dynamics-expert`, `ch8-money-credit-loanable-funds-expert`, `ch9-is-lm-expert`, `data-homework-expert`, `orchestrator`, `work-summarizer` | `conflict-auditor`, `orchestrator` |
 | `agent-refactor` | `agent-updater`, `code-hygiene`, `orchestrator` | `conflict-auditor`, `orchestrator` |
-| `agent-updater` | `conflict-auditor`, `conflict-resolution`, `orchestrator` | `agent-refactor`, `conflict-auditor`, `orchestrator` |
+| `agent-updater` | `conflict-auditor`, `conflict-resolution`, `git-operations`, `orchestrator`, `tool-doc-researcher` | `adversarial`, `agent-refactor`, `conflict-auditor`, `orchestrator` |
 | `ch1-purposive-action-expert` | — | `adversarial`, `orchestrator`, `primary-producer` |
 | `ch10-labor-expert` | — | `adversarial`, `orchestrator`, `primary-producer` |
 | `ch11-central-banking-expert` | — | `adversarial`, `orchestrator`, `primary-producer` |
@@ -301,20 +335,24 @@ flowchart LR
 | `cleanup` | `code-hygiene`, `orchestrator` | `orchestrator` |
 | `code-hygiene` | `orchestrator` | `agent-refactor`, `cleanup`, `conflict-auditor`, `orchestrator`, `security` |
 | `cohesion-repairer` | `orchestrator`, `primary-producer`, `quality-auditor` | `orchestrator`, `quality-auditor`, `style-guardian` |
-| `conflict-auditor` | `adversarial`, `agent-refactor`, `agent-updater`, `code-hygiene`, `orchestrator`, `primary-producer`, `technical-validator` | `agent-updater`, `conflict-resolution`, `orchestrator`, `technical-validator` |
-| `conflict-resolution` | `conflict-auditor`, `orchestrator` | `agent-updater`, `orchestrator` |
+| `conflict-auditor` | `adversarial`, `agent-refactor`, `agent-updater`, `code-hygiene`, `orchestrator`, `primary-producer`, `repo-liaison`, `technical-validator`, `work-summarizer` | `agent-updater`, `conflict-resolution`, `orchestrator`, `technical-validator` |
+| `conflict-resolution` | `conflict-auditor`, `git-operations`, `orchestrator` | `agent-updater`, `orchestrator` |
 | `content-enricher` | — | `orchestrator`, `primary-producer`, `technical-validator` |
 | `data-homework-expert` | — | `adversarial`, `orchestrator`, `primary-producer` |
+| `git-operations` | `orchestrator` | `agent-updater`, `conflict-resolution`, `orchestrator`, `security` |
 | `navigator` | `orchestrator` | `orchestrator` |
-| `orchestrator` | `advanced-macroeconomics-expert`, `adversarial`, `agent-refactor`, `agent-updater`, `ch1-purposive-action-expert`, `ch10-labor-expert`, `ch11-central-banking-expert`, `ch2-entrepreneurship-supply-demand-expert`, `ch3-elements-macroeconomics-expert`, `ch4-aggregate-supply-growth-expert`, `ch5-money-expert`, `ch6-aggregate-demand-expert`, `ch7-monetary-dynamics-expert`, `ch8-money-credit-loanable-funds-expert`, `ch9-is-lm-expert`, `cleanup`, `code-hygiene`, `cohesion-repairer`, `conflict-auditor`, `conflict-resolution`, `content-enricher`, `data-homework-expert`, `navigator`, `output-compiler`, `primary-producer`, `quality-auditor`, `security`, `style-guardian`, `technical-validator`, `visual-designer` | `adversarial`, `agent-refactor`, `agent-updater`, `cleanup`, `code-hygiene`, `cohesion-repairer`, `conflict-auditor`, `conflict-resolution`, `navigator`, `output-compiler`, `primary-producer`, `quality-auditor`, `security`, `style-guardian`, `technical-validator`, `visual-designer` |
+| `orchestrator` | `advanced-macroeconomics-expert`, `adversarial`, `agent-refactor`, `agent-updater`, `ch1-purposive-action-expert`, `ch10-labor-expert`, `ch11-central-banking-expert`, `ch2-entrepreneurship-supply-demand-expert`, `ch3-elements-macroeconomics-expert`, `ch4-aggregate-supply-growth-expert`, `ch5-money-expert`, `ch6-aggregate-demand-expert`, `ch7-monetary-dynamics-expert`, `ch8-money-credit-loanable-funds-expert`, `ch9-is-lm-expert`, `cleanup`, `code-hygiene`, `cohesion-repairer`, `conflict-auditor`, `conflict-resolution`, `content-enricher`, `data-homework-expert`, `git-operations`, `navigator`, `output-compiler`, `primary-producer`, `quality-auditor`, `repo-liaison`, `security`, `style-guardian`, `technical-validator`, `tool-doc-researcher`, `visual-designer`, `work-summarizer` | `adversarial`, `agent-refactor`, `agent-updater`, `cleanup`, `code-hygiene`, `cohesion-repairer`, `conflict-auditor`, `conflict-resolution`, `git-operations`, `navigator`, `output-compiler`, `primary-producer`, `quality-auditor`, `repo-liaison`, `security`, `style-guardian`, `technical-validator`, `visual-designer`, `work-summarizer` |
 | `output-compiler` | `orchestrator` | `orchestrator`, `technical-validator` |
 | `primary-producer` | `advanced-macroeconomics-expert`, `ch1-purposive-action-expert`, `ch10-labor-expert`, `ch11-central-banking-expert`, `ch2-entrepreneurship-supply-demand-expert`, `ch3-elements-macroeconomics-expert`, `ch4-aggregate-supply-growth-expert`, `ch5-money-expert`, `ch6-aggregate-demand-expert`, `ch7-monetary-dynamics-expert`, `ch8-money-credit-loanable-funds-expert`, `ch9-is-lm-expert`, `content-enricher`, `data-homework-expert`, `orchestrator`, `quality-auditor`, `style-guardian`, `technical-validator` | `cohesion-repairer`, `conflict-auditor`, `orchestrator`, `quality-auditor`, `style-guardian` |
 | `quality-auditor` | `cohesion-repairer`, `orchestrator`, `primary-producer`, `visual-designer` | `cohesion-repairer`, `orchestrator`, `primary-producer`, `style-guardian` |
-| `security` | `code-hygiene`, `orchestrator` | `orchestrator` |
+| `repo-liaison` | `orchestrator` | `conflict-auditor`, `orchestrator`, `security` |
+| `security` | `code-hygiene`, `git-operations`, `orchestrator`, `repo-liaison` | `orchestrator` |
 | `style-guardian` | `cohesion-repairer`, `orchestrator`, `primary-producer`, `quality-auditor` | `orchestrator`, `primary-producer` |
 | `team-builder` | — | — |
-| `technical-validator` | `conflict-auditor`, `content-enricher`, `orchestrator`, `output-compiler` | `conflict-auditor`, `orchestrator`, `primary-producer` |
+| `technical-validator` | `conflict-auditor`, `content-enricher`, `orchestrator`, `output-compiler`, `work-summarizer` | `conflict-auditor`, `orchestrator`, `primary-producer` |
+| `tool-doc-researcher` | — | `agent-updater`, `orchestrator` |
 | `visual-designer` | `orchestrator` | `orchestrator`, `quality-auditor` |
+| `work-summarizer` | `orchestrator` | `adversarial`, `conflict-auditor`, `orchestrator`, `technical-validator` |
 
 ---
 
@@ -348,18 +386,22 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
     "cohesion-repairer" [label="Cohesion Repairer", fillcolor="#e8ffe8"];
     "conflict-auditor" [label="Conflict Auditor", fillcolor="#e8e8ff"];
     "conflict-resolution" [label="Conflict Resolution", fillcolor="#e8e8ff"];
-    "content-enricher" [label="Content Enricher", fillcolor="#f5f5f5"];
+    "content-enricher" [label="Content Enricher", fillcolor="#e8ffe8"];
     "data-homework-expert" [label="Data Homework Assignments Expert", fillcolor="#fff8e8"];
+    "git-operations" [label="Git Operations", fillcolor="#e8e8ff"];
     "navigator" [label="Navigator", fillcolor="#e8e8ff"];
     "orchestrator" [label="Orchestrator", fillcolor="#e8e8ff"];
     "output-compiler" [label="Output Compiler", fillcolor="#e8ffe8"];
     "primary-producer" [label="Primary Producer", fillcolor="#e8ffe8"];
     "quality-auditor" [label="Quality Auditor", fillcolor="#e8ffe8"];
+    "repo-liaison" [label="Repo Liaison", fillcolor="#e8e8ff"];
     "security" [label="Security", fillcolor="#e8e8ff"];
     "style-guardian" [label="Style Guardian", fillcolor="#e8ffe8"];
     "team-builder" [label="Team Builder", fillcolor="#e8e8ff"];
     "technical-validator" [label="Technical Validator", fillcolor="#e8ffe8"];
+    "tool-doc-researcher" [label="Tool Documentation Researcher", fillcolor="#ffe8e8"];
     "visual-designer" [label="Visual Designer", fillcolor="#e8ffe8"];
+    "work-summarizer" [label="Work Summarizer", fillcolor="#e8ffe8"];
     "orchestrator" -> "primary-producer" [style=solid, label="Produce / Revise Deliverable"];
     "orchestrator" -> "quality-auditor" [style=solid, label="Audit Quality"];
     "orchestrator" -> "cohesion-repairer" [style=solid, label="Repair Cohesion"];
@@ -376,6 +418,9 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
     "orchestrator" -> "cleanup" [style=solid, label="Clean Up Artifacts"];
     "orchestrator" -> "agent-updater" [style=solid, label="Update Agent Docs"];
     "orchestrator" -> "agent-refactor" [style=solid, label="Refactor Agent Docs"];
+    "orchestrator" -> "repo-liaison" [style=solid, label="Cross-Repository Liaison"];
+    "orchestrator" -> "work-summarizer" [style=solid, label="Summarize Work Period"];
+    "orchestrator" -> "git-operations" [style=solid, label="Git Operations"];
     "navigator" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
     "security" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
     "code-hygiene" -> "security" [style=solid, label="Security Clearance (for Deletions)"];
@@ -393,10 +438,22 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
     "conflict-resolution" -> "agent-updater" [style=solid, label="Update Agent Docs"];
     "cleanup" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
     "agent-updater" -> "agent-refactor" [style=solid, label="Refactor Agent Docs"];
+    "agent-updater" -> "adversarial" [style=solid, label="Run Adversarial Review"];
     "agent-updater" -> "conflict-auditor" [style=solid, label="Run Conflict Audit"];
     "agent-updater" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
     "agent-refactor" -> "conflict-auditor" [style=solid, label="Run Conflict Audit"];
     "agent-refactor" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
+    "repo-liaison" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
+    "repo-liaison" -> "security" [style=solid, label="Security Review for Cross-Repo Write"];
+    "repo-liaison" -> "conflict-auditor" [style=solid, label="Conflict Audit After Cross-Repo Change"];
+    "git-operations" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
+    "git-operations" -> "security" [style=solid, label="Security Review"];
+    "git-operations" -> "conflict-resolution" [style=solid, label="Conflict Resolution"];
+    "git-operations" -> "agent-updater" [style=solid, label="Update Agent Docs"];
+    "work-summarizer" -> "technical-validator" [style=solid, label="Verify Summary Accuracy"];
+    "work-summarizer" -> "adversarial" [style=solid, label="Run Adversarial Audit"];
+    "work-summarizer" -> "conflict-auditor" [style=solid, label="Run Conflict Audit"];
+    "work-summarizer" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
     "primary-producer" -> "style-guardian" [style=solid, label="Style Audit"];
     "primary-producer" -> "cohesion-repairer" [style=solid, label="Cohesion Audit"];
     "primary-producer" -> "quality-auditor" [style=solid, label="Quality Audit"];
@@ -418,6 +475,8 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
     "output-compiler" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
     "visual-designer" -> "quality-auditor" [style=solid, label="Quality Check Figure"];
     "visual-designer" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
+    "tool-doc-researcher" -> "agent-updater" [style=solid, label="Update Brief and Generated Docs"];
+    "tool-doc-researcher" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
     "ch1-purposive-action-expert" -> "adversarial" [style=solid, label="Vet Brief Before Drafting"];
     "ch1-purposive-action-expert" -> "primary-producer" [style=solid, label="Send to Primary Producer"];
     "ch1-purposive-action-expert" -> "orchestrator" [style=solid, label="Return to Orchestrator"];
@@ -655,9 +714,7 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
       "user_invokable": false,
       "tools": [
         "read",
-        "edit",
-        "search",
-        "execute"
+        "search"
       ]
     },
     "conflict-resolution": {
@@ -672,7 +729,7 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
     },
     "content-enricher": {
       "display_name": "Content Enricher",
-      "agent_type": "unknown",
+      "agent_type": "domain",
       "user_invokable": true,
       "tools": [
         "read",
@@ -688,6 +745,16 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
         "read",
         "search",
         "agent"
+      ]
+    },
+    "git-operations": {
+      "display_name": "Git Operations",
+      "agent_type": "governance",
+      "user_invokable": true,
+      "tools": [
+        "read",
+        "execute",
+        "search"
       ]
     },
     "navigator": {
@@ -742,6 +809,18 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
         "search"
       ]
     },
+    "repo-liaison": {
+      "display_name": "Repo Liaison",
+      "agent_type": "governance",
+      "user_invokable": false,
+      "tools": [
+        "read",
+        "edit",
+        "search",
+        "execute",
+        "agent"
+      ]
+    },
     "security": {
       "display_name": "Security",
       "agent_type": "governance",
@@ -782,6 +861,15 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
         "search"
       ]
     },
+    "tool-doc-researcher": {
+      "display_name": "Tool Documentation Researcher",
+      "agent_type": "tool_specialist",
+      "user_invokable": false,
+      "tools": [
+        "read",
+        "search"
+      ]
+    },
     "visual-designer": {
       "display_name": "Visual Designer",
       "agent_type": "domain",
@@ -791,6 +879,18 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
         "edit",
         "execute",
         "search"
+      ]
+    },
+    "work-summarizer": {
+      "display_name": "Work Summarizer",
+      "agent_type": "domain",
+      "user_invokable": true,
+      "tools": [
+        "read",
+        "search",
+        "execute",
+        "edit",
+        "agent"
       ]
     }
   },
@@ -890,6 +990,24 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
       "target": "agent-refactor",
       "edge_type": "handoff",
       "label": "Refactor Agent Docs"
+    },
+    {
+      "source": "orchestrator",
+      "target": "repo-liaison",
+      "edge_type": "handoff",
+      "label": "Cross-Repository Liaison"
+    },
+    {
+      "source": "orchestrator",
+      "target": "work-summarizer",
+      "edge_type": "handoff",
+      "label": "Summarize Work Period"
+    },
+    {
+      "source": "orchestrator",
+      "target": "git-operations",
+      "edge_type": "handoff",
+      "label": "Git Operations"
     },
     {
       "source": "navigator",
@@ -1013,6 +1131,12 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
     },
     {
       "source": "agent-updater",
+      "target": "adversarial",
+      "edge_type": "handoff",
+      "label": "Run Adversarial Review"
+    },
+    {
+      "source": "agent-updater",
       "target": "conflict-auditor",
       "edge_type": "handoff",
       "label": "Run Conflict Audit"
@@ -1022,6 +1146,12 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
       "target": "orchestrator",
       "edge_type": "handoff",
       "label": "Return to Orchestrator"
+    },
+    {
+      "source": "agent-updater",
+      "target": "adversarial",
+      "edge_type": "agents-list",
+      "label": null
     },
     {
       "source": "agent-updater",
@@ -1049,6 +1179,90 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
     },
     {
       "source": "agent-refactor",
+      "target": "conflict-auditor",
+      "edge_type": "agents-list",
+      "label": null
+    },
+    {
+      "source": "repo-liaison",
+      "target": "orchestrator",
+      "edge_type": "handoff",
+      "label": "Return to Orchestrator"
+    },
+    {
+      "source": "repo-liaison",
+      "target": "security",
+      "edge_type": "handoff",
+      "label": "Security Review for Cross-Repo Write"
+    },
+    {
+      "source": "repo-liaison",
+      "target": "conflict-auditor",
+      "edge_type": "handoff",
+      "label": "Conflict Audit After Cross-Repo Change"
+    },
+    {
+      "source": "git-operations",
+      "target": "orchestrator",
+      "edge_type": "handoff",
+      "label": "Return to Orchestrator"
+    },
+    {
+      "source": "git-operations",
+      "target": "security",
+      "edge_type": "handoff",
+      "label": "Security Review"
+    },
+    {
+      "source": "git-operations",
+      "target": "conflict-resolution",
+      "edge_type": "handoff",
+      "label": "Conflict Resolution"
+    },
+    {
+      "source": "git-operations",
+      "target": "agent-updater",
+      "edge_type": "handoff",
+      "label": "Update Agent Docs"
+    },
+    {
+      "source": "work-summarizer",
+      "target": "technical-validator",
+      "edge_type": "handoff",
+      "label": "Verify Summary Accuracy"
+    },
+    {
+      "source": "work-summarizer",
+      "target": "adversarial",
+      "edge_type": "handoff",
+      "label": "Run Adversarial Audit"
+    },
+    {
+      "source": "work-summarizer",
+      "target": "conflict-auditor",
+      "edge_type": "handoff",
+      "label": "Run Conflict Audit"
+    },
+    {
+      "source": "work-summarizer",
+      "target": "orchestrator",
+      "edge_type": "handoff",
+      "label": "Return to Orchestrator"
+    },
+    {
+      "source": "work-summarizer",
+      "target": "technical-validator",
+      "edge_type": "agents-list",
+      "label": null
+    },
+    {
+      "source": "work-summarizer",
+      "target": "adversarial",
+      "edge_type": "agents-list",
+      "label": null
+    },
+    {
+      "source": "work-summarizer",
       "target": "conflict-auditor",
       "edge_type": "agents-list",
       "label": null
@@ -1262,6 +1476,18 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
       "target": "quality-auditor",
       "edge_type": "agents-list",
       "label": null
+    },
+    {
+      "source": "tool-doc-researcher",
+      "target": "agent-updater",
+      "edge_type": "handoff",
+      "label": "Update Brief and Generated Docs"
+    },
+    {
+      "source": "tool-doc-researcher",
+      "target": "orchestrator",
+      "edge_type": "handoff",
+      "label": "Return to Orchestrator"
     },
     {
       "source": "ch1-purposive-action-expert",
@@ -1688,14 +1914,17 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
       "cohesion-repairer",
       "conflict-auditor",
       "conflict-resolution",
+      "git-operations",
       "navigator",
       "output-compiler",
       "primary-producer",
       "quality-auditor",
+      "repo-liaison",
       "security",
       "style-guardian",
       "technical-validator",
-      "visual-designer"
+      "visual-designer",
+      "work-summarizer"
     ],
     "navigator": [
       "orchestrator"
@@ -1728,6 +1957,7 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
       "orchestrator"
     ],
     "agent-updater": [
+      "adversarial",
       "agent-refactor",
       "conflict-auditor",
       "orchestrator"
@@ -1735,6 +1965,23 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
     "agent-refactor": [
       "conflict-auditor",
       "orchestrator"
+    ],
+    "repo-liaison": [
+      "conflict-auditor",
+      "orchestrator",
+      "security"
+    ],
+    "git-operations": [
+      "agent-updater",
+      "conflict-resolution",
+      "orchestrator",
+      "security"
+    ],
+    "work-summarizer": [
+      "adversarial",
+      "conflict-auditor",
+      "orchestrator",
+      "technical-validator"
     ],
     "primary-producer": [
       "cohesion-repairer",
@@ -1770,6 +2017,10 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
     "visual-designer": [
       "orchestrator",
       "quality-auditor"
+    ],
+    "tool-doc-researcher": [
+      "agent-updater",
+      "orchestrator"
     ],
     "ch1-purposive-action-expert": [
       "adversarial",
@@ -1845,3 +2096,4 @@ digraph "MacroeconomicsGrowthMonetaryEquilibrium Agent Team" {
   }
 }
 ```
+<!-- AGENTTEAMS:END content -->

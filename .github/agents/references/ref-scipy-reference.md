@@ -1,28 +1,43 @@
-# Scipy Reference — MacroeconomicsGrowthMonetaryEquilibrium
+<!-- AGENTTEAMS:BEGIN content v=1 -->
+# scipy Reference — MacroeconomicsGrowthMonetaryEquilibrium
 
-> Quick-reference for **Scipy** in MacroeconomicsGrowthMonetaryEquilibrium.
-> This is a lightweight reference file, not a full agent.
+> Quick-reference for **scipy ** (library) in MacroeconomicsGrowthMonetaryEquilibrium.
+> This is a lightweight reference file, not a full agent. For tool-specific operations, consult the relevant specialist agent or escalate to `@orchestrator`.
 
 ---
 
+## Version
+
+`scipy` ``
+
+## Configuration
+
+**Config files:** `N/A`
+
 ## Official Documentation
 
-https://docs.scipy.org/doc/scipy/reference/
+{MANUAL:TOOL_DOCS_URL}
 
 ## Key API Surface
 
-scipy.stats — probability distributions (norm, t, f, chi2, binom), hypothesis tests (ttest_ind, ttest_rel, mannwhitneyu, chi2_contingency, f_oneway), descriptive stats (describe, skew, kurtosis); scipy.optimize — minimize, curve_fit, root_scalar; scipy.linalg — solve, inv, det, eig
+{MANUAL:TOOL_API_SURFACE}
+
+<!-- Document the primary classes, functions, or APIs that project code depends on from scipy. -->
 
 ## Common Patterns & Pitfalls
 
-scipy.stats.norm.cdf/ppf for z-score and critical-value lookups. ttest_ind(a, b, equal_var=False) (Welch t-test) unless variances are verified equal. f_oneway(*groups) for one-way ANOVA. Pitfall: most distribution objects use scale (not variance) as the second parameter.
+{MANUAL:TOOL_COMMON_PATTERNS}
+
+<!-- Document common usage patterns, best practices, and known issues for scipy . -->
 
 ## Key Conventions
 
-- Follow project style rules when using Scipy
+- Follow project style rules when using scipy
 - Refer to authority sources for API contract accuracy
+- Validate changes against existing tests before committing
 
 ## Related Agents
 
-- `@technical-validator` — verify technical accuracy of Scipy usage
-- `@primary-producer` — implements code that depends on Scipy
+- `@technical-validator` — verify technical accuracy of scipy usage
+- `@primary-producer` — implements code that depends on scipy
+<!-- AGENTTEAMS:END content -->

@@ -1,6 +1,7 @@
+<!-- AGENTTEAMS:BEGIN content v=1 -->
 # matplotlib Reference — MacroeconomicsGrowthMonetaryEquilibrium
 
-> Quick-reference for **matplotlib ** (other) in MacroeconomicsGrowthMonetaryEquilibrium.
+> Quick-reference for **matplotlib ** (library) in MacroeconomicsGrowthMonetaryEquilibrium.
 > This is a lightweight reference file, not a full agent. For tool-specific operations, consult the relevant specialist agent or escalate to `@orchestrator`.
 
 ---
@@ -39,3 +40,4 @@ Create figures and axes explicitly, label every chart, and save deterministic ou
 
 - `@technical-validator` — verify technical accuracy of matplotlib usage
 - `@primary-producer` — implements code that depends on matplotlib
+<!-- AGENTTEAMS:END content -->

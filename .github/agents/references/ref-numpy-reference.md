@@ -1,6 +1,7 @@
+<!-- AGENTTEAMS:BEGIN content v=1 -->
 # numpy Reference — MacroeconomicsGrowthMonetaryEquilibrium
 
-> Quick-reference for **numpy ** (other) in MacroeconomicsGrowthMonetaryEquilibrium.
+> Quick-reference for **numpy ** (library) in MacroeconomicsGrowthMonetaryEquilibrium.
 > This is a lightweight reference file, not a full agent. For tool-specific operations, consult the relevant specialist agent or escalate to `@orchestrator`.
 
 ---
@@ -39,3 +40,4 @@ Use array operations and broadcasting instead of Python loops where possible, an
 
 - `@technical-validator` — verify technical accuracy of numpy usage
 - `@primary-producer` — implements code that depends on numpy
+<!-- AGENTTEAMS:END content -->
