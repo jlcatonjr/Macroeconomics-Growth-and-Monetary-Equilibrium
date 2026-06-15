@@ -1,8 +1,8 @@
 <!-- AGENTTEAMS:BEGIN content v=1 -->
 # numpy Reference — MacroeconomicsGrowthMonetaryEquilibrium
 
-> Quick-reference for **numpy ** (library) in MacroeconomicsGrowthMonetaryEquilibrium.
-> This is a lightweight reference file, not a full agent. For tool-specific operations, consult the relevant specialist agent or escalate to `@orchestrator`.
+> Quick-reference for **numpy ** (other) in MacroeconomicsGrowthMonetaryEquilibrium.
+> This is a lightweight reference file, not an agent. For operational procedures, consult the tool's reference/skill document, or escalate to `@orchestrator`.
 
 ---
 

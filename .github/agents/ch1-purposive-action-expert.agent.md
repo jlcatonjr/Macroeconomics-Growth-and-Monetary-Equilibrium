@@ -110,7 +110,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-{MANUAL:COMPONENT_SPEC}
+Foundations of economic reasoning: purposive action, scarcity, and subjective value theory. Introduces the methodological individualism underlying macroeconomic analysis.
 
 ## Sections
 

@@ -111,7 +111,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-{MANUAL:COMPONENT_SPEC}
+Entrepreneurship as the driving force of markets. Covers supply and demand dynamics, price signals, and the role of profit and loss in coordinating economic activity.
 
 ## Sections
 

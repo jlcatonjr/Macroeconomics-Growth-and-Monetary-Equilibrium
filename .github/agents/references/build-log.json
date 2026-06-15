@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
   "framework": "copilot-vscode",
-  "project_type": "writing",
+  "project_type": "mixed",
   "archetypes": [
     "primary-producer",
     "quality-auditor",
@@ -10,8 +10,7 @@
     "style-guardian",
     "technical-validator",
     "output-compiler",
-    "visual-designer",
-    "tool-doc-researcher"
+    "visual-designer"
   ],
   "components": [
     "ch1-purposive-action",
@@ -29,13 +28,11 @@
     "data-homework"
   ],
   "files_written": [
-    ".github/agents/references/unix-philosophy-mapping.reference.md",
-    ".github/agents/references/ai-bad-habits-watch.reference.md",
-    ".github/agents/references/framework-watch.reference.md"
+    ".github/agents/references/work-summary-backfill.reference.md"
   ],
-  "manual_required": 67,
+  "manual_required": 42,
   "template_hashes": {
-    "universal/orchestrator.template.md": "fc0d1c26a3ecd7c9",
+    "universal/orchestrator.template.md": "b2da8904757b0cb1",
     "universal/navigator.template.md": "a0d0ac008e49068f",
     "universal/security.template.md": "22e1e8b5bd521eaf",
     "universal/code-hygiene.template.md": "4d857b0585c8e31f",
@@ -43,11 +40,11 @@
     "universal/conflict-auditor.template.md": "2ab99de3a03b6850",
     "universal/conflict-resolution.template.md": "426ec99b00bbdfb4",
     "universal/cleanup.template.md": "bf795b64968349f6",
-    "universal/agent-updater.template.md": "8c51be1bff0c05ee",
+    "universal/agent-updater.template.md": "c9636a2efa322a6d",
     "universal/agent-refactor.template.md": "a9717cc56c35f4ac",
     "universal/repo-liaison.template.md": "f3ab2dffbbbb29ff",
     "universal/git-operations.template.md": "df8b2433d8b7e471",
-    "domain/work-summarizer.template.md": "7f3d52d4dfd79acf",
+    "domain/work-summarizer.template.md": "fb11f5101db630c1",
     "domain/primary-producer.template.md": "c128e8f2fb52885f",
     "domain/quality-auditor.template.md": "5103798809fb292c",
     "domain/cohesion-repairer.template.md": "a2c3b4844110b04a",
@@ -55,8 +52,7 @@
     "domain/technical-validator.template.md": "9a6d62d53ac26b2c",
     "domain/output-compiler.template.md": "fd90f3a13765386a",
     "domain/visual-designer.template.md": "cae39ee7b6d167f4",
-    "domain/tool-doc-researcher.template.md": "e8d631f82cbb055e",
-    "domain/tool-reference.template.md": "cf44c4bf906ba8b8",
+    "domain/tool-reference.template.md": "5ce5638b7094cc86",
     "domain/code-hygiene-rules-reference.template.md": "6f1e6ae79203a025",
     "domain/unix-philosophy-mapping-reference.template.md": "6bba3ba218962376",
     "universal/security-vulnerability-watch.reference.template.md": "1680e6cfd2a72275",
@@ -67,9 +63,10 @@
     "universal/github-workflows-merge.reference.template.md": "9a85c14fca008010",
     "universal/work-summary-spec.reference.template.md": "d29ca7e680ad715d",
     "universal/work-summary-tooling.reference.template.md": "62e643b1a9711af6",
+    "universal/work-summary-backfill.reference.template.md": "5730bac043dc2874",
     "workstream-expert.template.md": "13161f3a3cdf1789",
     "copilot-instructions.template.md": "5d87300872d94df8",
-    "builder/team-builder-copilot-vscode.template.md": "6a0e998c5ce278f2",
+    "builder/team-builder-copilot-vscode.template.md": "07815e88da7ae6e1",
     "domain/content-enricher.template.md": "d7e6e4a50dcef1c7"
   },
   "output_files_map": [
@@ -194,64 +191,25 @@
       "component_slug": null
     },
     {
-      "path": "tool-doc-researcher.agent.md",
-      "template": "domain/tool-doc-researcher.template.md",
-      "type": "agent",
-      "component_slug": null
-    },
-    {
-      "path": "references/ref-ipywidgets-reference.md",
-      "template": "domain/tool-reference.template.md",
-      "type": "reference",
-      "component_slug": null
-    },
-    {
-      "path": "references/ref-matplotlib-reference.md",
-      "template": "domain/tool-reference.template.md",
-      "type": "reference",
-      "component_slug": null
-    },
-    {
-      "path": "references/ref-networkx-reference.md",
-      "template": "domain/tool-reference.template.md",
-      "type": "reference",
-      "component_slug": null
-    },
-    {
       "path": "references/ref-numpy-reference.md",
       "template": "domain/tool-reference.template.md",
       "type": "reference",
-      "component_slug": null
+      "component_slug": null,
+      "tool_slug": "ref-numpy"
     },
     {
       "path": "references/ref-pandas-reference.md",
       "template": "domain/tool-reference.template.md",
       "type": "reference",
-      "component_slug": null
+      "component_slug": null,
+      "tool_slug": "ref-pandas"
     },
     {
-      "path": "references/ref-pandas-datareader-reference.md",
+      "path": "references/ref-matplotlib-reference.md",
       "template": "domain/tool-reference.template.md",
       "type": "reference",
-      "component_slug": null
-    },
-    {
-      "path": "references/ref-plotly-reference.md",
-      "template": "domain/tool-reference.template.md",
-      "type": "reference",
-      "component_slug": null
-    },
-    {
-      "path": "references/ref-scipy-reference.md",
-      "template": "domain/tool-reference.template.md",
-      "type": "reference",
-      "component_slug": null
-    },
-    {
-      "path": "references/ref-statsmodels-reference.md",
-      "template": "domain/tool-reference.template.md",
-      "type": "reference",
-      "component_slug": null
+      "component_slug": null,
+      "tool_slug": "ref-matplotlib"
     },
     {
       "path": "references/code-hygiene-rules.reference.md",
@@ -310,6 +268,12 @@
     {
       "path": "references/work-summary-tooling.reference.md",
       "template": "universal/work-summary-tooling.reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "references/work-summary-backfill.reference.md",
+      "template": "universal/work-summary-backfill.reference.template.md",
       "type": "reference",
       "component_slug": null
     },
@@ -443,7 +407,6 @@
     "technical-validator",
     "output-compiler",
     "visual-designer",
-    "tool-doc-researcher",
     "ch1-purposive-action-expert",
     "ch2-entrepreneurship-supply-demand-expert",
     "ch3-elements-macroeconomics-expert",
@@ -471,62 +434,32 @@
     "repo-liaison",
     "git-operations"
   ],
-  "manifest_fingerprint": "f525201949f40810",
+  "manifest_fingerprint": "fe0cc74f1c89f5ad",
   "fingerprint_algo_version": 1,
   "file_hashes": {
-    "references/unix-philosophy-mapping.reference.md": "da9eb39d0ca5bd12",
-    "references/ai-bad-habits-watch.reference.md": "da4d5b49bdc1aa33",
-    "references/framework-watch.reference.md": "ac765fb7d5eecf14",
-    "orchestrator.agent.md": "5fae4505f345c81d",
-    "navigator.agent.md": "a9f6c45829c3e7ff",
-    "security.agent.md": "d3895bcf9c6e64d9",
-    "code-hygiene.agent.md": "9d62cb99da0afa7f",
-    "adversarial.agent.md": "00eeea11436521ca",
-    "conflict-auditor.agent.md": "50b3b1fec62b6718",
-    "conflict-resolution.agent.md": "d4e18a88d85459a8",
-    "cleanup.agent.md": "387520c0bc201125",
-    "agent-updater.agent.md": "b64292d0bf4707a2",
-    "agent-refactor.agent.md": "89a0df774173c134",
-    "repo-liaison.agent.md": "cbbb9f1f90976bf5",
-    "git-operations.agent.md": "571e22a9216567c5",
-    "work-summarizer.agent.md": "5010fe799790e629",
-    "primary-producer.agent.md": "593a975f8ed9bda1",
-    "quality-auditor.agent.md": "7bd77a4c3d2e3b90",
-    "cohesion-repairer.agent.md": "775e12f9d1cebdfb",
-    "style-guardian.agent.md": "1939650eb84b56cd",
-    "technical-validator.agent.md": "d315027574f5bb1b",
-    "output-compiler.agent.md": "3b21d894bb9ae619",
-    "visual-designer.agent.md": "b51ceda289b8b7ef",
-    "tool-doc-researcher.agent.md": "45a276c11ac97a6c",
-    "references/ref-ipywidgets-reference.md": "bfcb085fcbac8fa7",
-    "references/ref-matplotlib-reference.md": "70b37f644a9f769d",
-    "references/ref-networkx-reference.md": "2888ba757e519d86",
-    "references/ref-numpy-reference.md": "acb900e76dcfa2f5",
-    "references/ref-pandas-reference.md": "f2bd790b0a73159d",
-    "references/ref-pandas-datareader-reference.md": "fc0913c909a5bb1c",
-    "references/ref-plotly-reference.md": "c6bedf80490aecd2",
-    "references/ref-scipy-reference.md": "63cf90eb538112e1",
-    "references/ref-statsmodels-reference.md": "d21ce5040a118e58",
-    "references/code-hygiene-rules.reference.md": "0983398a09072ea2",
-    "references/security-vulnerability-watch.reference.md": "0f414fe15bfd938c",
-    "references/security-vulnerability-watch.json": "32b21ebb7a6afc10",
-    "ch1-purposive-action-expert.agent.md": "65ff9ed225f8d1ff",
-    "ch2-entrepreneurship-supply-demand-expert.agent.md": "6d20837e939df2fb",
-    "ch3-elements-macroeconomics-expert.agent.md": "4661d3d4fcc79d14",
-    "ch4-aggregate-supply-growth-expert.agent.md": "470f16e5afe15fb3",
-    "ch5-money-expert.agent.md": "e7198b8411033710",
-    "ch6-aggregate-demand-expert.agent.md": "a9d4fd4595cffe9c",
-    "ch7-monetary-dynamics-expert.agent.md": "fee56b08ce7e68a2",
-    "ch8-money-credit-loanable-funds-expert.agent.md": "f004cdf3bccc186b",
-    "ch9-is-lm-expert.agent.md": "fa3ad508aa951b7e",
-    "ch10-labor-expert.agent.md": "6acb6d7ce40659e6",
-    "ch11-central-banking-expert.agent.md": "119c350d8a82d841",
-    "advanced-macroeconomics-expert.agent.md": "44a8c62ecc09797c",
-    "data-homework-expert.agent.md": "5dbf810ec795309e",
-    "../copilot-instructions.md": "158d08e244d632c9",
-    "team-builder.agent.md": "c9015d31f9601494",
-    "SETUP-REQUIRED.md": "8630bdcaaf5a13f1",
-    "content-enricher.agent.md": "bb60a2a2c8f448c8",
-    "references/pipeline-graph.md": "c53eeadea18704a6"
+    "references/work-summary-backfill.reference.md": "c6fd5a91670732fc",
+    "orchestrator.agent.md": "1619e727a472ca3b",
+    "security.agent.md": "bb27c0bfa0959b42",
+    "work-summarizer.agent.md": "a0c9494f78df949d",
+    "references/ref-numpy-reference.md": "c3ac5ebe5c987622",
+    "references/ref-pandas-reference.md": "a08e2608ea027e28",
+    "references/ref-matplotlib-reference.md": "8ad8455f29109d33",
+    "references/security-vulnerability-watch.reference.md": "1a7dbc52ef6f9df9",
+    "references/security-vulnerability-watch.json": "ab6f41ba6d8cabb1",
+    "references/framework-watch.reference.md": "652837afa90abeb3",
+    "ch1-purposive-action-expert.agent.md": "7cd9fffc074a959e",
+    "ch2-entrepreneurship-supply-demand-expert.agent.md": "90a3f734eebf6292",
+    "ch3-elements-macroeconomics-expert.agent.md": "2ddff2b9e83381dd",
+    "ch4-aggregate-supply-growth-expert.agent.md": "7ce0f9b2761b5275",
+    "ch5-money-expert.agent.md": "8eab972f5b74585d",
+    "ch6-aggregate-demand-expert.agent.md": "81c6b1e3a59416f1",
+    "ch7-monetary-dynamics-expert.agent.md": "4b9e5feed2b33449",
+    "ch8-money-credit-loanable-funds-expert.agent.md": "a8b2cd99097fbb08",
+    "ch9-is-lm-expert.agent.md": "2f155683604768bf",
+    "ch10-labor-expert.agent.md": "c5c7996d7c4710d6",
+    "ch11-central-banking-expert.agent.md": "f180119848cd26e9",
+    "advanced-macroeconomics-expert.agent.md": "e32798758a242f0d",
+    "data-homework-expert.agent.md": "5390e9fb97d5391b",
+    "team-builder.agent.md": "2c0000df132d0101"
   }
 }
