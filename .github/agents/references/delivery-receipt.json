@@ -1,10 +1,10 @@
 {
   "artifact_type": "delivery-receipt",
   "receipt_schema_version": "1.0",
-  "delivered_at": "2026-06-15T13:32:45Z",
+  "delivered_at": "2026-06-23T17:10:15Z",
   "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
   "framework": "copilot-vscode",
-  "manifest_fingerprint": "fe0cc74f1c89f5ad",
+  "manifest_fingerprint": "130077b10958435b",
   "fingerprint_algo_version": 1,
   "output_dir": "/Users/jamescaton/githubrepositories/Macroeconomics-Growth-and-Monetary-Equilibrium/.github/agents",
   "agentteams_version": "1.0.0rc6"
