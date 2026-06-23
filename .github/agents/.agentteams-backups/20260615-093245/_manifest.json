@@ -1,0 +1,44 @@
+{
+  "artifact_type": "backup-manifest",
+  "manifest_schema_version": "1.0",
+  "agentteams_version": "1.0.0rc6",
+  "framework": "copilot-vscode",
+  "description_path": "/Users/jamescaton/githubrepositories/Macroeconomics-Growth-and-Monetary-Equilibrium/brief.json",
+  "output_root": "/Users/jamescaton/githubrepositories/Macroeconomics-Growth-and-Monetary-Equilibrium/.github/agents",
+  "reason": "pre-update",
+  "timestamp_utc": "2026-06-15T13:32:45Z",
+  "total_files": 5,
+  "total_bytes": 103028,
+  "files": [
+    {
+      "source_path": "references/security-vulnerability-watch.reference.md",
+      "backup_path": "references/security-vulnerability-watch.reference.md",
+      "source_size_bytes": 10829,
+      "source_sha256": "1a7dbc52ef6f9df95c5fde5ca3aab962b92ae565f8379ee8f36bd8fcd215590c"
+    },
+    {
+      "source_path": "references/security-vulnerability-watch.json",
+      "backup_path": "references/security-vulnerability-watch.json",
+      "source_size_bytes": 17136,
+      "source_sha256": "ab6f41ba6d8cabb1d7f5324e28fd51283d2a3fa40df34411ca3a2164a869bee7"
+    },
+    {
+      "source_path": "references/pipeline-graph.md",
+      "backup_path": "references/pipeline-graph.md",
+      "source_size_bytes": 74980,
+      "source_sha256": "c53eeadea18704a6a42ce8242e92d5859d11d2207b6b11510a6fc68f66871e76"
+    },
+    {
+      "source_path": "references/adjacent-repos-changelog.csv",
+      "backup_path": "references/adjacent-repos-changelog.csv",
+      "source_size_bytes": 45,
+      "source_sha256": "f2b9cecd8d849cc4bb3f9d9341b5656ce4b77ce5ab902deb466e60d84d7788c0"
+    },
+    {
+      "source_path": "references/adjacent-repos-coordination-log.csv",
+      "backup_path": "references/adjacent-repos-coordination-log.csv",
+      "source_size_bytes": 38,
+      "source_sha256": "8d21cc87349960106a613d1848d877c4c8e25160da6460004d8d97e968cf7f85"
+    }
+  ]
+}

@@ -27,9 +27,7 @@
     "advanced-macroeconomics",
     "data-homework"
   ],
-  "files_written": [
-    ".github/agents/references/work-summary-backfill.reference.md"
-  ],
+  "files_written": [],
   "manual_required": 42,
   "template_hashes": {
     "universal/orchestrator.template.md": "b2da8904757b0cb1",
@@ -437,29 +435,6 @@
   "manifest_fingerprint": "fe0cc74f1c89f5ad",
   "fingerprint_algo_version": 1,
   "file_hashes": {
-    "references/work-summary-backfill.reference.md": "c6fd5a91670732fc",
-    "orchestrator.agent.md": "1619e727a472ca3b",
-    "security.agent.md": "bb27c0bfa0959b42",
-    "work-summarizer.agent.md": "a0c9494f78df949d",
-    "references/ref-numpy-reference.md": "c3ac5ebe5c987622",
-    "references/ref-pandas-reference.md": "a08e2608ea027e28",
-    "references/ref-matplotlib-reference.md": "8ad8455f29109d33",
-    "references/security-vulnerability-watch.reference.md": "1a7dbc52ef6f9df9",
-    "references/security-vulnerability-watch.json": "ab6f41ba6d8cabb1",
-    "references/framework-watch.reference.md": "652837afa90abeb3",
-    "ch1-purposive-action-expert.agent.md": "7cd9fffc074a959e",
-    "ch2-entrepreneurship-supply-demand-expert.agent.md": "90a3f734eebf6292",
-    "ch3-elements-macroeconomics-expert.agent.md": "2ddff2b9e83381dd",
-    "ch4-aggregate-supply-growth-expert.agent.md": "7ce0f9b2761b5275",
-    "ch5-money-expert.agent.md": "8eab972f5b74585d",
-    "ch6-aggregate-demand-expert.agent.md": "81c6b1e3a59416f1",
-    "ch7-monetary-dynamics-expert.agent.md": "4b9e5feed2b33449",
-    "ch8-money-credit-loanable-funds-expert.agent.md": "a8b2cd99097fbb08",
-    "ch9-is-lm-expert.agent.md": "2f155683604768bf",
-    "ch10-labor-expert.agent.md": "c5c7996d7c4710d6",
-    "ch11-central-banking-expert.agent.md": "f180119848cd26e9",
-    "advanced-macroeconomics-expert.agent.md": "e32798758a242f0d",
-    "data-homework-expert.agent.md": "5390e9fb97d5391b",
-    "team-builder.agent.md": "2c0000df132d0101"
+    "references/security-vulnerability-watch.json": "cca1eeaa4d1e9d20"
   }
 }
