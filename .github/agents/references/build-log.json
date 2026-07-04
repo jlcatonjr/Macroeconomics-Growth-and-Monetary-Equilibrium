@@ -28,10 +28,7 @@
     "advanced-macroeconomics",
     "data-homework"
   ],
-  "files_written": [
-    ".github/agents/references/pipeline-graph.svg",
-    ".github/agents/references/pipeline-handoffs.svg"
-  ],
+  "files_written": [],
   "manual_required": 67,
   "template_hashes": {
     "universal/orchestrator.template.md": "ee34760e1f596c17",
@@ -505,16 +502,15 @@
     "repo-liaison",
     "git-operations"
   ],
-  "manifest_fingerprint": "b784197a2b8c40aa",
+  "manifest_fingerprint": "b3286325a066c03d",
   "fingerprint_algo_version": 1,
   "file_hashes": {
-    "references/pipeline-graph.svg": "241c41cc1643097a",
-    "references/pipeline-handoffs.svg": "3ac141f5de816ae0",
-    "security.agent.md": "e95ac8586d55e726",
-    "output-compiler.agent.md": "a20c6c2c46176ce8",
-    "visual-designer.agent.md": "1221665a50a2f343",
-    "references/security-vulnerability-watch.reference.md": "1b2208be5298c31b",
-    "references/security-vulnerability-watch.json": "37176361e73f5887",
+    "security.agent.md": "f2fe52c6ced2b08c",
+    "references/security-vulnerability-watch.reference.md": "5a006734d574a5ca",
+    "references/security-vulnerability-watch.json": "de0307ab72da32f8",
+    "references/pipeline-graph.md": "1f964dae0b79a103",
+    "references/pipeline-graph.svg": "b4fa070aba3c4f92",
+    "references/pipeline-handoffs.svg": "3ad68d9876328fb0",
     "orchestrator.agent.md": "6c61d15bc86d2a33",
     "navigator.agent.md": "a9f6c45829c3e7ff",
     "code-hygiene.agent.md": "9d62cb99da0afa7f",
@@ -526,6 +522,8 @@
     "quality-auditor.agent.md": "3ae2cff9b7273a6f",
     "style-guardian.agent.md": "1939650eb84b56cd",
     "technical-validator.agent.md": "2be329b1886066d3",
+    "output-compiler.agent.md": "a20c6c2c46176ce8",
+    "visual-designer.agent.md": "1221665a50a2f343",
     "tool-doc-researcher.agent.md": "ef0e0abc4e98d5dd",
     "references/framework-watch.reference.md": "d59e925ed991ba6a",
     "ch1-purposive-action-expert.agent.md": "65ff9ed225f8d1ff",
@@ -543,7 +541,6 @@
     "data-homework-expert.agent.md": "5dbf810ec795309e",
     "../copilot-instructions.md": "158d08e244d632c9",
     "team-builder.agent.md": "2c0000df132d0101",
-    "references/pipeline-graph.md": "c53eeadea18704a6",
     "adversarial.agent.md": "5001b8dff8293f27",
     "agent-refactor.agent.md": "89a0df774173c134",
     "repo-liaison.agent.md": "cbbb9f1f90976bf5",
