@@ -1,7 +1,7 @@
 <!-- AGENTTEAMS:BEGIN content v=1 -->
 # pandas Reference — MacroeconomicsGrowthMonetaryEquilibrium
 
-> Quick-reference for **pandas ** (other) in MacroeconomicsGrowthMonetaryEquilibrium.
+> Quick-reference for **pandas ** (library) in MacroeconomicsGrowthMonetaryEquilibrium.
 > This is a lightweight reference file, not an agent. For operational procedures, consult the tool's reference/skill document, or escalate to `@orchestrator`.
 
 ---

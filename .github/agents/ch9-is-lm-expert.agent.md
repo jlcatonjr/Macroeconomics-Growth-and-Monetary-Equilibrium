@@ -111,7 +111,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-The IS-LM model: goods market equilibrium, money market equilibrium, and their intersection. Interactive visualizations of fiscal and monetary policy shifts.
+{MANUAL:COMPONENT_SPEC}
 
 ## Sections
 

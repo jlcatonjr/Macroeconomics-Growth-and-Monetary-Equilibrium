@@ -102,7 +102,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-Applied data analysis assignments using real-world macroeconomic data (FRED, NBER, Fed). Covers 9 chapters with CSV datasets and guide notebooks for analyzing inflation, income growth, interest rates, and monetary tightening.
+{MANUAL:COMPONENT_SPEC}
 
 ## Sections
 

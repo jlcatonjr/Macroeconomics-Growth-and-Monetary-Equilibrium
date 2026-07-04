@@ -114,7 +114,7 @@ No project-specific style rules defined.
 
 **Name:** MacroeconomicsGrowthMonetaryEquilibrium
 **Goal:** Produce an interactive Jupyter notebook textbook for macroeconomics, economic growth, and monetary equilibrium, covering 11 core chapters and graduate-level advanced content with real-world data homework assignments and interactive ipywidgets visualizations.
-**Deliverable type:** CSV
+**Deliverable type:** HTML
 **Output format:** Jupyter notebooks (.ipynb) with interactive widgets
 <!-- AGENTTEAMS:END project_overview -->
 

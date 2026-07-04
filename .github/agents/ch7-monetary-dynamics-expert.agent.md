@@ -108,7 +108,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-Monetary dynamics: the transmission mechanism, velocity of money, and aggregate analysis of monetary policy effects on output and prices.
+{MANUAL:COMPONENT_SPEC}
 
 ## Sections
 

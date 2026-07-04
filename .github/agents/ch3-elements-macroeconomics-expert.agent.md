@@ -111,7 +111,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-Core macroeconomic aggregates: GDP, price levels, employment, and the circular flow. Introduces national income accounting and data homework using real macroeconomic datasets.
+{MANUAL:COMPONENT_SPEC}
 
 ## Sections
 

@@ -111,7 +111,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-Graduate-level macroeconomics covering classical economics, Keynesianism, monetarism, rational expectations, Phillips curve, IS-LM extensions, monetary rules, real business cycle theory, and fiscal policy. 14 course notes notebooks plus workshops on Solow model and AR(1) processes.
+{MANUAL:COMPONENT_SPEC}
 
 ## Sections
 

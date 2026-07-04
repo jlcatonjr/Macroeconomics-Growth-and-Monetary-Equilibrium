@@ -110,7 +110,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-Labor market macroeconomics: wages, employment, unemployment, and labor supply/demand dynamics. Covers relationship between labor market and aggregate output.
+{MANUAL:COMPONENT_SPEC}
 
 ## Sections
 

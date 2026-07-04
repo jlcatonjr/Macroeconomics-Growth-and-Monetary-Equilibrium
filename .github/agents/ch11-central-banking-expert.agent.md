@@ -111,7 +111,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-Central banking theory and practice: monetary policy tools, interest rate targets, quantitative easing, and the lender-of-last-resort function. Includes Fed data homework.
+{MANUAL:COMPONENT_SPEC}
 
 ## Sections
 
