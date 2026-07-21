@@ -1,0 +1,239 @@
+{
+  "artifact_type": "eval-suite",
+  "eval_suite_schema_version": "1.0",
+  "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
+  "framework": "claude",
+  "generated_from": "manifest",
+  "scenarios": [
+    {
+      "id": "routing-orchestrator-knows-all-experts",
+      "category": "routing",
+      "claim": "The orchestrator's agents: list includes every workstream expert, so it can route to each declared component.",
+      "predicate": {
+        "kind": "frontmatter-list-contains-all",
+        "file": "orchestrator.agent.md",
+        "field": "agents",
+        "values": [
+          "ch1-purposive-action-expert",
+          "ch2-entrepreneurship-supply-demand-expert",
+          "ch3-elements-macroeconomics-expert",
+          "ch4-aggregate-supply-growth-expert",
+          "ch5-money-expert",
+          "ch6-aggregate-demand-expert",
+          "ch7-monetary-dynamics-expert",
+          "ch8-money-credit-loanable-funds-expert",
+          "ch9-is-lm-expert",
+          "ch10-labor-expert",
+          "ch11-central-banking-expert",
+          "advanced-macroeconomics-expert",
+          "data-homework-expert"
+        ]
+      }
+    },
+    {
+      "id": "routing-expert-count-matches-components",
+      "category": "routing",
+      "claim": "Exactly 13 workstream-expert agent file(s) are emitted for 13 declared component(s).",
+      "predicate": {
+        "kind": "agent-count",
+        "suffix": "-expert.agent.md",
+        "count": 13
+      }
+    },
+    {
+      "id": "governance-ch1-purposive-action-triad-and-return",
+      "category": "governance",
+      "claim": "ch1-purposive-action-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "ch1-purposive-action-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-ch2-entrepreneurship-supply-demand-triad-and-return",
+      "category": "governance",
+      "claim": "ch2-entrepreneurship-supply-demand-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "ch2-entrepreneurship-supply-demand-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-ch3-elements-macroeconomics-triad-and-return",
+      "category": "governance",
+      "claim": "ch3-elements-macroeconomics-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "ch3-elements-macroeconomics-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-ch4-aggregate-supply-growth-triad-and-return",
+      "category": "governance",
+      "claim": "ch4-aggregate-supply-growth-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "ch4-aggregate-supply-growth-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-ch5-money-triad-and-return",
+      "category": "governance",
+      "claim": "ch5-money-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "ch5-money-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-ch6-aggregate-demand-triad-and-return",
+      "category": "governance",
+      "claim": "ch6-aggregate-demand-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "ch6-aggregate-demand-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-ch7-monetary-dynamics-triad-and-return",
+      "category": "governance",
+      "claim": "ch7-monetary-dynamics-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "ch7-monetary-dynamics-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-ch8-money-credit-loanable-funds-triad-and-return",
+      "category": "governance",
+      "claim": "ch8-money-credit-loanable-funds-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "ch8-money-credit-loanable-funds-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-ch9-is-lm-triad-and-return",
+      "category": "governance",
+      "claim": "ch9-is-lm-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "ch9-is-lm-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-ch10-labor-triad-and-return",
+      "category": "governance",
+      "claim": "ch10-labor-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "ch10-labor-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-ch11-central-banking-triad-and-return",
+      "category": "governance",
+      "claim": "ch11-central-banking-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "ch11-central-banking-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-advanced-macroeconomics-triad-and-return",
+      "category": "governance",
+      "claim": "advanced-macroeconomics-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "advanced-macroeconomics-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    },
+    {
+      "id": "governance-data-homework-triad-and-return",
+      "category": "governance",
+      "claim": "data-homework-expert wires the worker-governance triad (primary-producer, adversarial, reference-manager) and includes a 'Return to Orchestrator' edge.",
+      "predicate": {
+        "kind": "frontmatter-and-body",
+        "file": "data-homework-expert.agent.md",
+        "agents_contains_all": [
+          "primary-producer",
+          "adversarial",
+          "reference-manager"
+        ],
+        "body_contains": "Return to Orchestrator"
+      }
+    }
+  ]
+}
