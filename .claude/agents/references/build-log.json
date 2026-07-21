@@ -1,0 +1,598 @@
+{
+  "schema_version": "1.2",
+  "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
+  "framework": "claude",
+  "project_type": "data-pipeline",
+  "archetypes": [
+    "primary-producer",
+    "quality-auditor",
+    "cohesion-repairer",
+    "style-guardian",
+    "technical-validator",
+    "output-compiler",
+    "visual-designer"
+  ],
+  "components": [
+    "ch1-purposive-action",
+    "ch2-entrepreneurship-supply-demand",
+    "ch3-elements-macroeconomics",
+    "ch4-aggregate-supply-growth",
+    "ch5-money",
+    "ch6-aggregate-demand",
+    "ch7-monetary-dynamics",
+    "ch8-money-credit-loanable-funds",
+    "ch9-is-lm",
+    "ch10-labor",
+    "ch11-central-banking",
+    "advanced-macroeconomics",
+    "data-homework"
+  ],
+  "files_written": [
+    ".claude/agents/orchestrator.md",
+    ".claude/agents/navigator.md",
+    ".claude/agents/security.md",
+    ".claude/agents/code-hygiene.md",
+    ".claude/agents/adversarial.md",
+    ".claude/agents/conflict-auditor.md",
+    ".claude/agents/conflict-resolution.md",
+    ".claude/agents/cleanup.md",
+    ".claude/agents/agent-updater.md",
+    ".claude/agents/agent-refactor.md",
+    ".claude/agents/repo-liaison.md",
+    ".claude/agents/git-operations.md",
+    ".claude/agents/work-summarizer.md",
+    ".claude/agents/primary-producer.md",
+    ".claude/agents/quality-auditor.md",
+    ".claude/agents/cohesion-repairer.md",
+    ".claude/agents/style-guardian.md",
+    ".claude/agents/technical-validator.md",
+    ".claude/agents/output-compiler.md",
+    ".claude/agents/visual-designer.md",
+    ".claude/agents/references/ref-numpy-reference.md",
+    ".claude/agents/references/ref-pandas-reference.md",
+    ".claude/agents/references/ref-matplotlib-reference.md",
+    ".claude/agents/references/code-hygiene-rules.reference.md",
+    ".claude/agents/references/unix-philosophy-mapping.reference.md",
+    ".claude/agents/references/security-vulnerability-watch.reference.md",
+    ".claude/agents/references/security-vulnerability-watch.json",
+    ".claude/agents/references/security-linux-hardening.reference.md",
+    ".claude/agents/references/security-macos-hardening.reference.md",
+    ".claude/agents/references/security-windows-hardening.reference.md",
+    ".claude/agents/references/ai-bad-habits-watch.reference.md",
+    ".claude/agents/references/framework-watch.reference.md",
+    ".claude/agents/references/adjacent-repos.md",
+    ".claude/agents/references/github-workflows-merge.reference.md",
+    ".claude/agents/references/work-summary-spec.reference.md",
+    ".claude/agents/references/work-summary-tooling.reference.md",
+    ".claude/agents/references/work-summary-backfill.reference.md",
+    ".claude/agents/references/parallelization.reference.md",
+    ".claude/agents/ch1-purposive-action-expert.md",
+    ".claude/agents/ch2-entrepreneurship-supply-demand-expert.md",
+    ".claude/agents/ch3-elements-macroeconomics-expert.md",
+    ".claude/agents/ch4-aggregate-supply-growth-expert.md",
+    ".claude/agents/ch5-money-expert.md",
+    ".claude/agents/ch6-aggregate-demand-expert.md",
+    ".claude/agents/ch7-monetary-dynamics-expert.md",
+    ".claude/agents/ch8-money-credit-loanable-funds-expert.md",
+    ".claude/agents/ch9-is-lm-expert.md",
+    ".claude/agents/ch10-labor-expert.md",
+    ".claude/agents/ch11-central-banking-expert.md",
+    ".claude/agents/advanced-macroeconomics-expert.md",
+    ".claude/agents/data-homework-expert.md",
+    ".claude/CLAUDE.md",
+    ".claude/agents/team-builder.md",
+    ".claude/agents/SETUP-REQUIRED.md",
+    ".claude/agents/content-enricher.md",
+    ".claude/agents/references/runtime-handoffs.json",
+    ".claude/agents/references/pipeline-graph.md",
+    ".claude/agents/references/pipeline-graph.svg",
+    ".claude/agents/references/pipeline-handoffs.svg"
+  ],
+  "manual_required": 42,
+  "template_hashes": {
+    "universal/orchestrator.template.md": "ee34760e1f596c17",
+    "universal/navigator.template.md": "003a30ed545c0523",
+    "universal/security.template.md": "ae6475b6df0d1f4e",
+    "universal/code-hygiene.template.md": "5212068c8a00a608",
+    "universal/adversarial.template.md": "54bb7645fbc898a0",
+    "universal/conflict-auditor.template.md": "e25b928260b0e41f",
+    "universal/conflict-resolution.template.md": "ca76a015485079e6",
+    "universal/cleanup.template.md": "bf795b64968349f6",
+    "universal/agent-updater.template.md": "c9636a2efa322a6d",
+    "universal/agent-refactor.template.md": "a9717cc56c35f4ac",
+    "universal/repo-liaison.template.md": "f3ab2dffbbbb29ff",
+    "universal/git-operations.template.md": "82546b5e807d9c98",
+    "domain/work-summarizer.template.md": "c8687de2c1c7761f",
+    "domain/primary-producer.template.md": "c128e8f2fb52885f",
+    "domain/quality-auditor.template.md": "ee64d85aeb76a593",
+    "domain/cohesion-repairer.template.md": "a2c3b4844110b04a",
+    "domain/style-guardian.template.md": "919e2e8d6cd90721",
+    "domain/technical-validator.template.md": "63e5171f48e91180",
+    "domain/output-compiler.template.md": "fd90f3a13765386a",
+    "domain/visual-designer.template.md": "cae39ee7b6d167f4",
+    "domain/tool-reference.template.md": "5ce5638b7094cc86",
+    "domain/code-hygiene-rules-reference.template.md": "64dd0cd05107784f",
+    "domain/unix-philosophy-mapping-reference.template.md": "b086c16596a3030b",
+    "universal/security-vulnerability-watch.reference.template.md": "1680e6cfd2a72275",
+    "universal/security-vulnerability-watch.json.template": "ebcec1b04ad46caa",
+    "universal/security-linux-hardening.reference.template.md": "622535f7bfa41de6",
+    "universal/security-macos-hardening.reference.template.md": "1333cb343a3e33cf",
+    "universal/security-windows-hardening.reference.template.md": "ac81a0b5b583aa6d",
+    "universal/ai-bad-habits-watch.reference.template.md": "690a289b3fdbdf9e",
+    "universal/framework-watch.reference.template.md": "7e895e4a5ccc6540",
+    "universal/adjacent-repos.reference.template.md": "d5f6783fe18f21c6",
+    "universal/github-workflows-merge.reference.template.md": "4b5d6066a338ae74",
+    "universal/work-summary-spec.reference.template.md": "d29ca7e680ad715d",
+    "universal/work-summary-tooling.reference.template.md": "62e643b1a9711af6",
+    "universal/work-summary-backfill.reference.template.md": "5730bac043dc2874",
+    "universal/parallelization.reference.template.md": "2c872341050a7781",
+    "workstream-expert.template.md": "13161f3a3cdf1789",
+    "copilot-instructions.template.md": "9c56d724f06a9549",
+    "builder/team-builder-claude.template.md": "1fa8401d6258d9b7",
+    "domain/content-enricher.template.md": "d7e6e4a50dcef1c7"
+  },
+  "output_files_map": [
+    {
+      "path": "orchestrator.agent.md",
+      "template": "universal/orchestrator.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "navigator.agent.md",
+      "template": "universal/navigator.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "security.agent.md",
+      "template": "universal/security.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "code-hygiene.agent.md",
+      "template": "universal/code-hygiene.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "adversarial.agent.md",
+      "template": "universal/adversarial.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "conflict-auditor.agent.md",
+      "template": "universal/conflict-auditor.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "conflict-resolution.agent.md",
+      "template": "universal/conflict-resolution.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "cleanup.agent.md",
+      "template": "universal/cleanup.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "agent-updater.agent.md",
+      "template": "universal/agent-updater.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "agent-refactor.agent.md",
+      "template": "universal/agent-refactor.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "repo-liaison.agent.md",
+      "template": "universal/repo-liaison.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "git-operations.agent.md",
+      "template": "universal/git-operations.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "work-summarizer.agent.md",
+      "template": "domain/work-summarizer.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "primary-producer.agent.md",
+      "template": "domain/primary-producer.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "quality-auditor.agent.md",
+      "template": "domain/quality-auditor.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "cohesion-repairer.agent.md",
+      "template": "domain/cohesion-repairer.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "style-guardian.agent.md",
+      "template": "domain/style-guardian.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "technical-validator.agent.md",
+      "template": "domain/technical-validator.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "output-compiler.agent.md",
+      "template": "domain/output-compiler.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "visual-designer.agent.md",
+      "template": "domain/visual-designer.template.md",
+      "type": "agent",
+      "component_slug": null
+    },
+    {
+      "path": "references/ref-numpy-reference.md",
+      "template": "domain/tool-reference.template.md",
+      "type": "reference",
+      "component_slug": null,
+      "tool_slug": "ref-numpy"
+    },
+    {
+      "path": "references/ref-pandas-reference.md",
+      "template": "domain/tool-reference.template.md",
+      "type": "reference",
+      "component_slug": null,
+      "tool_slug": "ref-pandas"
+    },
+    {
+      "path": "references/ref-matplotlib-reference.md",
+      "template": "domain/tool-reference.template.md",
+      "type": "reference",
+      "component_slug": null,
+      "tool_slug": "ref-matplotlib"
+    },
+    {
+      "path": "references/code-hygiene-rules.reference.md",
+      "template": "domain/code-hygiene-rules-reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "references/unix-philosophy-mapping.reference.md",
+      "template": "domain/unix-philosophy-mapping-reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "references/security-vulnerability-watch.reference.md",
+      "template": "universal/security-vulnerability-watch.reference.template.md",
+      "type": "artifact",
+      "component_slug": null
+    },
+    {
+      "path": "references/security-vulnerability-watch.json",
+      "template": "universal/security-vulnerability-watch.json.template",
+      "type": "artifact",
+      "component_slug": null
+    },
+    {
+      "path": "references/security-linux-hardening.reference.md",
+      "template": "universal/security-linux-hardening.reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "references/security-macos-hardening.reference.md",
+      "template": "universal/security-macos-hardening.reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "references/security-windows-hardening.reference.md",
+      "template": "universal/security-windows-hardening.reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "references/ai-bad-habits-watch.reference.md",
+      "template": "universal/ai-bad-habits-watch.reference.template.md",
+      "type": "artifact",
+      "component_slug": null
+    },
+    {
+      "path": "references/framework-watch.reference.md",
+      "template": "universal/framework-watch.reference.template.md",
+      "type": "artifact",
+      "component_slug": null
+    },
+    {
+      "path": "references/adjacent-repos.md",
+      "template": "universal/adjacent-repos.reference.template.md",
+      "type": "artifact",
+      "component_slug": null
+    },
+    {
+      "path": "references/github-workflows-merge.reference.md",
+      "template": "universal/github-workflows-merge.reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "references/work-summary-spec.reference.md",
+      "template": "universal/work-summary-spec.reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "references/work-summary-tooling.reference.md",
+      "template": "universal/work-summary-tooling.reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "references/work-summary-backfill.reference.md",
+      "template": "universal/work-summary-backfill.reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "references/parallelization.reference.md",
+      "template": "universal/parallelization.reference.template.md",
+      "type": "reference",
+      "component_slug": null
+    },
+    {
+      "path": "ch1-purposive-action-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "ch1-purposive-action"
+    },
+    {
+      "path": "ch2-entrepreneurship-supply-demand-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "ch2-entrepreneurship-supply-demand"
+    },
+    {
+      "path": "ch3-elements-macroeconomics-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "ch3-elements-macroeconomics"
+    },
+    {
+      "path": "ch4-aggregate-supply-growth-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "ch4-aggregate-supply-growth"
+    },
+    {
+      "path": "ch5-money-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "ch5-money"
+    },
+    {
+      "path": "ch6-aggregate-demand-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "ch6-aggregate-demand"
+    },
+    {
+      "path": "ch7-monetary-dynamics-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "ch7-monetary-dynamics"
+    },
+    {
+      "path": "ch8-money-credit-loanable-funds-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "ch8-money-credit-loanable-funds"
+    },
+    {
+      "path": "ch9-is-lm-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "ch9-is-lm"
+    },
+    {
+      "path": "ch10-labor-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "ch10-labor"
+    },
+    {
+      "path": "ch11-central-banking-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "ch11-central-banking"
+    },
+    {
+      "path": "advanced-macroeconomics-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "advanced-macroeconomics"
+    },
+    {
+      "path": "data-homework-expert.agent.md",
+      "template": "workstream-expert.template.md",
+      "type": "agent",
+      "component_slug": "data-homework"
+    },
+    {
+      "path": "../CLAUDE.md",
+      "template": "copilot-instructions.template.md",
+      "type": "instructions",
+      "component_slug": null
+    },
+    {
+      "path": "team-builder.agent.md",
+      "template": "builder/team-builder-claude.template.md",
+      "type": "builder",
+      "component_slug": null
+    },
+    {
+      "path": "SETUP-REQUIRED.md",
+      "template": "",
+      "type": "setup-required",
+      "component_slug": null
+    },
+    {
+      "path": "references/pipeline-graph.md",
+      "template": "",
+      "type": "graph",
+      "component_slug": null
+    },
+    {
+      "path": "references/pipeline-graph.svg",
+      "template": "",
+      "type": "graph-svg",
+      "component_slug": null
+    },
+    {
+      "path": "references/pipeline-handoffs.svg",
+      "template": "",
+      "type": "graph-svg",
+      "component_slug": null
+    },
+    {
+      "path": "content-enricher.agent.md",
+      "template": "domain/content-enricher.template.md",
+      "type": "agent",
+      "component_slug": null
+    }
+  ],
+  "agent_slug_list": [
+    "orchestrator",
+    "navigator",
+    "security",
+    "code-hygiene",
+    "adversarial",
+    "conflict-auditor",
+    "conflict-resolution",
+    "cleanup",
+    "agent-updater",
+    "agent-refactor",
+    "repo-liaison",
+    "git-operations",
+    "work-summarizer",
+    "primary-producer",
+    "quality-auditor",
+    "cohesion-repairer",
+    "style-guardian",
+    "technical-validator",
+    "output-compiler",
+    "visual-designer",
+    "ch1-purposive-action-expert",
+    "ch2-entrepreneurship-supply-demand-expert",
+    "ch3-elements-macroeconomics-expert",
+    "ch4-aggregate-supply-growth-expert",
+    "ch5-money-expert",
+    "ch6-aggregate-demand-expert",
+    "ch7-monetary-dynamics-expert",
+    "ch8-money-credit-loanable-funds-expert",
+    "ch9-is-lm-expert",
+    "ch10-labor-expert",
+    "ch11-central-banking-expert",
+    "advanced-macroeconomics-expert",
+    "data-homework-expert"
+  ],
+  "governance_agents": [
+    "navigator",
+    "security",
+    "code-hygiene",
+    "adversarial",
+    "conflict-auditor",
+    "conflict-resolution",
+    "cleanup",
+    "agent-updater",
+    "agent-refactor",
+    "repo-liaison",
+    "git-operations"
+  ],
+  "manifest_fingerprint": "ca1ac669f1cf9d83",
+  "fingerprint_algo_version": 1,
+  "file_hashes": {
+    "orchestrator.md": "234f4cb7922a3995",
+    "navigator.md": "4d5710b442405beb",
+    "security.md": "e355dc5fe42bf583",
+    "code-hygiene.md": "4111ba12281f18c0",
+    "adversarial.md": "56af459712e2044b",
+    "conflict-auditor.md": "767520d799491225",
+    "conflict-resolution.md": "280c8d0bae88686f",
+    "cleanup.md": "37fe2ea282705eee",
+    "agent-updater.md": "beeae1e5f754d31a",
+    "agent-refactor.md": "870d3e0671da9bc9",
+    "repo-liaison.md": "4ebbc8d2f5d9e7f8",
+    "git-operations.md": "6b8d426bb464625b",
+    "work-summarizer.md": "bd972f32dba98e5d",
+    "primary-producer.md": "9cc93c6bdaf2a3d6",
+    "quality-auditor.md": "c646f26151967d90",
+    "cohesion-repairer.md": "9a0ec61aaebc82fb",
+    "style-guardian.md": "08c41f4e46bd83e2",
+    "technical-validator.md": "2d6d912ca66d4828",
+    "output-compiler.md": "cfe891b3a2ba09b9",
+    "visual-designer.md": "e33c050f262fd138",
+    "references/ref-numpy-reference.md": "c3ac5ebe5c987622",
+    "references/ref-pandas-reference.md": "a08e2608ea027e28",
+    "references/ref-matplotlib-reference.md": "8ad8455f29109d33",
+    "references/code-hygiene-rules.reference.md": "bf36533b0170bd07",
+    "references/unix-philosophy-mapping.reference.md": "56738d6f1645e8d4",
+    "references/security-vulnerability-watch.reference.md": "dd977bd565711417",
+    "references/security-vulnerability-watch.json": "90a9af6faab97863",
+    "references/security-linux-hardening.reference.md": "dcd0d79c779ec29c",
+    "references/security-macos-hardening.reference.md": "2b645211b87aa40d",
+    "references/security-windows-hardening.reference.md": "b1f6823cb7143de8",
+    "references/ai-bad-habits-watch.reference.md": "e91cb26c096fe990",
+    "references/framework-watch.reference.md": "7f465ffc3a0252b4",
+    "references/adjacent-repos.md": "5d8c4d6aa4e87a7d",
+    "references/github-workflows-merge.reference.md": "511ea4fe65a15487",
+    "references/work-summary-spec.reference.md": "96232231a1f7c6be",
+    "references/work-summary-tooling.reference.md": "f3656972717153a9",
+    "references/work-summary-backfill.reference.md": "c6fd5a91670732fc",
+    "references/parallelization.reference.md": "d2321bf5ac1ed2f8",
+    "ch1-purposive-action-expert.md": "113d3d23564fd8e1",
+    "ch2-entrepreneurship-supply-demand-expert.md": "1fbfe27fbadbeee7",
+    "ch3-elements-macroeconomics-expert.md": "dfe6977bafa4f447",
+    "ch4-aggregate-supply-growth-expert.md": "b74c3babb98121a3",
+    "ch5-money-expert.md": "48f4f6aa2da384d4",
+    "ch6-aggregate-demand-expert.md": "2a120df2d0c193bd",
+    "ch7-monetary-dynamics-expert.md": "b6f7ba9c4c09d330",
+    "ch8-money-credit-loanable-funds-expert.md": "d94481ef7ea775bd",
+    "ch9-is-lm-expert.md": "829dc22858fcf6a7",
+    "ch10-labor-expert.md": "89af2b533a7f4217",
+    "ch11-central-banking-expert.md": "f496cd94bb92de86",
+    "advanced-macroeconomics-expert.md": "5b75fabde3d81c8d",
+    "data-homework-expert.md": "ae1e29b0f74de158",
+    "../CLAUDE.md": "a08f9355fb4a5a1f",
+    "team-builder.md": "86422938b64ace3b",
+    "SETUP-REQUIRED.md": "43290f3ab3c9fa91",
+    "content-enricher.md": "6280d88e7f592bf8",
+    "references/runtime-handoffs.json": "f85e481b6ce0d928",
+    "references/pipeline-graph.md": "c643f6d439b5fe40",
+    "references/pipeline-graph.svg": "74fc8e42a6f0f82d",
+    "references/pipeline-handoffs.svg": "b90d10d0a92cf1fb"
+  }
+}
