@@ -27,16 +27,12 @@
     "advanced-macroeconomics",
     "data-homework"
   ],
-  "files_written": [
-    ".github/agents/references/security-linux-hardening.reference.md",
-    ".github/agents/references/security-macos-hardening.reference.md",
-    ".github/agents/references/security-windows-hardening.reference.md"
-  ],
+  "files_written": [],
   "manual_required": 42,
   "template_hashes": {
     "universal/orchestrator.template.md": "ee34760e1f596c17",
     "universal/navigator.template.md": "003a30ed545c0523",
-    "universal/security.template.md": "eb2d9b0f5dd0daf9",
+    "universal/security.template.md": "ae6475b6df0d1f4e",
     "universal/code-hygiene.template.md": "5212068c8a00a608",
     "universal/adversarial.template.md": "54bb7645fbc898a0",
     "universal/conflict-auditor.template.md": "e25b928260b0e41f",
@@ -476,17 +472,17 @@
     "repo-liaison",
     "git-operations"
   ],
-  "manifest_fingerprint": "bd9b71e7815256a5",
+  "manifest_fingerprint": "915b89c94784d4f3",
   "fingerprint_algo_version": 1,
   "file_hashes": {
-    "references/security-linux-hardening.reference.md": "dcd0d79c779ec29c",
-    "references/security-macos-hardening.reference.md": "2b645211b87aa40d",
-    "references/security-windows-hardening.reference.md": "b1f6823cb7143de8",
-    "navigator.agent.md": "810730342741bf57",
-    "security.agent.md": "38e39c5b4a85bb04",
-    "references/security-vulnerability-watch.reference.md": "dbdca96f34b1737a",
-    "references/security-vulnerability-watch.json": "ebb54c1ad12b6ded",
+    "security.agent.md": "03f852b56e06833f",
+    "references/security-vulnerability-watch.reference.md": "eb2f6ed7ec5e291e",
+    "references/security-vulnerability-watch.json": "2ea9d6f0f5e3e95e",
+    "references/pipeline-graph.md": "c78421c08a0579f3",
+    "references/pipeline-graph.svg": "27d4ad27fbc5dddf",
+    "references/pipeline-handoffs.svg": "3ad68d9876328fb0",
     "orchestrator.agent.md": "6c61d15bc86d2a33",
+    "navigator.agent.md": "810730342741bf57",
     "code-hygiene.agent.md": "9d62cb99da0afa7f",
     "conflict-auditor.agent.md": "3fb93cbd1599914b",
     "conflict-resolution.agent.md": "00c75a607c599e7e",
@@ -530,7 +526,6 @@
     "references/work-summary-tooling.reference.md": "f3656972717153a9",
     "references/work-summary-backfill.reference.md": "c6fd5a91670732fc",
     "references/parallelization.reference.md": "d2321bf5ac1ed2f8",
-    "content-enricher.agent.md": "bb60a2a2c8f448c8",
-    "references/pipeline-graph.md": "c78421c08a0579f3"
+    "content-enricher.agent.md": "bb60a2a2c8f448c8"
   }
 }
