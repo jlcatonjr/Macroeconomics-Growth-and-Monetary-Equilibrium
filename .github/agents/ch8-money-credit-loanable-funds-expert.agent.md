@@ -111,7 +111,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-{MANUAL:COMPONENT_SPEC}
+The loanable funds market: saving, investment, interest rates, and credit. Covers financial intermediation and the role of credit in monetary economies.
 
 ## Sections
 

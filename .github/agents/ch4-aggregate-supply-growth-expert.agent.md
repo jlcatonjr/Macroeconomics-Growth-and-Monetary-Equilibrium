@@ -112,7 +112,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-{MANUAL:COMPONENT_SPEC}
+Production functions, technological progress, and long-run economic growth. Covers the Solow model and total factor productivity. Includes data homework with real GDP growth data.
 
 ## Sections
 

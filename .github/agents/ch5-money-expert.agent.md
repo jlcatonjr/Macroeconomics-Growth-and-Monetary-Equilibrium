@@ -110,7 +110,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-{MANUAL:COMPONENT_SPEC}
+Theory of money: what it is, how it emerges, and its role in an economy. Covers money supply, monetary aggregates, and the quantity theory of money.
 
 ## Sections
 

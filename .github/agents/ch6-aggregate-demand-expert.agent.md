@@ -114,7 +114,7 @@ Revision instructions (if REVISE): <specific corrections>
 <!-- AGENTTEAMS:BEGIN component_spec v=1 -->
 ## Component Specification
 
-{MANUAL:COMPONENT_SPEC}
+Determinants of aggregate demand, the role of expectations, and interaction with aggregate supply. Includes review notebooks and data homework on inflation and nominal aggregates.
 
 ## Sections
 
