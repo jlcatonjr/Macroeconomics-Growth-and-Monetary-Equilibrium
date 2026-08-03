@@ -500,12 +500,12 @@
     "repo-liaison",
     "git-operations"
   ],
-  "manifest_fingerprint": "e7bdf61ce4d06b01",
+  "manifest_fingerprint": "1965714519430ea4",
   "fingerprint_algo_version": 1,
   "file_hashes": {
-    "security.agent.md": "eb784ed864b03f08",
-    "references/security-vulnerability-watch.reference.md": "809e703edb620644",
-    "references/security-vulnerability-watch.json": "9dde817114079332",
+    "security.agent.md": "a084fcab967e956c",
+    "references/security-vulnerability-watch.reference.md": "7cbd871c6e44a82c",
+    "references/security-vulnerability-watch.json": "49739129ef244d36",
     "references/pipeline-graph.md": "ee85ab33b740f33c",
     "references/pipeline-graph.svg": "1538d16f436378fb",
     "references/pipeline-handoffs.svg": "3ad68d9876328fb0",
