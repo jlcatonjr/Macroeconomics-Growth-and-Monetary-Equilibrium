@@ -27,9 +27,7 @@
     "advanced-macroeconomics",
     "data-homework"
   ],
-  "files_written": [
-    ".github/agents/references/redteam-methodology.reference.md"
-  ],
+  "files_written": [],
   "manual_required": 42,
   "template_hashes": {
     "universal/orchestrator.template.md": "a2e46ef24984366c",
@@ -516,24 +514,21 @@
     "repo-liaison",
     "git-operations"
   ],
-  "manifest_fingerprint": "ce8366cd6834502a",
+  "manifest_fingerprint": "8eb3a80ded69cf4c",
   "fingerprint_algo_version": 1,
   "file_hashes": {
-    "references/redteam-methodology.reference.md": "a28cf31b0c4fe421",
-    "navigator.agent.md": "193e590868afea02",
-    "security.agent.md": "86c97e9040d75d46",
-    "conflict-auditor.agent.md": "18e50572655de398",
-    "conflict-resolution.agent.md": "090560530b735f61",
-    "references/code-hygiene-rules.reference.md": "28ed949735e3d5bf",
-    "references/unix-philosophy-mapping.reference.md": "c6988dbe1f591324",
-    "references/security-vulnerability-watch.reference.md": "78b37a432fe6bff4",
-    "references/security-vulnerability-watch.json": "eeddbb7996022f97",
+    "security.agent.md": "78ec12e699ea618f",
+    "references/security-vulnerability-watch.reference.md": "9a3530213c4d413c",
+    "references/security-vulnerability-watch.json": "b9ff8bd3a4dfc531",
     "references/pipeline-graph.md": "ee85ab33b740f33c",
     "references/pipeline-graph.svg": "1538d16f436378fb",
     "references/pipeline-handoffs.svg": "3ad68d9876328fb0",
     "orchestrator.agent.md": "e7344f98f172d94b",
+    "navigator.agent.md": "193e590868afea02",
     "code-hygiene.agent.md": "9d62cb99da0afa7f",
     "adversarial.agent.md": "676c94235581f5f6",
+    "conflict-auditor.agent.md": "18e50572655de398",
+    "conflict-resolution.agent.md": "090560530b735f61",
     "cleanup.agent.md": "387520c0bc201125",
     "agent-updater.agent.md": "b64292d0bf4707a2",
     "repo-liaison.agent.md": "bc8bc5ca2e6e8f18",
@@ -544,6 +539,7 @@
     "technical-validator.agent.md": "df9e7bfb5bf6fa6f",
     "output-compiler.agent.md": "a20c6c2c46176ce8",
     "visual-designer.agent.md": "1221665a50a2f343",
+    "references/unix-philosophy-mapping.reference.md": "c6988dbe1f591324",
     "references/security-linux-hardening.reference.md": "fa76f9c608dbd309",
     "references/security-macos-hardening.reference.md": "7a7a4c505d6b78f7",
     "references/security-windows-hardening.reference.md": "267a23c97bcea626",
@@ -573,6 +569,7 @@
     "references/ref-numpy-reference.md": "0e82d108b825c27f",
     "references/ref-pandas-reference.md": "54dbfc80a814ff92",
     "references/ref-matplotlib-reference.md": "4eb15923c9969fc4",
+    "references/code-hygiene-rules.reference.md": "28ed949735e3d5bf",
     "references/github-workflows-merge.reference.md": "511ea4fe65a15487",
     "references/work-summary-spec.reference.md": "96232231a1f7c6be",
     "references/work-summary-tooling.reference.md": "f3656972717153a9",
@@ -585,6 +582,23 @@
     "references/external-retrieval-quality-gate.reference.md": "cbcbdf08cf259d35"
   },
   "front_matter_baseline": {
+    "security.agent.md": {
+      "name": "Security \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Top-priority security sentinel: reviews actions for credential exposure, destructive operations, sensitive content leakage, and reference integrity before any sensitive action proceeds\"",
+      "user-invokable": "false",
+      "tools": "['read', 'search']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": ""
+    },
+    "orchestrator.agent.md": {
+      "name": "Orchestrator \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Coordinates all agent operations for MacroeconomicsGrowthMonetaryEquilibrium: routes work to domain agents, enforces constitutional rules, and closes every multi-file session with a consistency check.\"",
+      "user-invokable": "true",
+      "tools": "['read', 'edit', 'search', 'execute', 'todo', 'agent']",
+      "agents": "",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": ""
+    },
     "navigator.agent.md": {
       "name": "Navigator \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Repository structure navigation, project map maintenance, file location lookups, and dependency queries for MacroeconomicsGrowthMonetaryEquilibrium\"",
@@ -593,10 +607,18 @@
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": ""
     },
-    "security.agent.md": {
-      "name": "Security \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Top-priority security sentinel: reviews actions for credential exposure, destructive operations, sensitive content leakage, and reference integrity before any sensitive action proceeds\"",
+    "code-hygiene.agent.md": {
+      "name": "Code Hygiene \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Read-only auditor that enforces modular architecture, file hygiene, script lifecycle, anti-sprawl rules, and agent documentation quality. Delegates removals to @cleanup; delegates structural extraction to @agent-refactor.\"",
       "user-invokable": "false",
+      "tools": "['read', 'search']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": ""
+    },
+    "adversarial.agent.md": {
+      "name": "Adversarial \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Presupposition critic: challenges the assumptions underlying any plan, proposal, or diagnosis produced by the agent team. Traces how justified changes in presuppositions cascade through dependent logic.\"",
+      "user-invokable": "true",
       "tools": "['read', 'search']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": ""
@@ -615,31 +637,6 @@
       "description": "\"Makes ACCEPT/REJECT/REVISE decisions on conflicts flagged by the conflict auditor in MacroeconomicsGrowthMonetaryEquilibrium\"",
       "user-invokable": "false",
       "tools": "['edit', 'search', 'read']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "orchestrator.agent.md": {
-      "name": "Orchestrator \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Coordinates all agent operations for MacroeconomicsGrowthMonetaryEquilibrium: routes work to domain agents, enforces constitutional rules, and closes every multi-file session with a consistency check.\"",
-      "user-invokable": "true",
-      "tools": "['read', 'edit', 'search', 'execute', 'todo', 'agent']",
-      "agents": "",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "code-hygiene.agent.md": {
-      "name": "Code Hygiene \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Read-only auditor that enforces modular architecture, file hygiene, script lifecycle, anti-sprawl rules, and agent documentation quality. Delegates removals to @cleanup; delegates structural extraction to @agent-refactor.\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "adversarial.agent.md": {
-      "name": "Adversarial \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Presupposition critic: challenges the assumptions underlying any plan, proposal, or diagnosis produced by the agent team. Traces how justified changes in presuppositions cascade through dependent logic.\"",
-      "user-invokable": "true",
-      "tools": "['read', 'search']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": ""
     },
