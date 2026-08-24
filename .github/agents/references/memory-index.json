@@ -2,7 +2,7 @@
   "artifact_type": "memory-index",
   "memory_index_schema_version": "1.3",
   "index_format_version": "json-bm25-postings-v2",
-  "index_build_id": "58f1cefc48873ede6a0c06b68ba6d6905cbe8c82075b10dbc5d03c101076f641",
+  "index_build_id": "9407c8495d7a4e6b287ce0956ba036f760b5294bfb4178e948da79e67a4efddb",
   "index_write_owner": "agentteams.build_team",
   "vector_runtime_mode": "sparse-tfidf-cosine",
   "vector_model_id": null,
@@ -11,7 +11,7 @@
   "source_fingerprint": "4794de8779f5fc4f00d9737b258e618169e2656e3d20074600f9a9b3d0518f39",
   "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
   "framework": "copilot-vscode",
-  "built_at": "2026-08-10T13:33:08.451726Z",
+  "built_at": "2026-08-17T13:33:53.241302Z",
   "source_count": 1,
   "documents": [
     {

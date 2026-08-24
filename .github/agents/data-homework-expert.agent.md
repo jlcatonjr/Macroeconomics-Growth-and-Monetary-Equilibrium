@@ -1,23 +1,11 @@
 ---
 name: "Data Homework Assignments Expert — MacroeconomicsGrowthMonetaryEquilibrium"
 description: "Component expert for Data Homework Assignments in MacroeconomicsGrowthMonetaryEquilibrium — prepares Component Briefs, reviews drafts against brief checklist, approves deliverables"
-user-invokable: false
 tools: ['read', 'search', 'agent']
 agents: ['primary-producer', 'adversarial']
 model: ["Claude Sonnet 4.6 (copilot)"]
-handoffs:
-  - label: Vet Brief Before Drafting
-    agent: adversarial
-    prompt: "Component Brief prepared. Review for hidden presuppositions before drafting begins."
-    send: false
-  - label: Send to Primary Producer
-    agent: primary-producer
-    prompt: "Component Brief accepted. Ready for drafting."
-    send: false
-  - label: Return to Orchestrator
-    agent: orchestrator
-    prompt: "Data Homework Assignments has been reviewed and accepted."
-    send: false
+handoffs: 
+user-invocable: false
 ---
 <!-- AGENTTEAMS:BEGIN content v=1 -->
 # Data Homework Assignments Expert — MacroeconomicsGrowthMonetaryEquilibrium

@@ -1,11 +1,11 @@
 ---
 name: Conflict Auditor — MacroeconomicsGrowthMonetaryEquilibrium
 description: "Detects logical conflicts across deliverables, agent documentation, reference files, and source material in MacroeconomicsGrowthMonetaryEquilibrium"
-user-invokable: false
 tools: ['read', 'search']
 agents: ['conflict-resolution', 'agent-updater', 'technical-validator']
 model: ["Claude Sonnet 4.6 (copilot)"]
 handoffs: 
+user-invocable: false
 ---
 <!-- AGENTTEAMS:BEGIN content v=1 -->
 

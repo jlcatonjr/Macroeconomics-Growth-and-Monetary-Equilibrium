@@ -30,26 +30,26 @@
   "files_written": [],
   "manual_required": 42,
   "template_hashes": {
-    "universal/orchestrator.template.md": "a2e46ef24984366c",
-    "universal/navigator.template.md": "be2f562228ea5e1f",
-    "universal/security.template.md": "f0903dbb0ec12bbb",
-    "universal/code-hygiene.template.md": "7b1eae41ef75358d",
-    "universal/adversarial.template.md": "3923a13f4fb1ae6a",
-    "universal/conflict-auditor.template.md": "371d5304d8a0f5fe",
-    "universal/conflict-resolution.template.md": "ff21ac7e7e1fc63c",
-    "universal/cleanup.template.md": "bf795b64968349f6",
-    "universal/agent-updater.template.md": "c9636a2efa322a6d",
-    "universal/agent-refactor.template.md": "a9717cc56c35f4ac",
-    "universal/repo-liaison.template.md": "a41269c1204528f3",
-    "universal/git-operations.template.md": "82546b5e807d9c98",
-    "domain/work-summarizer.template.md": "893bc7338f0336a6",
-    "domain/primary-producer.template.md": "35bf874350a29a94",
-    "domain/quality-auditor.template.md": "bc44c5742a92d831",
-    "domain/cohesion-repairer.template.md": "a2c3b4844110b04a",
-    "domain/style-guardian.template.md": "919e2e8d6cd90721",
-    "domain/technical-validator.template.md": "8cc603acf4b577e6",
-    "domain/output-compiler.template.md": "fd90f3a13765386a",
-    "domain/visual-designer.template.md": "cae39ee7b6d167f4",
+    "universal/orchestrator.template.md": "7cb6cc382bcde9ca",
+    "universal/navigator.template.md": "5a0d707a9f3f5cec",
+    "universal/security.template.md": "9b38b7d5eab9c6ef",
+    "universal/code-hygiene.template.md": "72e2a1f9ec316852",
+    "universal/adversarial.template.md": "0dbc3c4284139780",
+    "universal/conflict-auditor.template.md": "d0e6ed3e98ba1f86",
+    "universal/conflict-resolution.template.md": "fd74ccfd546065c4",
+    "universal/cleanup.template.md": "dd3c78f2548c4686",
+    "universal/agent-updater.template.md": "1462c430bf7051c7",
+    "universal/agent-refactor.template.md": "fb1956da5b1140a2",
+    "universal/repo-liaison.template.md": "57b1c8654c320d59",
+    "universal/git-operations.template.md": "c000c51feb44ad64",
+    "domain/work-summarizer.template.md": "90b19b91ff48a953",
+    "domain/primary-producer.template.md": "e02c72f74753e2a3",
+    "domain/quality-auditor.template.md": "6ce15b22e2a72237",
+    "domain/cohesion-repairer.template.md": "58bee448f014dfde",
+    "domain/style-guardian.template.md": "31631c26f16811ea",
+    "domain/technical-validator.template.md": "a8ebdc034168749f",
+    "domain/output-compiler.template.md": "c08d60a4578e90a4",
+    "domain/visual-designer.template.md": "afb9a69f6972c7ec",
     "domain/tool-reference.template.md": "5ce5638b7094cc86",
     "domain/code-hygiene-rules-reference.template.md": "cf49b61dc45e4ca4",
     "domain/unix-philosophy-mapping-reference.template.md": "702af6b4e9e2b952",
@@ -68,14 +68,14 @@
     "universal/parallelization.reference.template.md": "2c872341050a7781",
     "universal/instruction-authority.reference.template.md": "72149ab5244f9be3",
     "universal/redteam-methodology.reference.template.md": "a0443337a9796294",
-    "universal/retrospective-remediation.reference.template.md": "2ee97598dca23e68",
+    "universal/retrospective-remediation.reference.template.md": "f79be49ac31f6266",
     "universal/cli-tool-discovery.reference.template.md": "203004e771c8b2fd",
     "universal/skill-generation.reference.template.md": "47bcf76ed8f69a80",
     "universal/external-retrieval-quality-gate.reference.template.md": "3922b0a2e99e75a3",
-    "workstream-expert.template.md": "95f33fe5d05d80e7",
-    "copilot-instructions.template.md": "a7835a86e5366798",
-    "builder/team-builder-copilot-vscode.template.md": "5708c3fd29801a3d",
-    "domain/content-enricher.template.md": "8176cebe85aace8f"
+    "workstream-expert.template.md": "145061461736b92b",
+    "copilot-instructions.template.md": "bc94e8e32a6b2cff",
+    "builder/team-builder-copilot-vscode.template.md": "044c1314c4e98a9d",
+    "domain/content-enricher.template.md": "79ddbbf48720bcc7"
   },
   "output_files_map": [
     {
@@ -514,31 +514,50 @@
     "repo-liaison",
     "git-operations"
   ],
-  "manifest_fingerprint": "8eb3a80ded69cf4c",
+  "manifest_fingerprint": "21836fe33ee396d5",
   "fingerprint_algo_version": 1,
   "file_hashes": {
-    "security.agent.md": "78ec12e699ea618f",
-    "references/security-vulnerability-watch.reference.md": "9a3530213c4d413c",
-    "references/security-vulnerability-watch.json": "b9ff8bd3a4dfc531",
+    "orchestrator.agent.md": "13115c5f65c786bd",
+    "navigator.agent.md": "7e0f6b34fdf20d85",
+    "security.agent.md": "e40932c0c74408d1",
+    "code-hygiene.agent.md": "9ca097bb35d8c304",
+    "adversarial.agent.md": "3ca64f9ccf61f0a0",
+    "conflict-auditor.agent.md": "b22df83ff9bbc331",
+    "conflict-resolution.agent.md": "7747bd67a531a428",
+    "cleanup.agent.md": "005d5355ace3f9cf",
+    "agent-updater.agent.md": "d01bb8456f769e6a",
+    "agent-refactor.agent.md": "c1a0125e78d35480",
+    "repo-liaison.agent.md": "3b5ebe2d2b4efd08",
+    "git-operations.agent.md": "577f30876038ffda",
+    "work-summarizer.agent.md": "984fc08eb3f330c4",
+    "primary-producer.agent.md": "35975aa98dffba8f",
+    "quality-auditor.agent.md": "099b74a29c627050",
+    "cohesion-repairer.agent.md": "f23689088e4618ff",
+    "style-guardian.agent.md": "09a201908d837651",
+    "technical-validator.agent.md": "18b581273d0afed7",
+    "output-compiler.agent.md": "234cffcf79bcb78e",
+    "visual-designer.agent.md": "8fd0ffc68ce9e1f6",
+    "references/security-vulnerability-watch.reference.md": "a9d1c13ef0328bac",
+    "references/security-vulnerability-watch.json": "aaed404baaca262d",
+    "references/retrospective-remediation.reference.md": "669c1a11fccf16f7",
+    "ch1-purposive-action-expert.agent.md": "b0371a0022d62c19",
+    "ch2-entrepreneurship-supply-demand-expert.agent.md": "25384f5c74dc9a82",
+    "ch3-elements-macroeconomics-expert.agent.md": "a4124108c0a68557",
+    "ch4-aggregate-supply-growth-expert.agent.md": "b088182dea85f91b",
+    "ch5-money-expert.agent.md": "3b74d884d7ae5839",
+    "ch6-aggregate-demand-expert.agent.md": "b14d08eb8236b39c",
+    "ch7-monetary-dynamics-expert.agent.md": "0e78a2e28f3183b1",
+    "ch8-money-credit-loanable-funds-expert.agent.md": "61ca0475164cea1d",
+    "ch9-is-lm-expert.agent.md": "845a5f787f09b44c",
+    "ch10-labor-expert.agent.md": "32301c33428b3857",
+    "ch11-central-banking-expert.agent.md": "797162e3d455c365",
+    "advanced-macroeconomics-expert.agent.md": "851b10ab82730e61",
+    "data-homework-expert.agent.md": "c428667799d842d2",
+    "team-builder.agent.md": "9d29aab02681c08c",
+    "content-enricher.agent.md": "53cec78fcd714406",
     "references/pipeline-graph.md": "ee85ab33b740f33c",
     "references/pipeline-graph.svg": "1538d16f436378fb",
     "references/pipeline-handoffs.svg": "3ad68d9876328fb0",
-    "orchestrator.agent.md": "e7344f98f172d94b",
-    "navigator.agent.md": "193e590868afea02",
-    "code-hygiene.agent.md": "9d62cb99da0afa7f",
-    "adversarial.agent.md": "676c94235581f5f6",
-    "conflict-auditor.agent.md": "18e50572655de398",
-    "conflict-resolution.agent.md": "090560530b735f61",
-    "cleanup.agent.md": "387520c0bc201125",
-    "agent-updater.agent.md": "b64292d0bf4707a2",
-    "repo-liaison.agent.md": "bc8bc5ca2e6e8f18",
-    "git-operations.agent.md": "571e22a9216567c5",
-    "primary-producer.agent.md": "593a975f8ed9bda1",
-    "quality-auditor.agent.md": "e2b6dfa36bce0a13",
-    "style-guardian.agent.md": "1939650eb84b56cd",
-    "technical-validator.agent.md": "df9e7bfb5bf6fa6f",
-    "output-compiler.agent.md": "a20c6c2c46176ce8",
-    "visual-designer.agent.md": "1221665a50a2f343",
     "references/unix-philosophy-mapping.reference.md": "c6988dbe1f591324",
     "references/security-linux-hardening.reference.md": "fa76f9c608dbd309",
     "references/security-macos-hardening.reference.md": "7a7a4c505d6b78f7",
@@ -546,26 +565,8 @@
     "references/ai-bad-habits-watch.reference.md": "f4998f3dbbbe439c",
     "references/framework-watch.reference.md": "0691f76cc4e47362",
     "references/adjacent-repos.md": "70e0f6329b9363c3",
-    "ch1-purposive-action-expert.agent.md": "3ec9475b20c629be",
-    "ch2-entrepreneurship-supply-demand-expert.agent.md": "2e690d3fabf8e54f",
-    "ch3-elements-macroeconomics-expert.agent.md": "aaa7cc973053ffe7",
-    "ch4-aggregate-supply-growth-expert.agent.md": "bf9205bfd47ae38d",
-    "ch5-money-expert.agent.md": "5524d5fae21c72f5",
-    "ch6-aggregate-demand-expert.agent.md": "081996533d77f5da",
-    "ch7-monetary-dynamics-expert.agent.md": "d9d1baecadb09e0a",
-    "ch8-money-credit-loanable-funds-expert.agent.md": "ddd1e8529eb79699",
-    "ch9-is-lm-expert.agent.md": "f0266524812bc2d2",
-    "ch10-labor-expert.agent.md": "f0a9c5eba09f2b2c",
-    "ch11-central-banking-expert.agent.md": "6d974917f9b2920c",
-    "advanced-macroeconomics-expert.agent.md": "c2bb7e6a52c6828a",
-    "data-homework-expert.agent.md": "a20155bd65e37b1b",
     "../copilot-instructions.md": "822c78d0561d87be",
-    "team-builder.agent.md": "2c0000df132d0101",
     "SETUP-REQUIRED.md": "8630bdcaaf5a13f1",
-    "content-enricher.agent.md": "f1d04c82996a2536",
-    "agent-refactor.agent.md": "89a0df774173c134",
-    "work-summarizer.agent.md": "e8f95a146cae2f89",
-    "cohesion-repairer.agent.md": "775e12f9d1cebdfb",
     "references/ref-numpy-reference.md": "0e82d108b825c27f",
     "references/ref-pandas-reference.md": "54dbfc80a814ff92",
     "references/ref-matplotlib-reference.md": "4eb15923c9969fc4",
@@ -576,316 +577,315 @@
     "references/work-summary-backfill.reference.md": "c6fd5a91670732fc",
     "references/parallelization.reference.md": "d2321bf5ac1ed2f8",
     "references/instruction-authority.reference.md": "4911ce1cb2d4eab5",
-    "references/retrospective-remediation.reference.md": "a075c3c829bbdcd0",
     "references/cli-tool-discovery.reference.md": "46e033f2ddeafcca",
     "references/skill-generation.reference.md": "380c4b9b4c67397b",
     "references/external-retrieval-quality-gate.reference.md": "cbcbdf08cf259d35"
   },
   "front_matter_baseline": {
-    "security.agent.md": {
-      "name": "Security \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Top-priority security sentinel: reviews actions for credential exposure, destructive operations, sensitive content leakage, and reference integrity before any sensitive action proceeds\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
     "orchestrator.agent.md": {
       "name": "Orchestrator \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Coordinates all agent operations for MacroeconomicsGrowthMonetaryEquilibrium: routes work to domain agents, enforces constitutional rules, and closes every multi-file session with a consistency check.\"",
-      "user-invokable": "true",
       "tools": "['read', 'edit', 'search', 'execute', 'todo', 'agent']",
       "agents": "",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
+      "handoffs": "",
+      "user-invocable": "true"
     },
     "navigator.agent.md": {
       "name": "Navigator \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Repository structure navigation, project map maintenance, file location lookups, and dependency queries for MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "user-invokable": "false",
       "tools": "['read', 'search', 'execute']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "security.agent.md": {
+      "name": "Security \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Top-priority security sentinel: reviews actions for credential exposure, destructive operations, sensitive content leakage, and reference integrity before any sensitive action proceeds\"",
+      "tools": "['read', 'search']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
     },
     "code-hygiene.agent.md": {
       "name": "Code Hygiene \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Read-only auditor that enforces modular architecture, file hygiene, script lifecycle, anti-sprawl rules, and agent documentation quality. Delegates removals to @cleanup; delegates structural extraction to @agent-refactor.\"",
-      "user-invokable": "false",
       "tools": "['read', 'search']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
+      "handoffs": "",
+      "user-invocable": "false"
     },
     "adversarial.agent.md": {
       "name": "Adversarial \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Presupposition critic: challenges the assumptions underlying any plan, proposal, or diagnosis produced by the agent team. Traces how justified changes in presuppositions cascade through dependent logic.\"",
-      "user-invokable": "true",
       "tools": "['read', 'search']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
+      "handoffs": "",
+      "user-invocable": "true"
     },
     "conflict-auditor.agent.md": {
       "name": "Conflict Auditor \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Detects logical conflicts across deliverables, agent documentation, reference files, and source material in MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "user-invokable": "false",
       "tools": "['read', 'search']",
       "agents": "['conflict-resolution', 'agent-updater', 'technical-validator']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
+      "handoffs": "",
+      "user-invocable": "false"
     },
     "conflict-resolution.agent.md": {
       "name": "Conflict Resolution \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Makes ACCEPT/REJECT/REVISE decisions on conflicts flagged by the conflict auditor in MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "user-invokable": "false",
       "tools": "['edit', 'search', 'read']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
+      "handoffs": "",
+      "user-invocable": "false"
     },
     "cleanup.agent.md": {
       "name": "Cleanup \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Removes stale drafts, build artifacts, and orphaned files from MacroeconomicsGrowthMonetaryEquilibrium with mandatory safety checks\"",
-      "user-invokable": "false",
       "tools": "['edit', 'search', 'execute']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
+      "handoffs": "",
+      "user-invocable": "false"
     },
     "agent-updater.agent.md": {
       "name": "Agent Updater \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Synchronizes agent documentation after project structure, deliverable, or reference changes in MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "user-invokable": "false",
       "tools": "['edit', 'search', 'execute', 'agent']",
       "agents": "['conflict-auditor', 'agent-refactor']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "repo-liaison.agent.md": {
-      "name": "Repo Liaison \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Tracks agent documentation in repositories adjacent to MacroeconomicsGrowthMonetaryEquilibrium, communicates cross-repository impacts, maintains the adjacent-repos registry, and coordinates between orchestrators when this project's activity affects neighboring agent infrastructures.\"",
-      "user-invokable": "false",
-      "tools": "['read', 'edit', 'search', 'execute', 'agent']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "git-operations.agent.md": {
-      "name": "Git Operations \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Executes and governs Git and GitHub operations in MacroeconomicsGrowthMonetaryEquilibrium, including commit/push, pull/merge/rebase, conflict handling, and recovery workflows.\"",
-      "user-invokable": "true",
-      "tools": "['read', 'execute', 'search']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "primary-producer.agent.md": {
-      "name": "Primary Producer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Drafts and revises deliverables in MacroeconomicsGrowthMonetaryEquilibrium from Component Briefs provided by workstream expert agents\"",
-      "user-invokable": "false",
-      "tools": "['read', 'edit', 'search']",
-      "agents": "['style-guardian', 'cohesion-repairer', 'quality-auditor', 'conflict-auditor']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "quality-auditor.agent.md": {
-      "name": "Quality Auditor \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Read-only audit agent that inspects deliverables in MacroeconomicsGrowthMonetaryEquilibrium for structural defects, logical inconsistencies, and LLM-generated prose patterns; does not rewrite\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search']",
-      "agents": "['primary-producer', 'cohesion-repairer', 'style-guardian']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "style-guardian.agent.md": {
-      "name": "Style Guardian \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Enforces voice and style fidelity in MacroeconomicsGrowthMonetaryEquilibrium deliverables using calibrated voice samples; sole arbiter of style deviation rulings\"",
-      "user-invokable": "false",
-      "tools": "['read', 'edit', 'search']",
-      "agents": "['primary-producer']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "technical-validator.agent.md": {
-      "name": "Technical Validator \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Read-only audit agent that verifies technical accuracy in MacroeconomicsGrowthMonetaryEquilibrium \u2014 code examples, file excerpts, API references, and tool invocations match what exists on disk\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search']",
-      "agents": "['primary-producer', 'conflict-auditor']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "output-compiler.agent.md": {
-      "name": "Output Compiler \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Assembles all converted components into a final deliverable package for MacroeconomicsGrowthMonetaryEquilibrium \u2014 dependency check, ordering, build manifest\"",
-      "user-invokable": "false",
-      "tools": "['read', 'edit', 'execute']",
-      "agents": "['technical-validator']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "visual-designer.agent.md": {
-      "name": "Visual Designer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Creates and revises diagrams and figures for MacroeconomicsGrowthMonetaryEquilibrium using the approved diagram toolchain\"",
-      "user-invokable": "false",
-      "tools": "['read', 'edit', 'execute', 'search']",
-      "agents": "['quality-auditor']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "ch1-purposive-action-expert.agent.md": {
-      "name": "\"Chapter 1 - Purposive Action Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Chapter 1 - Purposive Action in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "ch2-entrepreneurship-supply-demand-expert.agent.md": {
-      "name": "\"Chapter 2 - Entrepreneurship and Supply and Demand Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Chapter 2 - Entrepreneurship and Supply and Demand in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "ch3-elements-macroeconomics-expert.agent.md": {
-      "name": "\"Chapter 3 - The Elements of Macroeconomics Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Chapter 3 - The Elements of Macroeconomics in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "ch4-aggregate-supply-growth-expert.agent.md": {
-      "name": "\"Chapter 4 - Aggregate Supply, Technology, and Economic Growth Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Chapter 4 - Aggregate Supply, Technology, and Economic Growth in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "ch5-money-expert.agent.md": {
-      "name": "\"Chapter 5 - Money Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Chapter 5 - Money in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "ch6-aggregate-demand-expert.agent.md": {
-      "name": "\"Chapter 6 - Aggregate Demand Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Chapter 6 - Aggregate Demand in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "ch7-monetary-dynamics-expert.agent.md": {
-      "name": "\"Chapter 7 - Monetary Dynamics and Aggregate Analysis Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Chapter 7 - Monetary Dynamics and Aggregate Analysis in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "ch8-money-credit-loanable-funds-expert.agent.md": {
-      "name": "\"Chapter 8 - Money and Credit - The Loanable Funds Market Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Chapter 8 - Money and Credit - The Loanable Funds Market in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "ch9-is-lm-expert.agent.md": {
-      "name": "\"Chapter 9 - IS-LM Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Chapter 9 - IS-LM in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "ch10-labor-expert.agent.md": {
-      "name": "\"Chapter 10 - Labor Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Chapter 10 - Labor in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "ch11-central-banking-expert.agent.md": {
-      "name": "\"Chapter 11 - Central Banking Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Chapter 11 - Central Banking in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "advanced-macroeconomics-expert.agent.md": {
-      "name": "\"Advanced Macroeconomics Course Notes Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Advanced Macroeconomics Course Notes in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "data-homework-expert.agent.md": {
-      "name": "\"Data Homework Assignments Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "description": "\"Component expert for Data Homework Assignments in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
-      "user-invokable": "false",
-      "tools": "['read', 'search', 'agent']",
-      "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
-    },
-    "team-builder.agent.md": {
-      "name": "Team Builder \u2014 Agent Teams Module",
-      "description": "\"Interactively constructs a complete agent team for a new or existing VS Code Copilot project by conducting an intake interview and invoking the build_team pipeline\"",
-      "user-invokable": "true",
-      "tools": "['read', 'edit', 'search', 'execute', 'todo']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]"
-    },
-    "content-enricher.agent.md": {
-      "name": "Content Enricher \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Fills in default template placeholders and underdeveloped sections in generated agent files for MacroeconomicsGrowthMonetaryEquilibrium using the project's source materials\"",
-      "user-invokable": "true",
-      "tools": "['read', 'edit', 'search']",
-      "agents": "['primary-producer', 'technical-validator']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
+      "handoffs": "",
+      "user-invocable": "false"
     },
     "agent-refactor.agent.md": {
       "name": "Agent Refactor \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Extracts shared data to reference files and enforces spec compliance across all agent documentation in MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "user-invokable": "false",
       "tools": "['edit', 'search', 'agent']",
       "agents": "['conflict-auditor']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "repo-liaison.agent.md": {
+      "name": "Repo Liaison \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Tracks agent documentation in repositories adjacent to MacroeconomicsGrowthMonetaryEquilibrium, communicates cross-repository impacts, maintains the adjacent-repos registry, and coordinates between orchestrators when this project's activity affects neighboring agent infrastructures.\"",
+      "tools": "['read', 'edit', 'search', 'execute', 'agent']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "git-operations.agent.md": {
+      "name": "Git Operations \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Executes and governs Git and GitHub operations in MacroeconomicsGrowthMonetaryEquilibrium, including commit/push, pull/merge/rebase, conflict handling, and recovery workflows.\"",
+      "tools": "['read', 'execute', 'search']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "true"
     },
     "work-summarizer.agent.md": {
       "name": "Work Summarizer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Synthesizes daily, weekly, and monthly work summaries from canonical plan artifacts and git evidence for MacroeconomicsGrowthMonetaryEquilibrium; supports append-first daily capture, legacy tmp/ fallback, and required adversarial/conflict audits\"",
-      "user-invokable": "true",
       "tools": "['read', 'search', 'execute', 'edit', 'agent']",
       "agents": "['technical-validator', 'adversarial', 'conflict-auditor']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
+      "handoffs": "",
+      "user-invocable": "true"
+    },
+    "primary-producer.agent.md": {
+      "name": "Primary Producer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Drafts and revises deliverables in MacroeconomicsGrowthMonetaryEquilibrium from Component Briefs provided by workstream expert agents\"",
+      "tools": "['read', 'edit', 'search']",
+      "agents": "['style-guardian', 'cohesion-repairer', 'quality-auditor', 'conflict-auditor']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "quality-auditor.agent.md": {
+      "name": "Quality Auditor \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Read-only audit agent that inspects deliverables in MacroeconomicsGrowthMonetaryEquilibrium for structural defects, logical inconsistencies, and LLM-generated prose patterns; does not rewrite\"",
+      "tools": "['read', 'search']",
+      "agents": "['primary-producer', 'cohesion-repairer', 'style-guardian']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
     },
     "cohesion-repairer.agent.md": {
       "name": "Cohesion Repairer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Repairs within-section cohesion failures in MacroeconomicsGrowthMonetaryEquilibrium deliverables \u2014 disjointedness, broken transitions, and missing argumentative spine; does not reorganize across sections\"",
-      "user-invokable": "false",
       "tools": "['read', 'edit']",
       "agents": "['style-guardian', 'quality-auditor']",
       "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": ""
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "style-guardian.agent.md": {
+      "name": "Style Guardian \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Enforces voice and style fidelity in MacroeconomicsGrowthMonetaryEquilibrium deliverables using calibrated voice samples; sole arbiter of style deviation rulings\"",
+      "tools": "['read', 'edit', 'search']",
+      "agents": "['primary-producer']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "technical-validator.agent.md": {
+      "name": "Technical Validator \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Read-only audit agent that verifies technical accuracy in MacroeconomicsGrowthMonetaryEquilibrium \u2014 code examples, file excerpts, API references, and tool invocations match what exists on disk\"",
+      "tools": "['read', 'search']",
+      "agents": "['primary-producer', 'conflict-auditor']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "output-compiler.agent.md": {
+      "name": "Output Compiler \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Assembles all converted components into a final deliverable package for MacroeconomicsGrowthMonetaryEquilibrium \u2014 dependency check, ordering, build manifest\"",
+      "tools": "['read', 'edit', 'execute']",
+      "agents": "['technical-validator']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "visual-designer.agent.md": {
+      "name": "Visual Designer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Creates and revises diagrams and figures for MacroeconomicsGrowthMonetaryEquilibrium using the approved diagram toolchain\"",
+      "tools": "['read', 'edit', 'execute', 'search']",
+      "agents": "['quality-auditor']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "ch1-purposive-action-expert.agent.md": {
+      "name": "\"Chapter 1 - Purposive Action Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Chapter 1 - Purposive Action in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "ch2-entrepreneurship-supply-demand-expert.agent.md": {
+      "name": "\"Chapter 2 - Entrepreneurship and Supply and Demand Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Chapter 2 - Entrepreneurship and Supply and Demand in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "ch3-elements-macroeconomics-expert.agent.md": {
+      "name": "\"Chapter 3 - The Elements of Macroeconomics Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Chapter 3 - The Elements of Macroeconomics in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "ch4-aggregate-supply-growth-expert.agent.md": {
+      "name": "\"Chapter 4 - Aggregate Supply, Technology, and Economic Growth Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Chapter 4 - Aggregate Supply, Technology, and Economic Growth in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "ch5-money-expert.agent.md": {
+      "name": "\"Chapter 5 - Money Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Chapter 5 - Money in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "ch6-aggregate-demand-expert.agent.md": {
+      "name": "\"Chapter 6 - Aggregate Demand Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Chapter 6 - Aggregate Demand in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "ch7-monetary-dynamics-expert.agent.md": {
+      "name": "\"Chapter 7 - Monetary Dynamics and Aggregate Analysis Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Chapter 7 - Monetary Dynamics and Aggregate Analysis in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "ch8-money-credit-loanable-funds-expert.agent.md": {
+      "name": "\"Chapter 8 - Money and Credit - The Loanable Funds Market Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Chapter 8 - Money and Credit - The Loanable Funds Market in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "ch9-is-lm-expert.agent.md": {
+      "name": "\"Chapter 9 - IS-LM Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Chapter 9 - IS-LM in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "ch10-labor-expert.agent.md": {
+      "name": "\"Chapter 10 - Labor Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Chapter 10 - Labor in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "ch11-central-banking-expert.agent.md": {
+      "name": "\"Chapter 11 - Central Banking Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Chapter 11 - Central Banking in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "advanced-macroeconomics-expert.agent.md": {
+      "name": "\"Advanced Macroeconomics Course Notes Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Advanced Macroeconomics Course Notes in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "data-homework-expert.agent.md": {
+      "name": "\"Data Homework Assignments Expert \u2014 MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "description": "\"Component expert for Data Homework Assignments in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
+      "tools": "['read', 'search', 'agent']",
+      "agents": "['primary-producer', 'adversarial']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "false"
+    },
+    "team-builder.agent.md": {
+      "name": "Team Builder \u2014 Agent Teams Module",
+      "description": "\"Interactively constructs a complete agent team for a new or existing VS Code Copilot project by conducting an intake interview and invoking the build_team pipeline\"",
+      "tools": "['read', 'edit', 'search', 'execute', 'todo']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "user-invocable": "true"
+    },
+    "content-enricher.agent.md": {
+      "name": "Content Enricher \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Fills in default template placeholders and underdeveloped sections in generated agent files for MacroeconomicsGrowthMonetaryEquilibrium using the project's source materials\"",
+      "tools": "['read', 'edit', 'search']",
+      "agents": "['primary-producer', 'technical-validator']",
+      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
+      "handoffs": "",
+      "user-invocable": "true"
     }
   }
 }
