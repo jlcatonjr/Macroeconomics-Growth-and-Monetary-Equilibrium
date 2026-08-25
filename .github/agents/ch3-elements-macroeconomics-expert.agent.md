@@ -4,7 +4,20 @@ description: "Component expert for Chapter 3 - The Elements of Macroeconomics in
 tools: ['read', 'search', 'agent']
 agents: ['primary-producer', 'adversarial']
 model: ["Claude Sonnet 4.6 (copilot)"]
-handoffs: 
+handoffs:
+  - label: Vet Brief Before Drafting
+    agent: adversarial
+    prompt: "Component Brief prepared. Review for hidden presuppositions before drafting begins."
+    send: false
+  - label: Send to Primary Producer
+    agent: primary-producer
+    prompt: "Component Brief accepted. Ready for drafting."
+    send: false
+  - label: Return to Orchestrator
+    agent: orchestrator
+    prompt: "Chapter 3 - The Elements of Macroeconomics has been reviewed and accepted."
+    send: false
+
 user-invocable: false
 ---
 <!-- AGENTTEAMS:BEGIN content v=1 -->

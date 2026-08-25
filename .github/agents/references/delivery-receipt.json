@@ -1,10 +1,10 @@
 {
   "artifact_type": "delivery-receipt",
   "receipt_schema_version": "1.0",
-  "delivered_at": "2026-08-17T13:33:53Z",
+  "delivered_at": "2026-08-24T13:33:14Z",
   "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
   "framework": "copilot-vscode",
-  "manifest_fingerprint": "21836fe33ee396d5",
+  "manifest_fingerprint": "a886df233a98a9b7",
   "fingerprint_algo_version": 1,
   "output_dir": ".github/agents",
   "agentteams_version": "1.0.0rc6"

@@ -1,9 +1,11 @@
-<!-- AGENTTEAMS:BEGIN registry_header v=1 -->
+<!-- AGENTTEAMS:BEGIN registry_header v=2 -->
 # Adjacent Repository Registry — MacroeconomicsGrowthMonetaryEquilibrium
 
 This file is the authoritative registry of repositories adjacent to **MacroeconomicsGrowthMonetaryEquilibrium** whose agent infrastructure may be affected by — or may affect — activity in this project.
 
 Maintained by `@repo-liaison`. Every cross-repository update must be recorded here.
+
+> **Path notation:** record repository paths with tilde (`~/`) notation (e.g. `~/repos/foo`), never absolute home-directory paths. The `@security` OPSEC rule flags home-directory prefixes in committed files, so an absolute path here becomes a standing scan finding.
 
 > **Merge-safe:** This file uses AGENTTEAMS fencing on the header only. All content below the header (Active Entries, Coordination Log, Retired Entries) is user-authored and is preserved automatically on `--merge` runs.
 <!-- AGENTTEAMS:END registry_header -->
