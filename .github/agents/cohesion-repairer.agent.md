@@ -1,7 +1,6 @@
 ---
 name: Cohesion Repairer — MacroeconomicsGrowthMonetaryEquilibrium
 description: "Repairs within-section cohesion failures in MacroeconomicsGrowthMonetaryEquilibrium deliverables — disjointedness, broken transitions, and missing argumentative spine; does not reorganize across sections"
-user-invokable: false
 tools: ['read', 'edit']
 agents: ['style-guardian', 'quality-auditor']
 model: ["Claude Sonnet 4.6 (copilot)"]
@@ -18,6 +17,7 @@ handoffs:
     agent: orchestrator
     prompt: "Cohesion repairs complete."
     send: false
+user-invocable: false
 ---
 <!-- AGENTTEAMS:BEGIN content v=1 -->
 
