@@ -380,14 +380,14 @@ Apply only the baseline(s) matching the actual deployment target(s); skip this g
 <!-- AGENTTEAMS:END security_rules_invariant -->
 
 <!-- AGENTTEAMS:BEGIN threat_intelligence v=1 -->
-Generated at: `2026-08-25T22:35:10Z`
+Generated at: `2026-08-31T13:34:04Z`
 
 **Sources:**
 
-- CISA KEV: ok (catalog 2026.08.25, items 1676) — https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+- CISA KEV: ok (catalog 2026.08.27, items 1685) — https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
 - MITRE CVE: metadata_only — https://cveawg.mitre.org/api/cve/
-- FIRST EPSS: ok (items 14) — https://api.first.org/data/v1/epss
-- NVD (NIST): ok (items 4) — https://services.nvd.nist.gov/rest/json/cves/2.0
+- FIRST EPSS: ok (items 15) — https://api.first.org/data/v1/epss
+- NVD (NIST): ok (items 5) — https://services.nvd.nist.gov/rest/json/cves/2.0
 - OSV.dev: skipped — https://api.osv.dev/v1/querybatch
 - OWASP LLM Top 10: static — https://owasp.org/www-project-top-10-for-large-language-model-applications/
 - MITRE ATLAS: static — https://atlas.mitre.org/
@@ -397,21 +397,21 @@ Generated at: `2026-08-25T22:35:10Z`
 
 **Current major vulnerabilities:**
 
-- `CVE-2026-60004` | Gitea Gitea | Gitea Code Injection Vulnerability | added 2026-08-25
-- `CVE-2026-21962` | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability | added 2026-08-24 | EPSS 0.420200000, percentile 0.985860000 | CVSS 10.0 CRITICAL
-- `CVE-2026-73570` | Synacor Zimbra Collaboration Suite (ZCS) | Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability | added 2026-08-21 | EPSS 0.015060000, percentile 0.724160000 | CVSS 8.9 HIGH
-- `CVE-2026-72530` | TrueConf Server | TrueConf Server Code Injection Vulnerability | added 2026-08-20 | EPSS 0.018270000, percentile 0.771800000 | CVSS 9.0 CRITICAL
-- `CVE-2026-72529` | TrueConf Server | TrueConf Server Missing Authentication for Critical Function Vulnerability | added 2026-08-20 | EPSS 0.015540000, percentile 0.732520000 | CVSS 9.8 CRITICAL
-- `CVE-2026-64849` | MLflow MLflow | MLflow Server-Side Request Forgery Vulnerability | added 2026-08-19 | EPSS 0.164100000, percentile 0.967330000
-- `CVE-2026-33824` | Microsoft Internet Key Exchange (IKE) Service Extensions | Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability | added 2026-08-18 | EPSS 0.726950000, percentile 0.994000000
-- `CVE-2026-59310` | Broadcom VMware vCenter | Broadcom VMware vCenter Path Traversal Vulnerability | added 2026-08-18 | EPSS 0.458780000, percentile 0.987080000
-- `CVE-2026-55040` | Microsoft SharePoint | Microsoft SharePoint Weak Authentication Vulnerability | added 2026-08-18 | EPSS 0.055780000, percentile 0.922780000
-- `CVE-2026-65400` | Apple macOS | Apple macOS Improper Authentication Vulnerability | added 2026-08-18 | EPSS 0.104310000, percentile 0.953780000
-- `CVE-2025-62593` | Ray-Project Ray | Ray-Project Ray Code Injection Vulnerability | added 2026-08-17 | EPSS 0.168880000, percentile 0.968100000
-- `CVE-2026-20349` | Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) | Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability | added 2026-08-11 | EPSS 0.022130000, percentile 0.812770000
-- `CVE-2026-68820` | Microsoft Windows Ancillary Function Driver for WinSock | Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability | added 2026-08-11 | EPSS 0.061840000, percentile 0.929490000
-- `CVE-2026-72898` | Metabase Metabase | Metabase SQL Injection Vulnerability | added 2026-08-11 | EPSS 0.792150000, percentile 0.995670000
-- `CVE-2026-8037` | Progress LoadMaster | Progress LoadMaster Command Injection Vulnerability | added 2026-08-07 | EPSS 0.995710000, percentile 0.999440000
+- `CVE-2023-49105` | ownCloud ownCloud | ownCloud Improper Authentication Vulnerability | added 2026-08-27 | EPSS 0.432050000, percentile 0.986270000 | CVSS 9.8 CRITICAL
+- `CVE-2026-53362` | Linux Kernel | Linux Kernel Unspecified Vulnerability | added 2026-08-27 | EPSS 0.005100000, percentile 0.414650000 | CVSS 7.8 HIGH
+- `CVE-2026-66384` | JFrog Artifactory | JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability | added 2026-08-27 | EPSS 0.005790000, percentile 0.453200000 | CVSS 5.3 MEDIUM
+- `CVE-2021-23758` | Ajax.NET Professional Ajax.NET Professional | Ajax.NET Professional Deserialization of Untrusted Data Vulnerability | added 2026-08-26 | EPSS 0.836330000, percentile 0.996660000 | CVSS 8.1 HIGH
+- `CVE-2015-3246` | Red Hat Libuser | Red Hat Libuser Race Condition Vulnerability | added 2026-08-26 | EPSS 0.087990000, percentile 0.948000000 | CVSS 5.1 MEDIUM
+- `CVE-2015-5287` | Red Hat Automatic Bug Reporting Tool | Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability | added 2026-08-26 | EPSS 0.049620000, percentile 0.915660000
+- `CVE-2022-0995` | Linux Kernel | Linux Kernel Out-of-Bounds Write Vulnerability | added 2026-08-26 | EPSS 0.095180000, percentile 0.950890000
+- `CVE-2026-8452` | Citrix NetScaler ADC and NetScaler Gateway | Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability | added 2026-08-26 | EPSS 0.016060000, percentile 0.741390000
+- `CVE-2019-1068` | Microsoft SQL Server | Microsoft SQL Server Remote Code Execution Vulnerability | added 2026-08-26 | EPSS 0.528450000, percentile 0.988920000
+- `CVE-2026-60004` | Gitea Gitea | Gitea Code Injection Vulnerability | added 2026-08-25 | EPSS 0.845540000, percentile 0.996850000
+- `CVE-2026-21962` | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in | Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability | added 2026-08-24 | EPSS 0.420200000, percentile 0.985910000
+- `CVE-2026-73570` | Synacor Zimbra Collaboration Suite (ZCS) | Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability | added 2026-08-21 | EPSS 0.205280000, percentile 0.973300000
+- `CVE-2026-72530` | TrueConf Server | TrueConf Server Code Injection Vulnerability | added 2026-08-20 | EPSS 0.018270000, percentile 0.772910000
+- `CVE-2026-72529` | TrueConf Server | TrueConf Server Missing Authentication for Critical Function Vulnerability | added 2026-08-20 | EPSS 0.015540000, percentile 0.733840000
+- `CVE-2026-64849` | MLflow MLflow | MLflow Server-Side Request Forgery Vulnerability | added 2026-08-19 | EPSS 0.164100000, percentile 0.967470000
 
 **Prevention and mitigation playbook:**
 
@@ -424,7 +424,6 @@ Generated at: `2026-08-25T22:35:10Z`
 - Apply a package-release cooldown (default 14 days) before adopting a newly published release — every ecosystem and installer, not only npm — so registry scanners can catch malicious releases first; the cooldown never delays remediating an already-installed vulnerable version, and a security fix backed by a published CVE/GHSA/OSV advisory may bypass it after review.
 - Vendor/CISA required actions:
   - Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluatin…
-  - Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 ### LLM and AI-Specific Threat Intelligence
 
