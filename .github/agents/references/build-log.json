@@ -1,13 +1,13 @@
 {
   "schema_version": "1.5",
-  "agentteams_version": "1.0.0rc8",
+  "agentteams_version": "1.0.0",
   "agentteams_source": {
-    "kind": "checkout",
-    "commit": "b96e7e3ba3a55ae0bba35d0cc84ae4acead29913",
-    "branch": "main",
-    "dirty": true
+    "kind": "vcs-pin",
+    "commit": "cc5b8c9ec4efdcb479939e0c1246a0ac11913259",
+    "branch": null,
+    "dirty": false
   },
-  "generated_at": "2026-10-10T01:16:18.931907+00:00",
+  "generated_at": "2026-10-20T15:51:21.776001+00:00",
   "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
   "framework": "copilot-vscode",
   "project_type": "data-pipeline",
@@ -35,30 +35,21 @@
     "advanced-macroeconomics",
     "data-homework"
   ],
-  "files_written": [
-    ".github/agents/references/branch-lifecycle.reference.md",
-    ".github/agents/references/orchestrator-spawn-authority.reference.md",
-    "sandbox/confine-run.sh",
-    "sandbox/mac-escape-tests.sh",
-    "sandbox/dedicated-uid-provisioning.example.sh",
-    "sandbox/pf-per-tenant-anchor.example.conf",
-    ".github/agents/references/authorized-verify-keys/README.md",
-    ".vscode/tasks.json"
-  ],
+  "files_written": [],
   "manual_required": 42,
   "template_hashes": {
-    "universal/orchestrator.template.md": "8eede8f076d2a7f1",
+    "universal/orchestrator.template.md": "171d8c2a2a8ec0ad",
     "universal/navigator.template.md": "3d28148430bddfdf",
-    "universal/security.template.md": "59429a1480354b77",
+    "universal/security.template.md": "3b9958a26d342746",
     "universal/code-hygiene.template.md": "8c53882027a0aa40",
     "universal/adversarial.template.md": "0c7b7cb909b089a0",
     "universal/conflict-auditor.template.md": "a6199323e4d1add3",
     "universal/conflict-resolution.template.md": "4542fdba8f977079",
     "universal/cleanup.template.md": "6a404be5ad0bfbe9",
-    "universal/agent-updater.template.md": "9c141092104f6e5b",
+    "universal/agent-updater.template.md": "fceaeaa65379ff06",
     "universal/agent-refactor.template.md": "b1417e2f09b84022",
     "universal/repo-liaison.template.md": "70331bea47521df8",
-    "universal/git-operations.template.md": "ceba0af4e139c43c",
+    "universal/git-operations.template.md": "04ede882f19cbfa2",
     "domain/work-summarizer.template.md": "4124536ef03c333d",
     "domain/primary-producer.template.md": "278ed220891ba707",
     "domain/quality-auditor.template.md": "3dd911ae905e8b28",
@@ -79,21 +70,21 @@
     "universal/ai-bad-habits-watch.reference.template.md": "3265a4ef0b7e5f7a",
     "universal/framework-watch.reference.template.md": "ca23bcc73afc2e2a",
     "universal/adjacent-repos.reference.template.md": "e66157a91f72492a",
-    "universal/github-workflows-merge.reference.template.md": "47a88addb7b11da8",
+    "universal/github-workflows-merge.reference.template.md": "cfb434aeaa6fbae0",
     "universal/branch-lifecycle.reference.template.md": "8f199043003804b3",
     "universal/work-summary-spec.reference.template.md": "d29ca7e680ad715d",
     "universal/work-summary-tooling.reference.template.md": "62e643b1a9711af6",
     "universal/work-summary-backfill.reference.template.md": "5730bac043dc2874",
     "universal/parallelization.reference.template.md": "e31593ccbba4a7ff",
-    "universal/instruction-authority.reference.template.md": "855e46066d9c2258",
-    "universal/orchestrator-spawn-authority.reference.template.md": "f7b044748645b289",
+    "universal/instruction-authority.reference.template.md": "a73a355a8da0c15f",
+    "universal/orchestrator-spawn-authority.reference.template.md": "221ebb904e4f4e48",
     "universal/redteam-methodology.reference.template.md": "a0443337a9796294",
     "universal/retrospective-remediation.reference.template.md": "1965ac5f52cf72f0",
     "universal/cli-tool-discovery.reference.template.md": "203004e771c8b2fd",
-    "universal/skill-generation.reference.template.md": "5293714b0f5ada9c",
+    "universal/skill-generation.reference.template.md": "df8ffe189f09e491",
     "universal/external-retrieval-quality-gate.reference.template.md": "3922b0a2e99e75a3",
     "workstream-expert.template.md": "19e099ff5eaf447b",
-    "copilot-instructions.template.md": "df942993bbc3bf2c",
+    "copilot-instructions.template.md": "d3fcc564166c5285",
     "builder/team-builder-copilot-vscode.template.md": "49cf6f735fc90e06",
     "domain/content-enricher.template.md": "25b7c467ae7a8978"
   },
@@ -552,36 +543,38 @@
     "repo-liaison",
     "git-operations"
   ],
-  "manifest_fingerprint": "c5ebe8842fb5fef1",
+  "manifest_fingerprint": "563fc3e6dbfd3698",
   "fingerprint_algo_version": 1,
   "file_hashes": {
-    "references/branch-lifecycle.reference.md": "2ab5466444738ada",
-    "references/orchestrator-spawn-authority.reference.md": "6aeb50c7ca6a8a65",
-    "../../sandbox/confine-run.sh": "6779fa05d24b3bef",
-    "../../sandbox/mac-escape-tests.sh": "71d00a1d1d4b83f8",
-    "../../sandbox/dedicated-uid-provisioning.example.sh": "9bf57e5f1a20eda8",
-    "../../sandbox/pf-per-tenant-anchor.example.conf": "3b3a9adf19243916",
-    "references/authorized-verify-keys/README.md": "badf32b421079acf",
-    "../../.vscode/tasks.json": "c2409a7c58cd2346",
-    "orchestrator.agent.md": "3fa59c64ff4e934f",
-    "security.agent.md": "292c93583561b800",
-    "conflict-auditor.agent.md": "d5caef2f2ebb810b",
-    "quality-auditor.agent.md": "b0ab0a4afd021804",
-    "technical-validator.agent.md": "d136ee762ddfabb9",
-    "references/code-hygiene-rules.reference.md": "4ce36b74248ac32a",
-    "references/security-vulnerability-watch.reference.md": "845ab1e6d2848e56",
-    "references/security-vulnerability-watch.json": "639fb9750cbd7c80",
-    "references/framework-watch.reference.md": "57b377cabb97aa29",
-    "references/github-workflows-merge.reference.md": "7a1c23919a8c0d37",
-    "references/parallelization.reference.md": "e25040ccfbdae337",
-    "references/instruction-authority.reference.md": "b6498afe4f06b82e",
-    "../copilot-instructions.md": "2c05707d66213fcc",
-    "references/pipeline-graph.md": "ee85ab33b740f33c",
-    "references/pipeline-graph.svg": "1538d16f436378fb",
-    "navigator.agent.md": "ea4d39e56965f5ad",
+    "orchestrator.agent.md": "1c62fa14641aba80",
+    "navigator.agent.md": "3c89fcacac93dc6c",
+    "security.agent.md": "9cba312bd7ddccea",
+    "conflict-auditor.agent.md": "4596e92a9e970279",
+    "conflict-resolution.agent.md": "e6cfed190ed55ecc",
+    "quality-auditor.agent.md": "7f714f19b2a9d160",
+    "technical-validator.agent.md": "f8f06ae15fb2fb19",
+    "references/security-vulnerability-watch.reference.md": "d17c6ae7b75751a2",
+    "references/security-vulnerability-watch.json": "abf655e0326f7988",
+    "references/adjacent-repos.md": "d243b6def4ddeae9",
+    "references/instruction-authority.reference.md": "366fb25ee393f51f",
+    "references/orchestrator-spawn-authority.reference.md": "0b21d64ca4a95917",
+    "ch1-purposive-action-expert.agent.md": "cc9fae28adfa1b17",
+    "ch2-entrepreneurship-supply-demand-expert.agent.md": "472ab297dfc41fd0",
+    "ch3-elements-macroeconomics-expert.agent.md": "e7ca61658aaf4e27",
+    "ch4-aggregate-supply-growth-expert.agent.md": "650e466d4b47c23b",
+    "ch5-money-expert.agent.md": "94e8650a1aa23a6f",
+    "ch6-aggregate-demand-expert.agent.md": "b4be7f24973fcab6",
+    "ch7-monetary-dynamics-expert.agent.md": "2f57f35f4d9514bf",
+    "ch8-money-credit-loanable-funds-expert.agent.md": "239011ecf40d2969",
+    "ch9-is-lm-expert.agent.md": "72a3e05a0bbef2a5",
+    "ch10-labor-expert.agent.md": "e259e52efc8c784b",
+    "ch11-central-banking-expert.agent.md": "b6bfd65be99246a2",
+    "advanced-macroeconomics-expert.agent.md": "2106e6d14bb3fe3c",
+    "data-homework-expert.agent.md": "40c22bf9cc69c653",
+    "../copilot-instructions.md": "8e9d393c20123cd5",
+    "../../sandbox/confine-run.sh": "37e852098a5e6b92",
     "code-hygiene.agent.md": "cd3c9d96b4915181",
     "adversarial.agent.md": "c69b6515cc63e2d3",
-    "conflict-resolution.agent.md": "d70e93a672a21d20",
     "cleanup.agent.md": "bbd36c03e6bb3d76",
     "agent-updater.agent.md": "332d10885a64dc50",
     "agent-refactor.agent.md": "cd0135e27313b327",
@@ -593,54 +586,50 @@
     "style-guardian.agent.md": "4457ae6533b31869",
     "output-compiler.agent.md": "2a05d9b05d87ccd1",
     "visual-designer.agent.md": "1c07fd0d425c53cb",
-    "references/ref-numpy-reference.md": "0e82d108b825c27f",
-    "references/ref-pandas-reference.md": "54dbfc80a814ff92",
-    "references/ref-matplotlib-reference.md": "4eb15923c9969fc4",
     "references/unix-philosophy-mapping.reference.md": "c6988dbe1f591324",
     "references/security-linux-hardening.reference.md": "fa76f9c608dbd309",
     "references/security-macos-hardening.reference.md": "7a7a4c505d6b78f7",
     "references/security-windows-hardening.reference.md": "267a23c97bcea626",
     "references/ai-bad-habits-watch.reference.md": "f4998f3dbbbe439c",
-    "references/adjacent-repos.md": "4d2c7037806920d0",
+    "references/framework-watch.reference.md": "57b377cabb97aa29",
+    "references/github-workflows-merge.reference.md": "7a1c23919a8c0d37",
     "references/retrospective-remediation.reference.md": "669c1a11fccf16f7",
     "references/skill-generation.reference.md": "380c4b9b4c67397b",
-    "ch1-purposive-action-expert.agent.md": "be8625bce573c1d1",
-    "ch2-entrepreneurship-supply-demand-expert.agent.md": "302462f5ef6a9ee8",
-    "ch3-elements-macroeconomics-expert.agent.md": "fdc907ce40649142",
-    "ch4-aggregate-supply-growth-expert.agent.md": "ca211fe54360d7d3",
-    "ch5-money-expert.agent.md": "4b63e8b0acd0ae4f",
-    "ch6-aggregate-demand-expert.agent.md": "691fd6b92856c709",
-    "ch7-monetary-dynamics-expert.agent.md": "38e0cd2f748a1a81",
-    "ch8-money-credit-loanable-funds-expert.agent.md": "9582bb83853c41f9",
-    "ch9-is-lm-expert.agent.md": "60edb41b276ddbbf",
-    "ch10-labor-expert.agent.md": "2282c971056c82ab",
-    "ch11-central-banking-expert.agent.md": "218a5768b113ab39",
-    "advanced-macroeconomics-expert.agent.md": "e146a7b767f6c2fc",
-    "data-homework-expert.agent.md": "b209cd5892a18921",
     "team-builder.agent.md": "9d29aab02681c08c",
     "SETUP-REQUIRED.md": "8630bdcaaf5a13f1",
     "content-enricher.agent.md": "e307a14691f912ad",
+    "references/ref-numpy-reference.md": "0e82d108b825c27f",
+    "references/ref-pandas-reference.md": "54dbfc80a814ff92",
+    "references/ref-matplotlib-reference.md": "4eb15923c9969fc4",
+    "references/code-hygiene-rules.reference.md": "4ce36b74248ac32a",
     "references/work-summary-spec.reference.md": "96232231a1f7c6be",
     "references/work-summary-tooling.reference.md": "f3656972717153a9",
     "references/work-summary-backfill.reference.md": "c6fd5a91670732fc",
+    "references/parallelization.reference.md": "e25040ccfbdae337",
     "references/cli-tool-discovery.reference.md": "46e033f2ddeafcca",
-    "references/external-retrieval-quality-gate.reference.md": "cbcbdf08cf259d35"
+    "references/external-retrieval-quality-gate.reference.md": "cbcbdf08cf259d35",
+    "references/authorized-verify-keys/README.md": "badf32b421079acf",
+    "references/pipeline-graph.md": "ee85ab33b740f33c"
   },
   "front_matter_baseline": {
     "orchestrator.agent.md": {
       "name": "Orchestrator \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Coordinates all agent operations for MacroeconomicsGrowthMonetaryEquilibrium: routes work to domain agents, enforces constitutional rules, and closes every multi-file session with a consistency check.\"",
       "tools": "['read', 'edit', 'search', 'execute', 'todo', 'agent']",
-      "agents": "",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Produce / Revise Deliverable\n    agent: primary-producer\n    prompt: \"A workstream is ready to produce or revise its deliverable. Provide the workstream name and any specific instructions.\"\n    send: false\n  - label: Audit Quality\n    agent: quality-auditor\n    prompt: \"A deliverable is ready for quality audit. Provide the file path.\"\n    send: false\n  - label: Repair Cohesion\n    agent: cohesion-repairer\n    prompt: \"A deliverable section has structural cohesion failures. Provide the file and section.\"\n    send: false\n  - label: Enforce Style / Standards\n    agent: style-guardian\n    prompt: \"A deliverable is ready for style audit. Provide the file path.\"\n    send: false\n  - label: Validate Technical Accuracy\n    agent: technical-validator\n    prompt: \"Audit technical accuracy of claims, code, or specifications in a deliverable. Provide the file path.\"\n    send: false\n  - label: Compile Final Output\n    agent: output-compiler\n    prompt: \"Assemble and compile the final deliverable from all sources.\"\n    send: false\n  - label: Generate / Revise Diagram\n    agent: visual-designer\n    prompt: \"Generate or revise a diagram. Describe what is needed.\"\n    send: false\n  - label: Navigate Project\n    agent: navigator\n    prompt: \"Locate files, answer structural questions, or regenerate the project map.\"\n    send: false\n  - label: Security Review\n    agent: security\n    prompt: \"Review the planned action for credentials, destructive operations, or sensitive content.\"\n    send: false\n  - label: Code Hygiene Audit\n    agent: code-hygiene\n    prompt: \"Run a code hygiene audit. Provide scope or 'full' for all rules.\"\n    send: false\n  - label: Adversarial Review\n    agent: adversarial\n    prompt: \"Challenge the presuppositions underlying this plan before execution.\"\n    send: false\n  - label: Conflict Audit\n    agent: conflict-auditor\n    prompt: \"Detect contradictions across project files. Provide scope if targeted.\"\n    send: false\n  - label: Resolve Conflicts\n    agent: conflict-resolution\n    prompt: \"Make ACCEPT/REJECT/REVISE decisions on flagged conflicts.\"\n    send: false\n  - label: Clean Up Artifacts\n    agent: cleanup\n    prompt: \"Remove stale build artifacts, orphaned files, or abandoned drafts.\"\n    send: false\n  - label: Update Agent Docs\n    agent: agent-updater\n    prompt: \"Project structure or conventions have changed. Sync all affected agent files.\"\n    send: false\n  - label: Refactor Agent Docs\n    agent: agent-refactor\n    prompt: \"Check agent docs for reference extraction opportunities and spec compliance.\"\n    send: false\n  - label: Cross-Repository Liaison\n    agent: repo-liaison\n    prompt: \"Assess or communicate impact of this project's activity on adjacent repositories. Describe the change and list any known adjacent repos.\"\n    send: false\n  - label: Summarize Work Period\n    agent: work-summarizer\n    prompt: \"Create daily, weekly, or monthly work summaries from planning artifacts and git diffs for the requested period.\"\n    send: false\n  - label: Git Operations\n    agent: git-operations\n    prompt: \"Run a git operation: commit and push, pull/merge/rebase, resolve conflicts, or recover a file. Describe the operation needed.\"\n    send: false\n",
       "user-invocable": "true"
+    },
+    "navigator.agent.md": {
+      "name": "Navigator \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Repository structure navigation, project map maintenance, file location lookups, and dependency queries for MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "tools": "['read', 'search', 'execute']",
+      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Navigation query is complete. Here are the structural findings.\"\n    send: false",
+      "user-invocable": "false"
     },
     "security.agent.md": {
       "name": "Security \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Top-priority security sentinel: reviews actions for credential exposure, destructive operations, sensitive content leakage, and reference integrity before any sensitive action proceeds\"",
       "tools": "['read', 'search']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Security review is complete. Return to the orchestrator with findings.\"\n    send: false",
       "user-invocable": "false"
     },
@@ -649,8 +638,14 @@
       "description": "\"Detects logical conflicts across deliverables, agent documentation, reference files, and source material in MacroeconomicsGrowthMonetaryEquilibrium\"",
       "tools": "['read', 'search']",
       "agents": "['conflict-resolution', 'agent-updater', 'technical-validator']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Conflict audit is complete. Review the findings.\"\n    send: false\n  - label: Update Agent Docs\n    agent: agent-updater\n    prompt: \"Conflicts detected that require documentation updates.\"\n    send: false\n  - label: Resolve Conflicts\n    agent: conflict-resolution\n    prompt: \"Conflicts have been identified and logged. Make ACCEPT/REJECT/REVISE decisions.\"\n    send: false\n  - label: Verify Source Drift\n    agent: technical-validator\n    prompt: \"SOURCE_DRIFT conflict detected. Verify deliverable description against current source file on disk.\"\n    send: false",
+      "user-invocable": "false"
+    },
+    "conflict-resolution.agent.md": {
+      "name": "Conflict Resolution \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Makes ACCEPT/REJECT/REVISE decisions on conflicts flagged by the conflict auditor in MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "tools": "['edit', 'search', 'read']",
+      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Conflict resolution is complete. Review decisions and route corrections.\"\n    send: false\n  - label: Update Agent Docs\n    agent: agent-updater\n    prompt: \"Conflict resolutions may require agent documentation updates.\"\n    send: false",
       "user-invocable": "false"
     },
     "quality-auditor.agent.md": {
@@ -658,7 +653,6 @@
       "description": "\"Read-only audit agent that inspects deliverables in MacroeconomicsGrowthMonetaryEquilibrium for structural defects, logical inconsistencies, and LLM-generated prose patterns; does not rewrite\"",
       "tools": "['read', 'search']",
       "agents": "['primary-producer', 'cohesion-repairer', 'style-guardian']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Route Corrections to Primary Producer\n    agent: primary-producer\n    prompt: \"Audit findings attached. Please correct flagged passages.\"\n    send: false\n  - label: Route Cohesion Failures\n    agent: cohesion-repairer\n    prompt: \"Cohesion failures flagged in audit. Please repair.\"\n    send: false\n  - label: Route Style Issues\n    agent: style-guardian\n    prompt: \"Style deviations flagged in audit.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Quality audit complete. See findings.\"\n    send: false",
       "user-invocable": "false"
     },
@@ -667,136 +661,7 @@
       "description": "\"Read-only audit agent that verifies technical accuracy in MacroeconomicsGrowthMonetaryEquilibrium \u2014 code examples, file excerpts, API references, and tool invocations match what exists on disk\"",
       "tools": "['read', 'search']",
       "agents": "['primary-producer', 'conflict-auditor']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Route Corrections to Primary Producer\n    agent: primary-producer\n    prompt: \"Technical accuracy findings attached. Please correct flagged inaccuracies.\"\n    send: false\n  - label: Log Conflict\n    agent: conflict-auditor\n    prompt: \"Technical conflict detected. Logging and routing.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Technical validation complete. See findings.\"\n    send: false\n",
-      "user-invocable": "false"
-    },
-    "navigator.agent.md": {
-      "name": "Navigator \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Repository structure navigation, project map maintenance, file location lookups, and dependency queries for MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "tools": "['read', 'search', 'execute']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Navigation query is complete. Here are the structural findings.\"\n    send: false",
-      "user-invocable": "false"
-    },
-    "code-hygiene.agent.md": {
-      "name": "Code Hygiene \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Read-only auditor that enforces modular architecture, file hygiene, script lifecycle, anti-sprawl rules, and agent documentation quality. Delegates removals to @cleanup; delegates structural extraction to @agent-refactor.\"",
-      "tools": "['read', 'search']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Security Clearance (for Deletions)\n    agent: security\n    prompt: \"Code hygiene review identified files for deletion. Requesting security clearance before delegating to cleanup.\"\n    send: false\n  - label: Cleanup Agent\n    agent: cleanup\n    prompt: \"Code hygiene audit complete. Delegate removal of identified files (after @security clearance).\"\n    send: false\n  - label: Agent Refactor (Structural Violations)\n    agent: agent-refactor\n    prompt: \"Code hygiene audit found inline reference data in agent files (CH-08/CH-14) or agent doc contradictions (CH-20) that may benefit from structural extraction. Requesting @agent-refactor to evaluate and apply reference extraction.\"\n    send: false\n  - label: Log Conflict\n    agent: conflict-auditor\n    prompt: \"Code hygiene audit found agent documentation contradictions (CH-20). Logging as conflict.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Code hygiene review is complete. Returning findings to the orchestrator.\"\n    send: false",
-      "user-invocable": "false"
-    },
-    "adversarial.agent.md": {
-      "name": "Adversarial \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Presupposition critic: challenges the assumptions underlying any plan, proposal, or diagnosis produced by the agent team. Traces how justified changes in presuppositions cascade through dependent logic.\"",
-      "tools": "['read', 'search']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Adversarial review is complete. Return findings \u2014 validated presuppositions, challenged presuppositions, and cascade analysis \u2014 to the orchestrator for plan revision.\"\n    send: false\n  - label: Audit for Conflicts\n    agent: conflict-auditor\n    prompt: \"Adversarial review surfaced assumptions that may conflict with documented facts. Run a targeted conflict audit on the identified areas.\"\n    send: false",
-      "user-invocable": "true"
-    },
-    "conflict-resolution.agent.md": {
-      "name": "Conflict Resolution \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Makes ACCEPT/REJECT/REVISE decisions on conflicts flagged by the conflict auditor in MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "tools": "['edit', 'search', 'read']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Conflict resolution is complete. Review decisions and route corrections.\"\n    send: false\n  - label: Update Agent Docs\n    agent: agent-updater\n    prompt: \"Conflict resolutions may require agent documentation updates.\"\n    send: false",
-      "user-invocable": "false"
-    },
-    "cleanup.agent.md": {
-      "name": "Cleanup \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Removes stale drafts, build artifacts, and orphaned files from MacroeconomicsGrowthMonetaryEquilibrium with mandatory safety checks\"",
-      "tools": "['edit', 'search', 'execute']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Cleanup is complete. Review the removal report.\"\n    send: false",
-      "user-invocable": "false"
-    },
-    "agent-updater.agent.md": {
-      "name": "Agent Updater \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Synchronizes agent documentation after project structure, deliverable, or reference changes in MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "tools": "['edit', 'search', 'execute', 'agent']",
-      "agents": "['conflict-auditor', 'agent-refactor']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Refactor Agent Docs\n    agent: agent-refactor\n    prompt: \"Documentation has been updated. Check for reference extraction opportunities and spec compliance.\"\n    send: false\n  - label: Run Adversarial Review\n    agent: adversarial\n    prompt: \"Documentation has been updated. Challenge the repository change census, docs/API impact decision, and any newly synchronized assumptions before closeout.\"\n    send: false\n  - label: Run Conflict Audit\n    agent: conflict-auditor\n    prompt: \"Documentation has been updated. Run a conflict audit to verify consistency.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Agent documentation has been synchronized with project changes.\"\n    send: false",
-      "user-invocable": "false"
-    },
-    "agent-refactor.agent.md": {
-      "name": "Agent Refactor \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Extracts shared data to reference files and enforces spec compliance across all agent documentation in MacroeconomicsGrowthMonetaryEquilibrium\"",
-      "tools": "['edit', 'search', 'agent']",
-      "agents": "['conflict-auditor']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Run Conflict Audit\n    agent: conflict-auditor\n    prompt: \"Agent documentation has been refactored. Run a conflict audit to verify consistency.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Agent refactoring is complete. Review the changes.\"\n    send: false",
-      "user-invocable": "false"
-    },
-    "repo-liaison.agent.md": {
-      "name": "Repo Liaison \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Tracks agent documentation in repositories adjacent to MacroeconomicsGrowthMonetaryEquilibrium, communicates cross-repository impacts, maintains the adjacent-repos registry, and coordinates between orchestrators when this project's activity affects neighboring agent infrastructures.\"",
-      "tools": "['read', 'edit', 'search', 'execute', 'agent']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Cross-repository liaison work is complete. Summary of impacts, updates made, and any orchestrator coordination required.\"\n    send: false\n  - label: Security Review for Cross-Repo Write\n    agent: security\n    prompt: \"A write operation targeting an adjacent repository requires security clearance. Provide the target repo, file path, and intended change.\"\n    send: false\n  - label: Conflict Audit After Cross-Repo Change\n    agent: conflict-auditor\n    prompt: \"Adjacent repository documentation has been updated. Verify internal consistency with current project docs.\"\n    send: false",
-      "user-invocable": "false"
-    },
-    "git-operations.agent.md": {
-      "name": "Git Operations \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Executes and governs Git and GitHub operations in MacroeconomicsGrowthMonetaryEquilibrium, including commit/push, pull/merge/rebase, conflict handling, and recovery workflows.\"",
-      "tools": "['read', 'execute', 'search']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Git operation is complete. Return to orchestrator with outcome summary.\"\n    send: false\n  - label: Security Review\n    agent: security\n    prompt: \"A git operation includes force-push, destructive history rewrite, or sensitive content exposure risk. Review before proceeding.\"\n    send: false\n  - label: Conflict Resolution\n    agent: conflict-resolution\n    prompt: \"A merge or rebase conflict requires ACCEPT/REJECT/REVISE decisions beyond simple line merges.\"\n    send: false\n  - label: Update Agent Docs\n    agent: agent-updater\n    prompt: \"Tracked repository content changed. Run repository change census and docs/API impact evaluation before closeout.\"\n    send: false",
-      "user-invocable": "true"
-    },
-    "work-summarizer.agent.md": {
-      "name": "Work Summarizer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Synthesizes daily, weekly, and monthly work summaries from canonical plan artifacts and git evidence for MacroeconomicsGrowthMonetaryEquilibrium; supports append-first daily capture, legacy tmp/ fallback, and required adversarial/conflict audits\"",
-      "tools": "['read', 'search', 'execute', 'edit', 'agent']",
-      "agents": "['technical-validator', 'adversarial', 'conflict-auditor']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Verify Summary Accuracy\n    agent: technical-validator\n    prompt: \"Work summary drafted. Verify factual claims (paths, hashes, counts) against on-disk state and git history.\"\n    send: false\n  - label: Run Adversarial Audit\n    agent: adversarial\n    prompt: \"Work summary drafted. Run a presupposition and cascade-risk audit before finalization.\"\n    send: false\n  - label: Run Conflict Audit\n    agent: conflict-auditor\n    prompt: \"Work summary drafted. Run a consistency audit against authority sources.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Work summary reporting complete. See workSummaries/.\"\n    send: false",
-      "user-invocable": "true"
-    },
-    "primary-producer.agent.md": {
-      "name": "Primary Producer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Drafts and revises deliverables in MacroeconomicsGrowthMonetaryEquilibrium from Component Briefs provided by workstream expert agents\"",
-      "tools": "['read', 'edit', 'search']",
-      "agents": "['style-guardian', 'cohesion-repairer', 'quality-auditor', 'conflict-auditor']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Style Audit\n    agent: style-guardian\n    prompt: \"Draft is ready for style audit.\"\n    send: false\n  - label: Cohesion Audit\n    agent: cohesion-repairer\n    prompt: \"Draft is ready for cohesion audit.\"\n    send: false\n  - label: Quality Audit\n    agent: quality-auditor\n    prompt: \"Revised draft is ready for quality audit.\"\n    send: false\n  - label: Conflict Audit\n    agent: conflict-auditor\n    prompt: \"New deliverable added. Run consistency check.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Deliverable production is complete.\"\n    send: false",
-      "user-invocable": "false"
-    },
-    "cohesion-repairer.agent.md": {
-      "name": "Cohesion Repairer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Repairs within-section cohesion failures in MacroeconomicsGrowthMonetaryEquilibrium deliverables \u2014 disjointedness, broken transitions, and missing argumentative spine; does not reorganize across sections\"",
-      "tools": "['read', 'edit']",
-      "agents": "['style-guardian', 'quality-auditor']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Style Audit After Repairs\n    agent: style-guardian\n    prompt: \"Cohesion repairs complete. Run style audit on edited sections.\"\n    send: false\n  - label: Quality Re-Check\n    agent: quality-auditor\n    prompt: \"Cohesion repairs applied. Re-check repaired sections.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Cohesion repairs complete.\"\n    send: false",
-      "user-invocable": "false"
-    },
-    "style-guardian.agent.md": {
-      "name": "Style Guardian \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Enforces voice and style fidelity in MacroeconomicsGrowthMonetaryEquilibrium deliverables using calibrated voice samples; sole arbiter of style deviation rulings\"",
-      "tools": "['read', 'edit', 'search']",
-      "agents": "['primary-producer']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Route Style Corrections\n    agent: primary-producer\n    prompt: \"Style audit findings attached. Please correct style deviations.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Style audit complete.\"\n    send: false",
-      "user-invocable": "false"
-    },
-    "output-compiler.agent.md": {
-      "name": "Output Compiler \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Assembles all converted components into a final deliverable package for MacroeconomicsGrowthMonetaryEquilibrium \u2014 dependency check, ordering, build manifest\"",
-      "tools": "['read', 'edit', 'execute']",
-      "agents": "['technical-validator']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Validate Technical Accuracy\n    agent: technical-validator\n    prompt: \"Validate technical accuracy before final assembly.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Final output assembly complete.\"\n    send: false\n",
-      "user-invocable": "false"
-    },
-    "visual-designer.agent.md": {
-      "name": "Visual Designer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
-      "description": "\"Creates and revises diagrams and figures for MacroeconomicsGrowthMonetaryEquilibrium using the approved diagram toolchain\"",
-      "tools": "['read', 'edit', 'execute', 'search']",
-      "agents": "['quality-auditor']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
-      "handoffs": "\n  - label: Quality Check Figure\n    agent: quality-auditor\n    prompt: \"New or revised figure ready for quality check.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Visual design work complete.\"\n    send: false\n",
       "user-invocable": "false"
     },
     "ch1-purposive-action-expert.agent.md": {
@@ -804,7 +669,6 @@
       "description": "\"Component expert for Chapter 1 - Purposive Action in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Chapter 1 - Purposive Action has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -813,7 +677,6 @@
       "description": "\"Component expert for Chapter 2 - Entrepreneurship and Supply and Demand in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Chapter 2 - Entrepreneurship and Supply and Demand has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -822,7 +685,6 @@
       "description": "\"Component expert for Chapter 3 - The Elements of Macroeconomics in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Chapter 3 - The Elements of Macroeconomics has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -831,7 +693,6 @@
       "description": "\"Component expert for Chapter 4 - Aggregate Supply, Technology, and Economic Growth in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Chapter 4 - Aggregate Supply, Technology, and Economic Growth has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -840,7 +701,6 @@
       "description": "\"Component expert for Chapter 5 - Money in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Chapter 5 - Money has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -849,7 +709,6 @@
       "description": "\"Component expert for Chapter 6 - Aggregate Demand in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Chapter 6 - Aggregate Demand has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -858,7 +717,6 @@
       "description": "\"Component expert for Chapter 7 - Monetary Dynamics and Aggregate Analysis in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Chapter 7 - Monetary Dynamics and Aggregate Analysis has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -867,7 +725,6 @@
       "description": "\"Component expert for Chapter 8 - Money and Credit - The Loanable Funds Market in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Chapter 8 - Money and Credit - The Loanable Funds Market has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -876,7 +733,6 @@
       "description": "\"Component expert for Chapter 9 - IS-LM in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Chapter 9 - IS-LM has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -885,7 +741,6 @@
       "description": "\"Component expert for Chapter 10 - Labor in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Chapter 10 - Labor has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -894,7 +749,6 @@
       "description": "\"Component expert for Chapter 11 - Central Banking in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Chapter 11 - Central Banking has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -903,7 +757,6 @@
       "description": "\"Component expert for Advanced Macroeconomics Course Notes in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Advanced Macroeconomics Course Notes has been reviewed and accepted.\"\n    send: false\n",
       "user-invocable": "false"
     },
@@ -912,30 +765,124 @@
       "description": "\"Component expert for Data Homework Assignments in MacroeconomicsGrowthMonetaryEquilibrium \u2014 prepares Component Briefs, reviews drafts against brief checklist, approves deliverables\"",
       "tools": "['read', 'search', 'agent']",
       "agents": "['primary-producer', 'adversarial']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Vet Brief Before Drafting\n    agent: adversarial\n    prompt: \"Component Brief prepared. Review for hidden presuppositions before drafting begins.\"\n    send: false\n  - label: Send to Primary Producer\n    agent: primary-producer\n    prompt: \"Component Brief accepted. Ready for drafting.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Data Homework Assignments has been reviewed and accepted.\"\n    send: false\n",
+      "user-invocable": "false"
+    },
+    "code-hygiene.agent.md": {
+      "name": "Code Hygiene \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Read-only auditor that enforces modular architecture, file hygiene, script lifecycle, anti-sprawl rules, and agent documentation quality. Delegates removals to @cleanup; delegates structural extraction to @agent-refactor.\"",
+      "tools": "['read', 'search']",
+      "handoffs": "\n  - label: Security Clearance (for Deletions)\n    agent: security\n    prompt: \"Code hygiene review identified files for deletion. Requesting security clearance before delegating to cleanup.\"\n    send: false\n  - label: Cleanup Agent\n    agent: cleanup\n    prompt: \"Code hygiene audit complete. Delegate removal of identified files (after @security clearance).\"\n    send: false\n  - label: Agent Refactor (Structural Violations)\n    agent: agent-refactor\n    prompt: \"Code hygiene audit found inline reference data in agent files (CH-08/CH-14) or agent doc contradictions (CH-20) that may benefit from structural extraction. Requesting @agent-refactor to evaluate and apply reference extraction.\"\n    send: false\n  - label: Log Conflict\n    agent: conflict-auditor\n    prompt: \"Code hygiene audit found agent documentation contradictions (CH-20). Logging as conflict.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Code hygiene review is complete. Returning findings to the orchestrator.\"\n    send: false",
+      "user-invocable": "false"
+    },
+    "adversarial.agent.md": {
+      "name": "Adversarial \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Presupposition critic: challenges the assumptions underlying any plan, proposal, or diagnosis produced by the agent team. Traces how justified changes in presuppositions cascade through dependent logic.\"",
+      "tools": "['read', 'search']",
+      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Adversarial review is complete. Return findings \u2014 validated presuppositions, challenged presuppositions, and cascade analysis \u2014 to the orchestrator for plan revision.\"\n    send: false\n  - label: Audit for Conflicts\n    agent: conflict-auditor\n    prompt: \"Adversarial review surfaced assumptions that may conflict with documented facts. Run a targeted conflict audit on the identified areas.\"\n    send: false",
+      "user-invocable": "true"
+    },
+    "cleanup.agent.md": {
+      "name": "Cleanup \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Removes stale drafts, build artifacts, and orphaned files from MacroeconomicsGrowthMonetaryEquilibrium with mandatory safety checks\"",
+      "tools": "['edit', 'search', 'execute']",
+      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Cleanup is complete. Review the removal report.\"\n    send: false",
+      "user-invocable": "false"
+    },
+    "agent-updater.agent.md": {
+      "name": "Agent Updater \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Synchronizes agent documentation after project structure, deliverable, or reference changes in MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "tools": "['edit', 'search', 'execute', 'agent']",
+      "handoffs": "\n  - label: Refactor Agent Docs\n    agent: agent-refactor\n    prompt: \"Documentation has been updated. Check for reference extraction opportunities and spec compliance.\"\n    send: false\n  - label: Run Adversarial Review\n    agent: adversarial\n    prompt: \"Documentation has been updated. Challenge the repository change census, docs/API impact decision, and any newly synchronized assumptions before closeout.\"\n    send: false\n  - label: Run Conflict Audit\n    agent: conflict-auditor\n    prompt: \"Documentation has been updated. Run a conflict audit to verify consistency.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Agent documentation has been synchronized with project changes.\"\n    send: false",
+      "user-invocable": "false"
+    },
+    "agent-refactor.agent.md": {
+      "name": "Agent Refactor \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Extracts shared data to reference files and enforces spec compliance across all agent documentation in MacroeconomicsGrowthMonetaryEquilibrium\"",
+      "tools": "['edit', 'search', 'agent']",
+      "agents": "['conflict-auditor']",
+      "handoffs": "\n  - label: Run Conflict Audit\n    agent: conflict-auditor\n    prompt: \"Agent documentation has been refactored. Run a conflict audit to verify consistency.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Agent refactoring is complete. Review the changes.\"\n    send: false",
+      "user-invocable": "false"
+    },
+    "repo-liaison.agent.md": {
+      "name": "Repo Liaison \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Tracks agent documentation in repositories adjacent to MacroeconomicsGrowthMonetaryEquilibrium, communicates cross-repository impacts, maintains the adjacent-repos registry, and coordinates between orchestrators when this project's activity affects neighboring agent infrastructures.\"",
+      "tools": "['read', 'edit', 'search', 'execute', 'agent']",
+      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Cross-repository liaison work is complete. Summary of impacts, updates made, and any orchestrator coordination required.\"\n    send: false\n  - label: Security Review for Cross-Repo Write\n    agent: security\n    prompt: \"A write operation targeting an adjacent repository requires security clearance. Provide the target repo, file path, and intended change.\"\n    send: false\n  - label: Conflict Audit After Cross-Repo Change\n    agent: conflict-auditor\n    prompt: \"Adjacent repository documentation has been updated. Verify internal consistency with current project docs.\"\n    send: false",
+      "user-invocable": "false"
+    },
+    "git-operations.agent.md": {
+      "name": "Git Operations \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Executes and governs Git and GitHub operations in MacroeconomicsGrowthMonetaryEquilibrium, including commit/push, pull/merge/rebase, conflict handling, and recovery workflows.\"",
+      "tools": "['read', 'execute', 'search']",
+      "handoffs": "\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Git operation is complete. Return to orchestrator with outcome summary.\"\n    send: false\n  - label: Security Review\n    agent: security\n    prompt: \"A git operation includes force-push, destructive history rewrite, or sensitive content exposure risk. Review before proceeding.\"\n    send: false\n  - label: Conflict Resolution\n    agent: conflict-resolution\n    prompt: \"A merge or rebase conflict requires ACCEPT/REJECT/REVISE decisions beyond simple line merges.\"\n    send: false\n  - label: Update Agent Docs\n    agent: agent-updater\n    prompt: \"Tracked repository content changed. Run repository change census and docs/API impact evaluation before closeout.\"\n    send: false",
+      "user-invocable": "true"
+    },
+    "work-summarizer.agent.md": {
+      "name": "Work Summarizer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Synthesizes daily, weekly, and monthly work summaries from canonical plan artifacts and git evidence for MacroeconomicsGrowthMonetaryEquilibrium; supports append-first daily capture, legacy tmp/ fallback, and required adversarial/conflict audits\"",
+      "tools": "['read', 'search', 'execute', 'edit', 'agent']",
+      "agents": "['technical-validator', 'adversarial', 'conflict-auditor']",
+      "handoffs": "\n  - label: Verify Summary Accuracy\n    agent: technical-validator\n    prompt: \"Work summary drafted. Verify factual claims (paths, hashes, counts) against on-disk state and git history.\"\n    send: false\n  - label: Run Adversarial Audit\n    agent: adversarial\n    prompt: \"Work summary drafted. Run a presupposition and cascade-risk audit before finalization.\"\n    send: false\n  - label: Run Conflict Audit\n    agent: conflict-auditor\n    prompt: \"Work summary drafted. Run a consistency audit against authority sources.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Work summary reporting complete. See workSummaries/.\"\n    send: false",
+      "user-invocable": "true"
+    },
+    "primary-producer.agent.md": {
+      "name": "Primary Producer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Drafts and revises deliverables in MacroeconomicsGrowthMonetaryEquilibrium from Component Briefs provided by workstream expert agents\"",
+      "tools": "['read', 'edit', 'search']",
+      "agents": "['style-guardian', 'cohesion-repairer', 'quality-auditor', 'conflict-auditor']",
+      "handoffs": "\n  - label: Style Audit\n    agent: style-guardian\n    prompt: \"Draft is ready for style audit.\"\n    send: false\n  - label: Cohesion Audit\n    agent: cohesion-repairer\n    prompt: \"Draft is ready for cohesion audit.\"\n    send: false\n  - label: Quality Audit\n    agent: quality-auditor\n    prompt: \"Revised draft is ready for quality audit.\"\n    send: false\n  - label: Conflict Audit\n    agent: conflict-auditor\n    prompt: \"New deliverable added. Run consistency check.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Deliverable production is complete.\"\n    send: false",
+      "user-invocable": "false"
+    },
+    "cohesion-repairer.agent.md": {
+      "name": "Cohesion Repairer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Repairs within-section cohesion failures in MacroeconomicsGrowthMonetaryEquilibrium deliverables \u2014 disjointedness, broken transitions, and missing argumentative spine; does not reorganize across sections\"",
+      "tools": "['read', 'edit']",
+      "agents": "['style-guardian', 'quality-auditor']",
+      "handoffs": "\n  - label: Style Audit After Repairs\n    agent: style-guardian\n    prompt: \"Cohesion repairs complete. Run style audit on edited sections.\"\n    send: false\n  - label: Quality Re-Check\n    agent: quality-auditor\n    prompt: \"Cohesion repairs applied. Re-check repaired sections.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Cohesion repairs complete.\"\n    send: false",
+      "user-invocable": "false"
+    },
+    "style-guardian.agent.md": {
+      "name": "Style Guardian \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Enforces voice and style fidelity in MacroeconomicsGrowthMonetaryEquilibrium deliverables using calibrated voice samples; sole arbiter of style deviation rulings\"",
+      "tools": "['read', 'edit', 'search']",
+      "agents": "['primary-producer']",
+      "handoffs": "\n  - label: Route Style Corrections\n    agent: primary-producer\n    prompt: \"Style audit findings attached. Please correct style deviations.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Style audit complete.\"\n    send: false",
+      "user-invocable": "false"
+    },
+    "output-compiler.agent.md": {
+      "name": "Output Compiler \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Assembles all converted components into a final deliverable package for MacroeconomicsGrowthMonetaryEquilibrium \u2014 dependency check, ordering, build manifest\"",
+      "tools": "['read', 'edit', 'execute']",
+      "agents": "['technical-validator']",
+      "handoffs": "\n  - label: Validate Technical Accuracy\n    agent: technical-validator\n    prompt: \"Validate technical accuracy before final assembly.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Final output assembly complete.\"\n    send: false\n",
+      "user-invocable": "false"
+    },
+    "visual-designer.agent.md": {
+      "name": "Visual Designer \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
+      "description": "\"Creates and revises diagrams and figures for MacroeconomicsGrowthMonetaryEquilibrium using the approved diagram toolchain\"",
+      "tools": "['read', 'edit', 'execute', 'search']",
+      "agents": "['quality-auditor']",
+      "handoffs": "\n  - label: Quality Check Figure\n    agent: quality-auditor\n    prompt: \"New or revised figure ready for quality check.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Visual design work complete.\"\n    send: false\n",
       "user-invocable": "false"
     },
     "team-builder.agent.md": {
       "name": "Team Builder \u2014 Agent Teams Module",
       "description": "\"Interactively constructs a complete agent team for a new or existing VS Code Copilot project by conducting an intake interview and invoking the build_team pipeline\"",
       "tools": "['read', 'edit', 'search', 'execute', 'todo']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "user-invocable": "true"
     },
     "content-enricher.agent.md": {
       "name": "Content Enricher \u2014 MacroeconomicsGrowthMonetaryEquilibrium",
       "description": "\"Fills in default template placeholders and underdeveloped sections in generated agent files for MacroeconomicsGrowthMonetaryEquilibrium using the project's source materials\"",
       "tools": "['read', 'edit', 'search']",
-      "agents": "['primary-producer', 'technical-validator']",
-      "model": "[\"Claude Sonnet 4.6 (copilot)\"]",
       "handoffs": "\n  - label: Validate Enriched Content\n    agent: technical-validator\n    prompt: \"Content enrichment complete. Verify that filled-in values are technically accurate against project source files.\"\n    send: false\n  - label: Return to Orchestrator\n    agent: orchestrator\n    prompt: \"Content enrichment complete. All auto-fillable placeholders have been resolved.\"\n    send: false",
       "user-invocable": "true"
     }
   },
+  "front_matter_baseline_version": 2,
   "prompt_root_hashes": {
     ".github/agents/advanced-macroeconomics-expert.agent.md": {
-      "content": "76fcc0d5808dfa605a13e7c96f52e8fcd58088e15302fc8e4acc802f4077b2bf",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "278993d4654986e6ae6c308096664ead2919ec56679d352afe2fcda18a6617f9",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
@@ -950,67 +897,56 @@
       "content": "dd278e158dfdc5575ad6c712cc05996bde15d75c192e50bb13866467b544b43d"
     },
     ".github/agents/ch1-purposive-action-expert.agent.md": {
-      "content": "0370d478e51d3e6036c2b23611f853a9ba1729d47b16c1447fa06c6a02a2f61c",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "33333b168e94a6b317baa8f4c308e6d54b50ad2e5b14ca81855689ebdf9144dd",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
     },
     ".github/agents/ch10-labor-expert.agent.md": {
-      "content": "f10c9c44be784d86939aa97b6d3c2669061b1ad048f5e77d83f666af504a0de2",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "70dd0f3f24f6d7adb7e31a0f2a3a849fc94f06a9c2d6e42200fa239dd0ac814e",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
     },
     ".github/agents/ch11-central-banking-expert.agent.md": {
-      "content": "8ddbd8b8c10ac62c66f4c3b51982518a74e67953d7ab44ca9dd418796ebcf95b",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "26f9658c9281d84831ca5b911485a6c1699fa6badc79a38c5872bb5b65784336",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
     },
     ".github/agents/ch2-entrepreneurship-supply-demand-expert.agent.md": {
-      "content": "4f28c85a407303bfe5567b530947bd90f5f456c8f99b6441e9478ddc3ce5f1f3",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "6fea6bc4bdf6babb4689e913bc7ed5e3c4ab53815162a9ea236b24f30e2fd78c",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
     },
     ".github/agents/ch3-elements-macroeconomics-expert.agent.md": {
-      "content": "37a70324511ef19061bf3c41edbde44e6ab28d95314311a800f99f22f003602f",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "accdef60960539a4289e6a765f17160ae4ad1b2fd17068919d147aab9c13c06a",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
     },
     ".github/agents/ch4-aggregate-supply-growth-expert.agent.md": {
-      "content": "38999c3fdf126dd9de3bc30463efac57bac035193a8499453511c77e0e708a48",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "fdb82158bc5ad873203ca635c742cc498126792018d2d0fc9bedab7d306c609f",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
     },
     ".github/agents/ch5-money-expert.agent.md": {
-      "content": "47bad85e00e70105704271fad564876ba87e4dfba3a5a9a69ba2fb78413d79a1",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "cbc6104f461b59810e575600daf552316d91559b4ac0ec22f71cd024e8ff5c3c",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
     },
     ".github/agents/ch6-aggregate-demand-expert.agent.md": {
-      "content": "aa0381ecb2916619a3a807ad3424200a237c4941bf34aa2c9698042355fe97bf",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "c28ddb5b57cc2efb848ce942b399072211a906f8d066787a2c183a73002bad5a",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
     },
     ".github/agents/ch7-monetary-dynamics-expert.agent.md": {
-      "content": "bd9726a96cf9b3179031205aa39b4cc038eb8219a4f8208c2c08b1255629e1c9",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "b10fd9e2ca71bc64f27e172a3fcc7ca5530ed1286b0ef1662aaff6f18108e090",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
     },
     ".github/agents/ch8-money-credit-loanable-funds-expert.agent.md": {
-      "content": "52c1b067e846bebc8888aefbaf8827c17b68cb74c28a5cdc830e04c045c68b69",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "1d716c34cae7ea1a8436c656e654a0a71b3615c4be936cbabac8a60f59c55bf6",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
     },
     ".github/agents/ch9-is-lm-expert.agent.md": {
-      "content": "56fcb57a92e4a96504b70b511eed13722c2e544c89efcaf91bb1ecf803c7d983",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "5ca2e0759ee3ad192fc9de5a765519f02e041cc00a071d08928097965840f767",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
@@ -1025,7 +961,6 @@
       "content": "909b154f2503d3804cb7d8ee7c0b51cb2ee604d58a864590f1cc6ed97006a10e"
     },
     ".github/agents/conflict-auditor.agent.md": {
-      "content": "4f25ce394705c20f1f0165cf17c0703b2be4a40799aa6693cfe77e14f6005bff",
       "invariant_core": "9b62e5b358ee6726ec3600c39b2c57fb451c623a4fb6ade7f4776c2570e836dc",
       "typed_handoff_audit": "fc72a6ded9e4248c0c174d24b21d57fe6ddd2bc09cf71feba6f5ddeac4802f67",
       "behavioral_spec_cross_check": "d33518a32d59fa60e97f94e60df6934397e5e937e4716aea6a8e28f6fefbe597",
@@ -1036,7 +971,6 @@
       "handoff_payload_codes": "38a1bcd36aa352b02b6d96b38af008454e46d34b558188c323241ef43c3f3e1a"
     },
     ".github/agents/conflict-resolution.agent.md": {
-      "content": "8c947c25b0319ed4d2faf8cd877ee8a1fce4c533f01849a2b4d673da00a12f07",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "memory_index_consultation": "1f9ab4e9c464b9123c74b5416a22acd7c1086b5f4d8311ac68c5c22969411f9b",
       "rules": "5a133df68a1d37204898e3310a3756bb9bf7dbd1ede35e31e2b5800dcef55e65"
@@ -1045,7 +979,6 @@
       "content": "4e4c907dffd32e11944a1457e8b4bf6c1a838a03bf73598025c56bd709af06b0"
     },
     ".github/agents/data-homework-expert.agent.md": {
-      "content": "4d45960334646e639f5c3526ff052948e2968adae28b5cc7baf5b2859870d028",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "component_spec": "ef6364af655db9c2cf6261563d24a03be8232dc00085b3294d2ad0e3d4e55f5d",
       "review_protocol": "02cf50fba478fcc6202c2ffde432fbb02b7506c9784246ad66dbd71459959caf"
@@ -1054,15 +987,13 @@
       "content": "0f882a475df1b2b7e64768eb22a5bde762b15077de460bf753cb01ac48e4049b"
     },
     ".github/agents/navigator.agent.md": {
-      "content": "99bec4f1d776cdac1e7d12b0122d43d7e7772be889229a8552fd358cee70de5c",
       "invariant_core": "05aac7cabeea587ef7f6a7071f606bed85d271c26453655455db5122fe2fb52a",
       "workstream_source_map": "c7e836d10acb77be0cbe45dabdf9421282924c363f1c42927dfe9a48ba3ebb42",
       "invariant_rules": "9f02cd5b924adde05a397c1b80f155200b00f523ebc2e4ddce10fc55dffb80bd",
       "code_index_consultation": "560588e20a4a7fccd2004323c8aa94422d41e8aa7ebf8ff48ab7dcbc5142ff41"
     },
     ".github/agents/orchestrator.agent.md": {
-      "content": "1247cab4944a15cfbb9ab37d3023f705a81cc5734d64b1fbed1e6dc712f98d30",
-      "constitutional_core": "e447f730dbfb55d33f01bac40e940edc40d6ddbb58725a99f59e7d30adab7c84",
+      "constitutional_core": "f05ead693f33d316cc83453eb195d232f5ac76cd36d8cce45b3605e14747def4",
       "authority_hierarchy": "607ff1b43a0e420c30dd2e2c02a721e5488a08acf09fa18916a7cf36a5c5e38b",
       "routing_table_rows": "22b400c99f3c10307a94cc3f2d42311a32f2a89278487e02367c720b4a7b9c31",
       "update_compatibility_source_pack": "24662ea1c046bf2831dfa898b937114683aa5e9ca695b243aaf3241ca6ab34ea",
@@ -1075,7 +1006,6 @@
       "content": "67c1c6ff292f33851dd2a2ceeebe19e9c7e6b12cc3be04c04b53c0058274df18"
     },
     ".github/agents/quality-auditor.agent.md": {
-      "content": "f13bda1490e3f26b4b3421733f9112cefee0bdeeb2ceb43ad0cc97a863568e95",
       "invariant_core": "22865343d5410a5b9f6bf746260ff712d050e3ef8c1427a60abd7f94bc5ec18e",
       "defect_taxonomy": "e9468640170cbdc1e966b0c589f2d1e4926c1fde9ca792f49923fae80e903b79",
       "memory_index_consultation": "27cbd064106c208ad8564aa435aaea40afad5719030e064b4f55d5708cb6b9c1",
@@ -1090,11 +1020,10 @@
       "output_format": "92a7ecbd969c55a1ba9b02c7d56b9e23c4a65d486eeb6a0ae775690d3fbd6a46"
     },
     ".github/agents/security.agent.md": {
-      "content": "84874702486118f0a5bcddb70e21c840c15d33ef134b520b4000b7691349a9d3",
       "security_authority": "400afa743ab9513f4e63b37b2d1ac9be45a344b9b8380bf0ade4a8d100909330",
       "invariant_core": "ff22ac3ecdf1e94935ebec4ef2960946be13a0362b416ada020c97065d6e8f87",
-      "security_rules_invariant": "ba5e07be8fbe57acb3dee535007839326e78652746937c7e043859976111e2a9",
-      "threat_intelligence": "2d15abdaeed2d4ac54016c83ae7b776e609e3a2f9ef926033e91d31d2f751f90",
+      "security_rules_invariant": "8bd67a40239bf37f836d7ad8fa7497d3fefe759048e2242f6d04f3555fd048c6",
+      "threat_intelligence": "defc05adc14646b94135cb282fc1c4065f59acf5d39a6394a3bc33c3be44b9d9",
       "security_verdict_contract": "e17bc133696fef7e7aaa86af1023b9ad979f3f6cd87d853af62c8e019efff501"
     },
     ".github/agents/style-guardian.agent.md": {
@@ -1104,7 +1033,6 @@
       "content": "e5d320f7c48099bcbda7456950755668b8134f44a5fb0878a27810b2f07fb76e"
     },
     ".github/agents/technical-validator.agent.md": {
-      "content": "3419fc4b831b16cc6c9f77c2b2d9375b9fa2c4108be4da6a9db69cf67de6ce1b",
       "authority_sources_list": "9aa49fc612b59b57888f8c78375a1c5e655024bb604641fbee9580ca36f4e12c",
       "invariant_core": "7adfc511ccfd9b2a91c93a9a441afdc6b9650de80c17bfa4751125e09075621f",
       "accuracy_rules": "cf7b9555eed3b39638fa1c1016f84caa590691686fdf6b47aeabc8ea8b2b0417",
@@ -1124,14 +1052,13 @@
       "content": "b228b00d65e987b56f120bf6e62de71c9547ed64d9f4f1e87003e0d7d2cc5b37"
     },
     ".github/copilot-instructions.md": {
-      "content": "59955459b149b7bc59820753d8e6946e02a5ebee38ac1174822dc7e631509750",
       "project_overview": "292b27bf935c024801f322806d29883781c72525117ab65b967c22db5d86d5f2",
       "directory_structure": "44e6febe5599786c9d79144ecf78cc113f2798331b3a5cdb781fb4a09d77dc30",
       "output_conventions": "8232f0ad05701e5893dd769f0e7da49272ebb63225a88b35ae021d14b1776080",
       "agent_team": "b5c78629be21cf7c3e81b38d2ceb39205d9c9b428a8bfc65545f257e23c71f7d",
       "tone_and_style": "d0b42a0c3d2c045dbbe4e980eb42023b1b31915d93e219545a8f78de1dcece24",
       "authority_hierarchy": "b3adf32a620ab1e71d5564b3af8ba8b054b68f5825e5c262230bc8a7af9e6a80",
-      "constitutional_core": "42c4ffd29ed450ae96e0ef2e4f68d504568c3e1922bc4c10d1a7c0e9c054d7b3",
+      "constitutional_core": "98565878445aea43e27456f8cb1384afc511b17016cada4de5b28fb756937289",
       "source_repositories": "84916180df87eae911e86add2df7a36ec182689472f8ba576e9bb5a6c9d716c5"
     }
   }

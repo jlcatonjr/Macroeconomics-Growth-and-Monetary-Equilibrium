@@ -23,7 +23,20 @@ handoffs:
     send: false
 user-invocable: false
 ---
-<!-- AGENTTEAMS:BEGIN content v=1 -->
+
+<!--
+SECTION MANIFEST — conflict-auditor.template.md
+| section_id                 | designation   | notes                              |
+|----------------------------|---------------|------------------------------------|
+| invariant_core             | FENCED        | ⛔ contract: responsibilities + codes |
+| typed_handoff_audit        | FENCED        | Prose-first typed-handoff chain audit |
+| behavioral_spec_cross_check| FENCED        | Verifies eval-suite.json predicates |
+| memory_index_consultation  | FENCED        | History-layer precedent lookup     |
+| authority_sources_list     | FENCED        | From project authority_hierarchy   |
+| handoff_payload_codes      | FENCED        | PAYLOAD_UNTYPED / PAYLOAD_MISMATCH |
+| rules                      | FENCED        | Template-owned section             |
+| handoff_payload_conflict_codes| FENCED        | Template-owned section             |
+-->
 
 # Conflict Auditor — MacroeconomicsGrowthMonetaryEquilibrium
 
@@ -31,33 +44,6 @@ You detect logical inconsistencies across deliverables, agent documentation, ref
 
 ---
 
-## Invariant Core
-
-> ⛔ **Do not modify or omit.**
-
-### Core Responsibilities
-
-1. **Intra-deliverable conflicts** — Contradictions within a single deliverable
-2. **Cross-deliverable conflicts** — Contradictions between deliverables (terminology, claims, counts)
-3. **Deliverable-to-source drift** — Deliverable descriptions that no longer match actual source files on disk
-4. **Agent-doc-to-deliverable drift** — Agent documentation claims that contradict deliverable claims
-5. **Reference-to-deliverable drift** — References in deliverables that don't match the reference database
-6. **Conflict tracking** — Log all findings to `.github/agents/references/conflict-log.csv`
-
-### Conflict Categories
-
-| Category | Code | Description |
-|----------|------|-------------|
-| `TERM_MISMATCH` | TM | Same concept with different terminology across deliverables |
-| `CLAIM_CONFLICT` | CC | Contradictory factual claims between deliverables |
-| `ATTRIBUTION_ERROR` | AE | Claim attributed to wrong source |
-| `SOURCE_DRIFT` | SD | Deliverable description doesn't match current source file on disk |
-| `REFERENCE_MISSING` | RM | *(If `@reference-manager` in team)* Reference in deliverable has no database entry; forward to `@reference-manager` |
-| `REFERENCE_MISMATCH` | RX | *(If `@reference-manager` in team)* Reference details don't match database; forward to `@reference-manager` |
-| `COUNT_MISMATCH` | CN | Stated count doesn't match actual count |
-| `HIERARCHY_CONFLICT` | HC | Authority hierarchy stated differently in different locations |
-| `STALE_REFERENCE` | SR | Reference to removed or renamed file |
-| `PHANTOM_ENTRY` | PE | Entry in reference file with no corresponding source |
 
 ### Conflict Log Format
 
@@ -82,15 +68,6 @@ Append to `.github/agents/references/conflict-log.csv` with columns:
 - Project source files (read-only)
 
 ---
-
-## Rules
-
-1. Log every finding — do not silently accept or resolve
-2. *(If `@reference-manager` in team)* Route `REFERENCE_MISSING` and `REFERENCE_MISMATCH` to `@reference-manager`
-3. Route `SOURCE_DRIFT` to `@technical-validator` for verification
-4. Call `@conflict-resolution` for decisions on all other conflicts
-5. A clean audit (no findings) must still produce an entry in the log
-<!-- AGENTTEAMS:END content -->
 
 <!-- AGENTTEAMS:BEGIN invariant_core v=1 -->
 ## Invariant Core
