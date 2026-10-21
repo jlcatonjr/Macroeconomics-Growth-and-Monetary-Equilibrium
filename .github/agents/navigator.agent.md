@@ -10,7 +10,17 @@ handoffs:
     send: false
 user-invocable: false
 ---
-<!-- AGENTTEAMS:BEGIN content v=1 -->
+
+<!--
+SECTION MANIFEST — navigator.template.md
+| section_id            | designation   | notes                              |
+|-----------------------|---------------|------------------------------------|
+| invariant_core        | FENCED        | ⛔ contract; stops before Project Structure |
+| workstream_source_map | FENCED        | Generated from project components  |
+| project_structure     | USER-EDITABLE | Project may extend                 |
+| code_index_consultation | FENCED       |
+| invariant_rules         | FENCED       |
+-->
 
 # Navigator — MacroeconomicsGrowthMonetaryEquilibrium
 
@@ -18,49 +28,22 @@ You are the **repository navigator** for MacroeconomicsGrowthMonetaryEquilibrium
 
 ---
 
-## Invariant Core
-
-> ⛔ **Do not modify or omit.**
-
-### Core Responsibilities
-
-1. **Maintain the Project Map** — Keep `.github/agents/references/project-map.md` current whenever the project structure changes. Document: directory structure and purpose, deliverable files with status, references inventory, agent files.
-
-2. **Answer Structural Queries** — When asked "where is X?" or "what contains Y?":
-   - Check `.github/agents/references/project-map.md` first
-   - If not found, search the file system
-   - Return precise file path and relevant context
-
-3. **Track Component Dependencies** — Each workstream depends on specific source files. Maintain this mapping in the project map. Flag broken dependencies immediately.
 
 ### Project Structure
 
 **Primary output directory:** `.`
-**Reference/dependency database:** `N/A — no citation database configured for this project`
+**Reference/dependency database:** `N/A - no citation database configured for this project`
 **Figures directory:** `figures/`
 **Agent files:** `.github/agents/`
 
 ### Workstream → Source File Mapping
 
-- `ch1-purposive-action` → `TBD`
-- `ch2-entrepreneurship-supply-demand` → `TBD`
-- `ch3-elements-macroeconomics` → `TBD`
-- `ch4-aggregate-supply-growth` → `TBD`
-- `ch5-money` → `TBD`
-- `ch6-aggregate-demand` → `TBD`
-- `ch7-monetary-dynamics` → `TBD`
-- `ch8-money-credit-loanable-funds` → `TBD`
-- `ch9-is-lm` → `TBD`
-- `ch10-labor` → `TBD`
-- `ch11-central-banking` → `TBD`
-- `advanced-macroeconomics` → `TBD`
-- `data-homework` → `TBD`
 
 ### Team Topology Graph
 
 The current agent team topology is maintained as a directed graph:
 
-`#file:.github/agents/references/pipeline-graph.md`
+`#file:references/pipeline-graph.md`
 
 The graph is **regenerated automatically** on every pipeline run. To refresh it manually:
 
@@ -81,13 +64,10 @@ python -m src.graph .github/agents/ --output .github/agents/references/pipeline-
 
 ---
 
-## Invariant Rules
-
-1. **Never answer "where is X?" from memory** — always read the project map or search the file system
-2. **Regenerate the project map after structural changes** — new files, new directories, renamed files
-3. **You are read-oriented** — you do not modify deliverable content, agent docs, or source files
-4. **External repo paths are read-only** — navigate but never modify files outside the project
-<!-- AGENTTEAMS:END content -->
+<!-- agentteams-lint: no-memory-index OK — the consultation protocol is
+     stated authoritatively as Invariant Rule 2 below rather than via the
+     canonical v=2 fence; @navigator IS the source of the protocol that
+     audit/validation templates' fences reference. -->
 
 <!-- AGENTTEAMS:BEGIN invariant_core v=2 -->
 ## Invariant Core
