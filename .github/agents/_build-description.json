@@ -1,4 +1,5 @@
 {
+  "authorized_managers": ["infrastructure-management"],
   "project_name": "MacroeconomicsGrowthMonetaryEquilibrium",
   "project_goal": "Produce an interactive Jupyter notebook textbook for macroeconomics, economic growth, and monetary equilibrium, covering 11 core chapters and graduate-level advanced content with real-world data homework assignments and interactive ipywidgets visualizations.",
   "deliverables": [
